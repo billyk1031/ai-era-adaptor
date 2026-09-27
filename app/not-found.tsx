@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound() { return <main className="not-found"><div className="container"><p className="eyebrow">404</p><h1>That page is not here.</h1><p className="lede" style={{ margin: '0 auto 28px' }}>Try the framework, browse the articles, or return to the homepage.</p><Link className="button" href="/">Return home <span aria-hidden="true">→</span></Link></div></main>; }
