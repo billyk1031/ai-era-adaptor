@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: { default: 'ADAPTOR | AI-era work, clearly considered', template: '%s | ADAPTOR' },
   description: 'Practical thinking for people navigating AI-era work, changing job demand, and the future of the workplace.',
   alternates: { types: { 'application/rss+xml': '/rss.xml' } },
+  icons: { icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }] },
   openGraph: { type: 'website', siteName: 'ADAPTOR', title: 'ADAPTOR | AI-era work, clearly considered', description: 'Understand what AI may mean for work, careers, and workplaces—and decide what to do next.', images: ['/cover.png'] },
   twitter: { card: 'summary_large_image', title: 'ADAPTOR | AI-era work, clearly considered', description: 'Understand what AI may mean for work, careers, and workplaces—and decide what to do next.', images: ['/cover.png'] },
 };
