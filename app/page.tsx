@@ -2,11 +2,11 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { AdaptorWordmark, ArticleCard, ArrowLink, Eyebrow } from './components/SiteShell';
 import { pageMetadata } from './lib/seo';
-import { articles, profiles } from './lib/site-data';
+import { articles } from './lib/site-data';
 
 export const metadata = pageMetadata({
   title: 'AI-era work, clearly considered',
-  description: 'Understand how AI may change your work, then use the free ADAPTOR framework to map your Work Profile, build a personal SWOT, set goals, and take action.',
+  description: 'Understand the ADAPTOR framework through five people and seven Work Profiles. Explore the guide for building a plan for your own work.',
   path: '/',
   image: { url: '/personas.png', alt: 'Five professionals representing different kinds of work', width: 1594, height: 986 },
 });
@@ -19,7 +19,7 @@ export default function Home() {
           <div className="hero-content">
             <Eyebrow>Practical thinking for AI-era work</Eyebrow>
             <h1>If AI changes the demand for work like mine, what should I do next?</h1>
-            <p className="lede">AI is changing tasks, roles, expectations, and business models. To respond well, you need a clearer picture of your own work—not just another prediction about jobs.</p>
+            <p className="lede">AI is changing tasks, roles, expectations and business models. A clearer picture of your own work will help you decide how to respond.</p>
             <div className="hero-actions">
               <Link className="button" href="#framework">See how ADAPTOR works <span aria-hidden="true">↓</span></Link>
             </div>
@@ -45,9 +45,9 @@ export default function Home() {
 
       <section className="section section-tight" id="framework">
         <div className="container">
-          <Eyebrow>The free framework</Eyebrow>
+          <Eyebrow>The framework</Eyebrow>
           <h2 className="framework-name">ADAPTOR</h2>
-          <p className="framework-intro">ADAPTOR is a complete, free method for turning uncertainty about AI and work into a plan you can revisit. Its seven Work Profiles help you see what your role is made of. From there, you build a Personal SWOT, choose goals, and take action.</p>
+          <p className="framework-intro">ADAPTOR gives you a sequence for thinking about AI and your work. The seven Work Profiles help describe the work beneath a job title. A personal SWOT then connects that picture to goals and action.</p>
 
           <div className="framework-visual framework-visual-wide">
             <div className="framework-visual-copy">
@@ -62,46 +62,21 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="framework-profile-intro">
-            <Eyebrow>Step 1 · Profile</Eyebrow>
-            <h3>Start with the kinds of work you actually do.</h3>
-            <p>Each letter in ADAPTOR names a Work Profile. Most roles are a mix: choose a Primary Profile for the work people mainly rely on you to do, and a Secondary Profile for another important part. The profiles are lenses for your Personal SWOT—not personality types or a verdict on job risk.</p>
-          </div>
+          <div className="framework-profile-intro"><Eyebrow>The seven Work Profiles</Eyebrow><h3>What does ADAPTOR stand for?</h3><p>Each letter names a kind of work, from Administrative Operators to Relationship Workers. A role may contain several. That mix gives you a starting point for the personal SWOT.</p></div>
           <AdaptorWordmark />
-          <div className="profile-grid">
-            {profiles.map((profile) => (
-              <article className="profile-card" key={profile.slug}>
-                <span className="profile-letter">{profile.letter}</span>
-                <h3>{profile.name}</h3>
-                <p>{profile.nature}</p>
-                <ArrowLink href={'/profiles/' + profile.slug + '/'}>See the SWOT prompt</ArrowLink>
-              </article>
-            ))}
-          </div>
-
-          <div className="profile-to-swot">
-            <div>
-              <Eyebrow>Step 1 → Step 2</Eyebrow>
-              <h3>Use your profile mix to make the SWOT personal.</h3>
-            </div>
-            <div>
-              <p>For example, an administrative coordinator might combine Administrative Operator with Team Coordinator. That points them towards routine meeting summaries and sensitive follow-up. They can then ask what they have actually observed: is handling exceptions a Strength? Is self-service summarising a possible Threat? The profile identifies the work to examine; the SWOT assesses their own position.</p>
-              <ArrowLink href="/framework/">Follow the complete four-step guide</ArrowLink>
-            </div>
-          </div>
+          <div className="hero-actions"><Link className="button" href="/framework/">Read the framework <span aria-hidden="true">→</span></Link></div>
         </div>
       </section>
 
-      <section className="section blue-band" id="start">
+      <section className="section blue-band" id="examples">
         <div className="container split">
           <div>
-            <Eyebrow>Put the method to work</Eyebrow>
-            <h2>Begin with one real activity.</h2>
+            <Eyebrow>See the method at work</Eyebrow>
+            <h2>See what the process can produce.</h2>
           </div>
           <div className="prose">
-            <p>Once you understand the sequence, start small. The ADAPTOR Starter Exercise helps you take one recurring activity through Profile, Personal SWOT, Goals, and Action. It gives you a first useful result you can extend across the rest of your role.</p>
-            <p>No account or email is needed. The framework and its full guide remain free to use.</p>
-            <Link className="button" href="/start/">Open the Starter Exercise <span aria-hidden="true">→</span></Link>
+            <p>Five illustrative people show what personal Profiles, SWOT findings, goals and actions can look like. The seven Work Profiles show broader patterns in different kinds of work.</p>
+            <div className="hero-actions"><Link className="button" href="/examples/">Follow the five people <span aria-hidden="true">→</span></Link><Link className="button button-outline" href="/profiles/">Browse seven Work Profiles</Link></div>
           </div>
         </div>
       </section>
@@ -112,9 +87,8 @@ export default function Home() {
           <div className="book-copy">
             <Eyebrow>Go further with the book</Eyebrow>
             <h2>Apply ADAPTOR with a guide beside you.</h2>
-            <p>The framework is yours to use without buying anything. <em>Be an AI-Era ADAPTOR</em> makes it easier to put the method to work through deeper guidance, worked examples, a structured assessment, and a companion workbook for purchasers.</p>
-            <p>If your first exercise raises more questions about your role or next move, the book helps you work through them in more depth.</p>
-            <Link className="button" href="/book/">See what the book adds <span aria-hidden="true">→</span></Link>
+            <p>The examples on this site show possible results. <Link className="inline-link" href="/book/"><em>Be an AI-Era ADAPTOR</em></Link> helps you apply the method to your own work, with a structured assessment, detailed guidance and a companion workbook.</p>
+            <Link className="button" href="/book/">Get the book to build your plan <span aria-hidden="true">→</span></Link>
           </div>
         </div>
       </section>

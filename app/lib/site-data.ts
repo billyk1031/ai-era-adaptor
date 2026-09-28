@@ -3,7 +3,6 @@ export const siteConfig = {
   shortName: 'ADAPTOR',
   url: 'https://ai-era-adaptor.com',
   amazonUrl: 'https://www.amazon.com/dp/B0HB5VNWJ9',
-  starterSheetCopyUrl: 'https://docs.google.com/spreadsheets/d/1gK63adp-imtQJHVheLPGqE7i_EejYv_L6oFb-nR3suc/copy',
   linkedinUrl: 'https://www.linkedin.com/in/billykan/',
   author: 'Billy Kan',
 } as const;
@@ -58,8 +57,8 @@ export const articles: Article[] = [
       {
         heading: 'Look at the work behind the job title',
         paragraphs: [
-          'A project coordinator might collect updates, resolve conflicting dates, write a summary and chase a decision. AI can help with the summary. The more interesting question is whether the coordinator’s other work becomes more important, or whether colleagues start doing some of it themselves.',
-          'Research from the ILO and OECD points to changes in tasks and working conditions across many jobs. It cannot tell you what will happen in yours. Your own workflow is the place to start.',
+          'A project coordinator might collect updates, resolve conflicting dates, write a summary and chase a decision. AI can help with the summary. The coordinator still has to find out whether colleagues now handle the other steps themselves and who resolves a clash when dates slip.',
+          ['That distinction runs through the ', { text: 'Team Coordinators walkthrough', href: '/profiles/team-coordinators/' }, '. Research from the ILO and OECD points to broad changes in tasks and working conditions. Your own workflow will show which parts are changing around you.'],
         ],
       },
       {
@@ -111,21 +110,21 @@ export const articles: Article[] = [
     date: '2026-09-27',
     readTime: '4 min read',
     heroImage: { src: '/job-risk-reflection.webp', alt: 'A professional considering two possible paths', width: 1594, height: 987 },
-    intro: 'A new tool appears at work. Someone mentions a hiring freeze. You begin to wonder: “Will AI replace my job?” Your job title cannot answer that question. The questions below will help you see what you know about your own situation—and what you still need to find out.',
+    intro: 'A new tool appears at work. Someone mentions a hiring freeze. You begin to wonder: “Will AI replace my job?” Look at the work people still need from you, what has changed and what you can check. That will give you a better answer than your job title alone.',
     sections: [
       {
         heading: 'What are you paid to make happen?',
         paragraphs: [
           'Write one sentence about the result of your work. Who relies on it, and what would they miss if you stopped doing it? A job description may list dozens of tasks; the result tells you why those tasks exist.',
           'Now ask which parts a colleague, manager or customer might do for themselves with AI. Could the same work be covered by fewer people? Where would they still need your judgement, help with exceptions or accountability? What evidence do you have?',
-          ['If that is hard to picture, try the ', { text: '20-minute task audit', href: '/blog/how-ai-is-changing-everyday-work/' }, ' first. It helps you map one real piece of work.'],
+          ['If that is hard to picture, try the ', { text: '20-minute task audit', href: '/blog/how-ai-is-changing-everyday-work/' }, ' on one real piece of work. The ', { text: 'seven Work Profiles', href: '/profiles/' }, ' can then help you recognise the other kinds of work inside your role.'],
         ],
       },
       {
         heading: 'What has actually changed?',
         paragraphs: [
           'Make two short lists. Under “I have seen”, put specific changes: fewer requests, a new tool in regular use, different expectations, or work moving to someone else. Under “I am assuming”, put the conclusions you have drawn from those changes.',
-          'Consider another explanation for each signal. A quiet month might reflect budget pressure or seasonality. A faster draft may leave the checking work untouched. The ILO’s 2025 research finds that changes to jobs are a more likely broad effect of generative AI than wholesale replacement of most occupations; it cannot tell you what your employer will decide.',
+          'Consider another explanation for each signal. A quiet month might reflect budget pressure or seasonality. A faster draft may leave the checking work untouched. The ILO’s 2025 research finds that changes to jobs are a more likely broad effect of generative AI than wholesale replacement of most occupations. Your employer’s plans still need a conversation closer to home.',
         ],
       },
       {
@@ -149,7 +148,7 @@ export const articles: Article[] = [
         heading: 'Write a conclusion you can revisit',
         paragraphs: [
           'Complete this sentence: “Based on ___, my role currently looks [in demand but changing / uncertain / under pressure]. I will ___ by ___, and I will reassess if ___.” This gives you a working answer to the question you started with—and a way to update it when the facts change.',
-          ['If you want to build a fuller plan from that answer, the free ', { text: 'ADAPTOR framework guide', href: '/framework/' }, ' connects your work profile and personal SWOT to goals and action.'],
+          ['To build a fuller plan, use the ', { text: 'ADAPTOR framework guide', href: '/framework/' }, ' to connect your work profile and personal SWOT to goals and action. ', { text: 'Aisha’s example', href: '/examples/aisha/' }, ' shows how one person made her less visible judgement easier to recognise.'],
         ],
       },
     ],
@@ -180,8 +179,8 @@ export const articles: Article[] = [
         heading: 'My reading: a role can go while human value remains',
         paragraphs: [
           'AI can make parts of a job cheaper or easier to do. Employers may then need fewer people in an old role, even as they need people for different work.',
-          'Microsoft has not attributed these particular cuts to AI replacing staff. Its simultaneous investment in customer-facing AI work still shows the direction of change: fewer roles in some parts of the business, more emphasis on industry expertise, engineering and helping customers make AI useful. That last part is human work created by the need to put AI into practice.',
-          'This is what I mean when I say AI can replace a role without replacing a person. A role reflects what an employer needs today. A person brings knowledge, judgement, relationships and the ability to learn. We need to redefine how we use those qualities as demand moves.',
+          'Microsoft has not attributed these particular cuts to AI replacing staff. Taken together, the announcements suggest a shift in emphasis: fewer roles in some parts of the business and more investment in industry expertise, engineering and helping customers make AI useful.',
+          'A role reflects what an employer needs at a particular moment. People bring knowledge, judgement, relationships and the ability to learn beyond that role. The practical question is where those qualities may meet demand next.',
           'Losing a role is real and painful. Nobody can assume that the people affected can simply move into the new positions. My point is that we should look early at where demand is growing, then work out how our experience could contribute there. Waiting to defend the old bundle of tasks may leave us fewer options.',
         ],
       },
@@ -189,7 +188,7 @@ export const articles: Article[] = [
         heading: 'Follow the demand in your own workplace',
         paragraphs: [
           'Ask yourself three things: Which parts of my work are becoming easier to automate or self-serve? Where is my employer or client investing more attention and money? Which part of my experience could help with that new work?',
-          ['If you want to examine the risk to your current role, ', { text: 'Will AI Replace My Job?', href: '/blog/will-ai-replace-my-job/' }, ' guides that conversation. To see what is changing inside one real workflow, use the ', { text: '20-minute task audit', href: '/blog/how-ai-is-changing-everyday-work/' }, '.'],
+          ['The ', { text: 'Digital Builders', href: '/profiles/digital-builders/' }, ' and ', { text: 'Professional Advisors', href: '/profiles/professional-advisors/' }, ' walkthroughs explore two kinds of work in the new customer-facing effort. For your own position, ', { text: 'Will AI Replace My Job?', href: '/blog/will-ai-replace-my-job/' }, ' helps you examine demand and evidence.'],
         ],
       },
     ],
@@ -208,7 +207,7 @@ export const articles: Article[] = [
     date: '2026-09-27',
     readTime: '3 min read',
     heroImage: { src: '/human-skills-value.webp', alt: 'Three colleagues weighing a decision together around a table', width: 1594, height: 986 },
-    intro: 'When people ask which human skills will matter as AI spreads, I often hear lists of things AI supposedly cannot do. That seems a poor way to plan a career. AI will keep improving. I would rather ask: what skills help us work with it to get a better result?',
+    intro: 'When people ask which human skills will matter as AI spreads, I think about the whole piece of work: the question, the tool, the checks and the decision. AI will keep improving. Which skills help us use it to get a better result?',
     sections: [
       {
         heading: 'Think about the whole piece of work',
@@ -216,14 +215,15 @@ export const articles: Article[] = [
           'Imagine a service analyst trying to understand a rise in customer complaints. Using an approved AI tool and anonymised messages, she groups the complaints and gets a draft summary. It suggests that late deliveries are the main problem.',
           'She checks a sample of the original messages and speaks to the service team. The deliveries are often on time; customers are frustrated because updates arrive too late. She proposes a clearer update, then watches whether repeat contacts fall over the next month.',
           'AI helped her get through the messages. Asking the right question, checking the evidence and listening to colleagues helped her solve the right problem. The value came from how she put those skills and the tool together.',
+          ['The ', { text: 'Analysts walkthrough', href: '/profiles/analysts/' }, ' follows the same kind of work from a SWOT finding to a goal and a first action.'],
         ],
       },
       {
         heading: 'The skills I would develop',
         paragraphs: [
           'I would learn enough about AI to know what to ask of it and where it tends to go wrong. Alongside that, I would practise framing problems, testing evidence, understanding the people affected and following through on a decision. These skills become more useful together.',
-          'That fits the direction of current research. The World Economic Forum’s 2025 employer survey expects technology skills to grow fastest while also naming analytical thinking and leadership as important. A June 2026 OECD brief points to growing importance for using and interpreting data. Neither report gives us a permanent list of safe skills.',
-          'AI will improve at some of the checking and conversation too. I expect the work to change again. That is another reason to learn how to direct, assess and apply the tools, instead of building an identity around tasks they cannot yet do.',
+          'That fits the direction of current research. The World Economic Forum’s 2025 employer survey expects technology skills to grow fastest while also naming analytical thinking and leadership as important. A June 2026 OECD brief points to growing importance for using and interpreting data. These are broad signals; the useful skills in your role will depend on the work around you.',
+          'AI will improve at some of the checking and conversation too. I expect the work to change again. Learn how to direct, assess and apply the tools, and keep watching where your judgement improves the result.',
         ],
       },
       {
@@ -263,6 +263,7 @@ export const articles: Article[] = [
         heading: 'During: make it safe to question the result',
         paragraphs: [
           'The people handling awkward queries will spot failures a project plan misses. Ask them where the tool helps, where it creates rework and which customers may be poorly served. Give them a named person to contact and a regular check-in. Record the questions and say what you changed in response.',
+          ['The ', { text: 'Relationship Workers walkthrough', href: '/profiles/relationship-workers/' }, ' examines what happens when routine contact moves to self-service. ', { text: 'David’s example', href: '/examples/david/' }, ' shows the service leader’s view of chatbot handoffs and complex cases.'],
           'Train staff on the approved tool and its data boundaries before asking them to use it. Keep a person responsible for each outgoing reply. If staff raise concerns about accuracy, privacy or workload, pause that part of the pilot until someone has checked the issue.',
         ],
       },

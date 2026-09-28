@@ -20,7 +20,7 @@ const websiteData = {
   url: `${siteConfig.url}/`,
   name: siteConfig.shortName,
   alternateName: siteConfig.name,
-  description: 'A practical, freely usable framework for understanding how AI-era change may affect work and deciding what to do next.',
+  description: 'A practical framework for understanding AI-era work, illustrated through five people and seven Work Profiles. Find a way to examine your own work and plan your next move.',
   inLanguage: 'en-GB',
   publisher: { '@id': `${siteConfig.url}/about/#billy-kan` },
 };

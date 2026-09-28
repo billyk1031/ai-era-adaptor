@@ -46,7 +46,7 @@ export default function AboutPage() {
             <p>Billy Kan is a delivery leader, agile coach, change practitioner, and entrepreneur with decades of experience across technology, financial services, business change, and digital delivery.</p>
             <p>He has worked with multinational teams, including in major financial institutions, to deliver complex change and improve how people work together. That experience shapes ADAPTOR: a way to look beyond a job title, examine how demand for your work may change, and decide what to do next.</p>
             <p>Billy and his wife Fiona founded <a className="inline-link" href={companyUrl} target="_blank" rel="noreferrer">Peach & Avo Ventures LLP <span aria-hidden="true">↗</span></a> after moving from Hong Kong to the UK. Their work brings together delivery leadership, agile coaching, AI and workflow improvement, and the development of practical products and ventures.</p>
-            <p>ADAPTOR is shared freely on this site. It offers a method for thinking and acting in uncertain conditions, not a prediction about any individual job or a promise of job security.</p>
+            <p>ADAPTOR is shared freely on this site. It gives people a way to examine changing work and make choices with the evidence they have. Individual outcomes will depend on their circumstances and employers.</p>
             <a className="arrow-link" href={siteConfig.linkedinUrl} target="_blank" rel="noreferrer">Connect with Billy on LinkedIn <span aria-hidden="true">↗</span></a>
           </div>
         </div>

@@ -1,10 +1,12 @@
 import { articles, categories, profiles, siteConfig } from './site-data.ts';
+import { additionalPersonas } from './personas.ts';
 
-const corePaths = ['', 'framework', 'start', 'profiles', 'book', 'faq', 'about', 'blog', 'privacy', 'disclaimer'];
+const corePaths = ['', 'framework', 'start', 'examples', 'examples/aisha', 'profiles', 'book', 'faq', 'about', 'blog', 'privacy', 'disclaimer'];
 
 export function getSitemapPaths() {
   return [
     ...corePaths.map((path) => path ? `/${path}/` : '/'),
+    ...additionalPersonas.map((persona) => `/examples/${persona.slug}/`),
     ...profiles.map((profile) => `/profiles/${profile.slug}/`),
     ...categories.map((category) => `/blog/category/${category.slug}/`),
     ...articles.map((article) => `/blog/${article.slug}/`),
