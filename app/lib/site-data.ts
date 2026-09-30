@@ -43,6 +43,99 @@ export const categories = [
 ] as const;
 
 export const articles: Article[] = [
+{
+  "slug": "mckinsey-ai-jobs-career-transition-2026",
+  "title": "AI May Create New Jobs. Can You Reach Them?",
+  "description": "McKinsey’s new workforce report raises a practical question: how can you assess AI’s impact on your work and use it to help build a route into a new role?",
+  "category": "AI Job News and Current Affairs",
+  "type": "News reflection",
+  "date": "2026-09-30",
+  "readTime": "4 min read",
+  "heroImage": {
+    "src": "/job-risk-reflection.webp",
+    "alt": "A professional considering two possible paths",
+    "width": 1594,
+    "height": 987
+  },
+  "intro": "A forecast of new jobs can sound reassuring until you ask where those jobs are and what it would take to get one. McKinsey’s new US workforce report, published on 29 September 2026, puts that question in focus. My reading: a career option becomes useful when you can see a workable route into it.",
+  "sections": [
+    {
+      "heading": "What the report says",
+      "paragraphs": [
+        [
+          "In ",
+          {
+            "text": "Workforce in motion",
+            "href": "https://www.mckinsey.com/mgi/our-research/Workforce-in-motion-Skills-and-pathways-to-future-jobs-in-the-United-States"
+          },
+          ", McKinsey estimates that roughly 11 million US workers may need to change occupations by 2035. Alternative assumptions put that figure at around six million to more than 16 million."
+        ],
+        "These are modelled possibilities, rather than observed job losses. The analysis combines AI and other automation with broader forces such as demographic change and infrastructure investment. It also models demand growing elsewhere in the economy.",
+        "For a route between occupations, the report examines demand for the destination, overlap in skills, preservation of pay and the time needed to gain required credentials. That brings the discussion closer to the choices a person actually faces.",
+        [
+          "The figures refer to the US, but the challenge of helping people move as work changes matters across developed economies. McKinsey’s earlier ",
+          {
+            "text": "research on Europe",
+            "href": "https://www.mckinsey.com/mgi/our-research/a-new-future-of-work-the-race-to-deploy-ai-and-raise-skills-in-europe-and-beyond/"
+          },
+          " also models substantial occupational transitions. I see a wider lesson here: look at how AI changes your work and how it could help you prepare for what comes next. The pace and opportunities will vary by country and employer."
+        ]
+      ]
+    },
+    {
+      "heading": "My reading: use AI to help build the next role",
+      "paragraphs": [
+        "If AI is taking over part of your work, ask what that changes about the contribution people need from you. Then ask how the same technology could help you make that contribution. Combining AI with your knowledge of the work, judgement and relationships may open a route you would otherwise overlook.",
+        "Imagine a customer-support adviser in a team introducing an AI assistant for routine enquiries. Fewer straightforward cases reach her, while colleagues spend more time resolving exceptions and correcting poor handoffs. She knows the product and can recognise when a technically correct answer will still leave a customer confused.",
+        "With her manager’s agreement, she uses an approved AI tool to group anonymised escalations and suggest recurring failure patterns. She checks the original cases, talks to colleagues and tests revised handoff rules. Over a month, the team compares repeat contacts, missed escalations and total handling time, including her checking work.",
+        "This hypothetical adviser is building evidence for a move into service-quality work: understanding customer problems, evaluating AI responses and improving the process. AI helps her examine more cases; her judgement guides what to change. The opportunity depends on whether her employer needs and supports that work. A successful trial would give her something concrete to discuss, rather than guarantee a new position.",
+        "Employers can make these transitions more workable by giving staff time, access to approved tools and opportunities to learn on real assignments. Workers need a route into the changing work as well as encouragement to adapt."
+      ]
+    },
+    {
+      "heading": "Use ADAPTOR to plan your own transition",
+      "paragraphs": [
+        [
+          "This is the kind of question the free ",
+          {
+            "text": "ADAPTOR framework",
+            "href": "/framework/"
+          },
+          " is designed to help you work through: Profile → Personal SWOT → Goals → Action. It connects the AI impact on your current work with the contribution you could develop next."
+        ],
+        "Begin with your work profile mix. Which parts of your role involve routine production or enquiries? Where do you already contribute analysis, judgement or relationships? In the support example, routine contact is under pressure, while customer insight and service analysis offer a possible direction.",
+        "Build your AI-Era SWOT around that change. Record one threat to demand for your current work, one strength you could carry forward, one way AI could enable a more useful contribution and one gap you would need to close. Use observations from your workplace to test each point.",
+        "Turn the strongest opportunity into a small goal and an agreed trial. Name the result you want to improve, the human checks it needs and how you will judge progress. Then check whether a current vacancy or internal need values that contribution, including its pay, location, hours and any required qualification.",
+        "You should leave with a possible direction, evidence to build and a date to discuss the result with someone who knows the work. A transition may begin by changing your contribution within the role you already have.",
+        [
+          "If you are still unsure how much demand for your current work is changing, ",
+          {
+            "text": "Will AI Replace My Job?",
+            "href": "/blog/will-ai-replace-my-job/"
+          },
+          " helps you separate evidence from assumptions."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "McKinsey Global Institute, Workforce in motion: Skills and pathways to future jobs in the United States",
+      "url": "https://www.mckinsey.com/mgi/our-research/Workforce-in-motion-Skills-and-pathways-to-future-jobs-in-the-United-States",
+      "date": "29 September 2026"
+    },
+    {
+      "title": "McKinsey Global Institute, A new future of work: The race to deploy AI and raise skills in Europe and beyond",
+      "url": "https://www.mckinsey.com/mgi/our-research/a-new-future-of-work-the-race-to-deploy-ai-and-raise-skills-in-europe-and-beyond/",
+      "date": "21 May 2024"
+    }
+  ],
+  "related": [
+    "will-ai-replace-my-job",
+    "how-ai-is-changing-everyday-work"
+  ]
+},
+
   {
     slug: 'how-ai-is-changing-everyday-work',
     title: 'How AI Is Changing Everyday Work: A 20-Minute Task Audit',

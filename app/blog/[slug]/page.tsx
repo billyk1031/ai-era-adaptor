@@ -15,7 +15,9 @@ const categorySlugs: Record<string, string> = {
 
 function ArticleBodyParagraph({ value }: { value: ArticleParagraph }) {
   return <p>{typeof value === 'string' ? value : value.map((part, index) =>
-    typeof part === 'string' ? part : <Link className="inline-link" href={part.href} key={`${part.href}-${index}`}>{part.text}</Link>
+    typeof part === 'string' ? part : part.href.startsWith('https://')
+      ? <a className="inline-link" href={part.href} target="_blank" rel="noopener noreferrer" key={`${part.href}-${index}`}>{part.text}</a>
+      : <Link className="inline-link" href={part.href} key={`${part.href}-${index}`}>{part.text}</Link>
   )}</p>;
 }
 
