@@ -44,6 +44,108 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-training-time-practise-work",
+  "title": "AI Training Needs Time to Practise at Work",
+  "description": "A global workforce survey finds uneven access to learning resources. Here is a practical way to build AI practice into work and make human judgement visible.",
+  "category": "Human Value, Skills and Leadership",
+  "type": "Knowledge / Advice",
+  "date": "2026-10-01",
+  "readTime": "4 min read",
+  "heroImage": {
+    "src": "/human-skills-value.webp",
+    "alt": "Three colleagues weighing a decision together around a table",
+    "width": 1594,
+    "height": 986
+  },
+  "intro": "AI use at work is growing, but reported access to learning resources is falling. PwC’s latest survey describes both shifts. A practical team question is where people can practise on real tasks, with time and feedback to improve how AI fits their work.",
+  "sections": [
+    {
+      "heading": "A learning gap sits behind AI adoption",
+      "paragraphs": [
+        [
+          "PwC published its ",
+          {
+            "text": "Global Workforce Hopes and Fears Survey 2026",
+            "href": "https://www.pwc.com/gx/en/1/issues/workforce/hopes-and-fears.html"
+          },
+          " on 29 September. In the survey, 51% of respondents said they could access the learning and development resources they need. The figure was 59% a year earlier. Researchers gathered responses in May and June from 49,364 workers. The survey covered 48 countries and regions across 29 sectors."
+        ],
+        "PwC’s ‘engine room’ cohort represents 56% of respondents. Fewer than 40% said they could access those resources, compared with nearly 80% of ‘front-runners’. PwC defines the cohorts using respondents’ views of demand for their skills and the benefits they report gaining from AI. Its access question asks about learning and development resources broadly, leaving AI training and practice time within a wider measure.",
+        [
+          "The European Training Foundation and its partners published ",
+          {
+            "text": "Changing landscape of skills in the age of AI",
+            "href": "https://www.cedefop.europa.eu/en/publications/2243"
+          },
+          " on 24 September. Listed by Cedefop, the report describes changing skill needs across many occupations. Cognitive and socio-emotional capabilities feature alongside digital and AI skills. Read together, these findings point to a practical question for managers: where can people practise new capabilities in the work they will continue to do?"
+        ]
+      ]
+    },
+    {
+      "heading": "Practise at the point of work",
+      "paragraphs": [
+        "As a hypothetical example, imagine an operations planner using an employer-approved AI tool. It summarises open orders and suggests a sequence for the week. One order appears ready to move, but the planner knows it still needs a quality sign-off. They check the source information and confirm the sign-off with a colleague. Then they update the sequence before the team acts.",
+        [
+          "AI can help assemble information, while the planner’s knowledge of the process shapes the practical next step. If workers are expected to catch exceptions like this, the workflow should make that responsibility clear and give them room to learn from the checks. The ",
+          {
+            "text": "Team Coordinators Work Profile",
+            "href": "/profiles/team-coordinators/"
+          },
+          " describes similar work involving hand-offs, decisions and delivery."
+        ]
+      ]
+    },
+    {
+      "heading": "Set up a two-week practice loop",
+      "paragraphs": [
+        "Choose one repeated, low-risk task and an approved tool. Agree what the tool may do and what information it may use. Make clear which decisions and checks stay with a person.",
+        "Run the trial for two weeks. Reserve 30 minutes of working time each week to review three to five permitted examples. Review them with a colleague or manager.",
+        "Before the trial, choose one signal to follow:"
+      ],
+      "bullets": [
+        "Count meaningful corrections made before an AI output is shared.",
+        "Track missed hand-offs.",
+        "Measure the time from starting the task to having an output ready. Include checking and rework."
+      ]
+    },
+    {
+      "paragraphs": [
+        "Compare a few similar tasks from before and during the trial. If corrections rise or ownership is unclear, adjust the task or boundary. If the work improves, name the judgement that helped. Give people room to keep developing it.",
+        [
+          "Managers can build time, access and feedback into the learning plan. Where a condition is missing, ask for a small approved trial. Agree who will review the AI output. The site’s ",
+          {
+            "text": "guide to talking with staff about AI",
+            "href": "/blog/how-employers-should-talk-about-ai/"
+          },
+          " can help structure that conversation. Keep the observations. The free ",
+          {
+            "text": "ADAPTOR framework",
+            "href": "/framework/"
+          },
+          " can help you connect the work you do with the value you add. Use what you’ve learnt to choose a practical next goal."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "PwC, Global Workforce Hopes and Fears Survey 2026",
+      "url": "https://www.pwc.com/gx/en/1/issues/workforce/hopes-and-fears.html",
+      "date": "29 September 2026"
+    },
+    {
+      "title": "European Training Foundation et al., Changing landscape of skills in the age of AI",
+      "url": "https://www.cedefop.europa.eu/en/publications/2243",
+      "date": "24 September 2026"
+    }
+  ],
+  "related": [
+    "how-employers-should-talk-about-ai",
+    "which-human-skills-become-more-valuable"
+  ]
+},
+
+{
   "slug": "mckinsey-ai-jobs-career-transition-2026",
   "title": "AI May Create New Jobs. Can You Reach Them?",
   "description": "McKinsey’s new workforce report raises a practical question: how can you assess AI’s impact on your work and use it to help build a route into a new role?",
