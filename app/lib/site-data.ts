@@ -44,6 +44,155 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "can-you-use-ai-tool-at-work",
+  "title": "Can You Use That AI Tool at Work? Start With the Task",
+  "description": "Using AI at work? Check the task and company guidance, judge when an unapproved tool is suitable, and validate automation before it reaches critical data.",
+  "category": "AI Policy, Risk and Workplace Culture",
+  "type": "Coaching",
+  "date": "2026-10-02",
+  "readTime": "5 min read",
+  "heroImage": {
+    "src": "/employers-ai-conversation.webp",
+    "alt": "Colleagues discussing a work decision beside a blank whiteboard",
+    "width": 1594,
+    "height": 986
+  },
+  "intro": "A colleague shows you an AI tool that turns meeting notes into actions. Before using it, consider the task and the information involved. An approved tool may already have clear company guidelines. With an unapproved tool, summarising a public report presents a different judgement from uploading client notes or connecting company systems.",
+  "sections": [
+    {
+      "heading": "The gap between encouragement and permission",
+      "paragraphs": [
+        [
+          "In its ",
+          {
+            "text": "30 September article on AI agents",
+            "href": "https://www.gartner.com/en/articles/agentic-ai-oversight"
+          },
+          ", Gartner describes employees building and using automations outside formal oversight. It recommends assessing the sensitivity of the information an agent can access alongside how much it can do on its own. Those two questions are useful even for a small workplace experiment."
+        ],
+        [
+          "A ",
+          {
+            "text": "survey released by OneTrust on 14 September",
+            "href": "https://www.onetrust.com/news/onetrust-research-86-of-organizations-experienced-ai-related-incidents-yet-few-slowed-deployment/"
+          },
+          " adds a reason to make the approval route workable. One-third of surveyed organisations reported employees using unapproved AI because approved tools or processes were not available quickly enough. Sapio Research conducted the vendor-commissioned survey of 1,200 senior business decision-makers across eight countries. Their responses give a view of organisational experience; the permission for your own task still needs checking locally."
+        ],
+        "Start with the tool’s approval status and the task you want it to perform. Which route applies to your work?"
+      ]
+    },
+    {
+      "heading": "If the tool is approved, follow the existing guidance",
+      "paragraphs": [
+        "Your company should make clear which uses are covered and what information the tool may handle. For routine work within those conditions, use the authorised account and follow the agreed checks. You should not need to seek fresh approval for every draft.",
+        "Check that the guidance covers your actual task. Permission to summarise internal documents may leave client records outside the allowed scope. Connecting the tool to another system can also introduce permissions that its original approval did not cover.",
+        "If the guidance is missing or unclear, ask the tool owner to resolve the specific gap. A manager can help you find that person. Agree a date for an answer and use the existing workflow while you wait."
+      ]
+    },
+    {
+      "heading": "If the tool is unapproved, judge the proposed use",
+      "paragraphs": [
+        "Check your company’s guidance first. Where it permits public-data use, summarising a freely available industry report in an unapproved chatbot may be a reasonable choice. Use material you are entitled to share and check the summary against the original before relying on it.",
+        "Consider what else the request reveals. A public report can become a sensitive input if your prompt includes an unpublished strategy or asks about a named client. Keep the task limited to the public material when that is all the tool needs.",
+        "Use your judgement about the information and the consequences. Work through these questions:"
+      ],
+      "bullets": [
+        "Does company guidance allow this use? If you cannot tell, ask the appropriate team to clarify.",
+        "Would the tool receive only public material, or would the prompt expose confidential or personal information?",
+        "Will you check a draft yourself, or could the tool affect records, decisions or other people directly?"
+      ]
+    },
+    {
+      "paragraphs": [
+        "For a low-risk task within company rules, you may be able to proceed without a separate approval request. Check the output and take responsibility for how you use it.",
+        "If the data boundary or permitted use is unclear, seek help from the relevant IT, security or privacy team. Describe the task so they can advise on the specific concern. Confidential data or access to company systems may need formal assessment before you proceed.",
+        "If the tool would become part of a regular team workflow, consider proposing it for approval. That gives the organisation a chance to assess the supplier and provide consistent guidance. Follow any existing restrictions while that decision is pending."
+      ]
+    },
+    {
+      "heading": "Define the task before you configure the tool",
+      "paragraphs": [
+        "Make the required input, the work to be done and the expected output clear. For a chatbot, put those requirements into the prompt. For an automation, specify them in the workflow design.",
+        "As a hypothetical example, a project coordinator could use an approved chatbot to extract actions from meeting notes. Her prompt might say: “From these permitted notes, produce an action list with owners and due dates. Mark missing details as unknown. Do not infer commitments that the notes do not contain.”",
+        "She would check the draft against the notes before sharing it. Client launch plans could require different data permissions, even within the same approved tool. Removing names would still leave commercially sensitive details.",
+        "Decide where the workflow ends. Producing a draft list leaves the coordinator in control of what enters the project system. Automatically updating records or emailing colleagues needs a separate assessment of those actions."
+      ]
+    },
+    {
+      "heading": "Test automation before it reaches critical data",
+      "paragraphs": [
+        "For automation or higher-risk work, agree a test and validation plan before broad rollout or use on critical records. Apply this to approved tools too when the proposed workflow introduces those risks.",
+        [
+          "The voluntary ",
+          {
+            "text": "NIST AI Risk Management Framework",
+            "href": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/"
+          },
+          " calls for rigorous testing with documented results. It also includes ongoing monitoring and recovery planning. In a workplace workflow, agree what must pass and who can authorise release."
+        ],
+        "For the coordinator’s proposed automation, test in an isolated environment with permitted test data. Compare its action list and proposed record changes with results checked by a person. Include awkward cases before judging it ready."
+      ],
+      "bullets": [
+        "Check missing owners, conflicting dates and ambiguous commitments. Confirm that the workflow flags uncertainty instead of inventing an answer.",
+        "Verify that only the intended records can change. Test duplicate processing and what happens when a connection fails midway.",
+        "Confirm the required human approval before consequential changes. Test how to stop the workflow and recover from an incorrect update.",
+        "Document test cases and results, including unresolved failures. Record the responsible reviewer’s decision before a limited rollout."
+      ]
+    },
+    {
+      "paragraphs": [
+        "Monitor the limited rollout before expanding it. Keep a record of errors and corrections. Revalidate when a material change to the tool or workflow could affect the result."
+      ]
+    },
+    {
+      "heading": "Make the useful next step part of normal work",
+      "paragraphs": [
+        "Choose the action that fits what you have found. For an approved use that works reliably, update the relevant standard operating procedure (SOP) through its usual owner. Include the permitted inputs and prompt or workflow configuration. Record the output checks and who maintains the procedure.",
+        "For a permitted, low-risk use of an unapproved tool, keep the source and your checks with the work. If colleagues could benefit from using it regularly, propose an agreed approach through the relevant team. Seek clarification where the rules or risks are uncertain.",
+        "For automation, keep the validation evidence with the procedure. Record the release decision and arrangements for monitoring and recovery. Colleagues adopting the workflow should be able to see its limits and the checks they must perform.",
+        [
+          "When the change affects a team, the ",
+          {
+            "text": "guide to talking with staff about AI",
+            "href": "/blog/how-employers-should-talk-about-ai/"
+          },
+          " can help you explain the new responsibilities."
+        ],
+        [
+          "This work can also give you evidence for your ",
+          {
+            "text": "ADAPTOR AI-Era SWOT",
+            "href": "/framework/"
+          },
+          ". A validated workflow shows how your judgement improves the use of AI. An approval proposal can turn an opportunity into a concrete next action. Keep the procedure and results as evidence of the contribution you made."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gartner, The AI Agents You Can’t See Can Still Create Risk",
+      "url": "https://www.gartner.com/en/articles/agentic-ai-oversight",
+      "date": "30 September 2026"
+    },
+    {
+      "title": "OneTrust, Research on AI-related incidents and governance",
+      "url": "https://www.onetrust.com/news/onetrust-research-86-of-organizations-experienced-ai-related-incidents-yet-few-slowed-deployment/",
+      "date": "14 September 2026"
+    },
+    {
+      "title": "NIST, AI Risk Management Framework Core",
+      "url": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+      "date": "January 2023"
+    }
+  ],
+  "related": [
+    "how-employers-should-talk-about-ai",
+    "ai-training-time-practise-work"
+  ]
+},
+
+{
   "slug": "ai-training-time-practise-work",
   "title": "AI Training Needs Time to Practise at Work",
   "description": "A global workforce survey finds uneven access to learning resources. Here is a practical way to build AI practice into work and make human judgement visible.",
