@@ -1,6 +1,12 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { changedUrls, submit, validateUrls } from './submit-indexnow.mjs';
+import { changedUrls, pageContent, submit, validateUrls } from './submit-indexnow.mjs';
+
+test('ignores hydration identifiers but retains content, metadata, styles and JSON-LD', () => {
+  const content = '<title>Page</title><link rel="stylesheet" href="/style.css"><script type="application/ld+json">{"name":"Page"}</script><h1>Page</h1>';
+  assert.equal(pageContent(content + '<script src="/runtime-123.js"></script><script>build="123"</script><link rel="modulepreload" href="/chunk-123.js">'), content);
+  assert.notEqual(pageContent(content), pageContent(content.replace('<h1>Page', '<h1>Updated')));
+});
 
 test('reports added, edited and removed pages, skipping unchanged pages', () => {
   assert.deepEqual(changedUrls({ '/a': 'new', '/b': 'same', '/c': 'added' }, { '/a': 'old', '/b': 'same', '/d': 'removed' }), ['/a', '/c', '/d']);

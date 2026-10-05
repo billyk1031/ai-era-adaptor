@@ -3,7 +3,9 @@
 After GitHub Pages successfully deploys, the workflow verifies the live ownership
 key and submits new, changed and removed page URLs to https://api.indexnow.org/indexnow.
 The first run submits all sitemap pages. Later runs compare exported HTML with
-the last successful submission saved in GitHub Actions cache. Public image or
+the last successful submission saved in GitHub Actions cache. Runtime scripts
+and module preloads are excluded from the comparison; rendered content, metadata,
+JSON-LD and styles are retained. Public image or
 download changes conservatively mark all pages as changed. If the cache expires,
 all current pages are submitted again. No browser tracking or runtime service is added.
 

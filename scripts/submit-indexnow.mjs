@@ -10,6 +10,14 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const statePath = resolve(root, '.indexnow/last-submitted.json');
 const endpoint = 'https://api.indexnow.org/indexnow';
 
+export function pageContent(html) {
+  // Hydration payloads and module preloads contain per-build runtime identifiers.
+  // Retain rendered content, metadata, JSON-LD and styles when comparing pages.
+  return html
+    .replace(/<script\b([^>]*)>[\s\S]*?<\/script>/gi, (tag, attributes) => /type=["']application\/ld\+json["']/i.test(attributes) ? tag : '')
+    .replace(/<link\b[^>]*\brel=["']modulepreload["'][^>]*>/gi, '');
+}
+
 export function changedUrls(current, previous) {
   return [...new Set([...Object.keys(current), ...Object.keys(previous)])]
     .filter((url) => current[url] !== previous[url]);
@@ -72,8 +80,8 @@ async function main() {
   const assets = await publicAssetHash(resolve(root, 'public'));
   const pages = {};
   for (const path of getSitemapPaths()) {
-    const html = await readFile(resolve(root, `dist/client${path}index.html`));
-    pages[new URL(path, origin).href] = createHash('sha256').update(html).update(assets).digest('hex');
+    const html = await readFile(resolve(root, `dist/client${path}index.html`), 'utf8');
+    pages[new URL(path, origin).href] = createHash('sha256').update(pageContent(html)).update(assets).digest('hex');
   }
   let previous = {};
   try {
