@@ -331,3 +331,11 @@ p { margin: 0 0 1rem; color: var(--body); }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+.profile-tags { margin-top: 1rem; font-size: var(--meta-size); }
+.profile-tags .category-list { margin-top: .5rem; }
+#related-articles { scroll-margin-top: 96px; }
+.article-card .profile-tags { margin-top: 0; margin-bottom: 1rem; }
+.profile-browse-heading { margin-top: 1.75rem; }
+
+.article-card-date { color: var(--muted); font-size: var(--meta-size); margin-bottom: .75rem; }

@@ -1,3 +1,4 @@
+import { ProfileRelatedArticles } from '../components/ProfileRelatedArticles';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLink, BookCta, Eyebrow } from '../components/SiteShell';
@@ -63,6 +64,7 @@ export default function ProfileWalkthrough({ profile, walkthrough }: { profile: 
         <div className="prose"><p>Compare this pattern with the other <Link className="inline-link" href="/profiles/">Work Profiles</Link> that appear in your role. Your own SWOT will need evidence from the decisions, results and responsibilities that matter in your work.</p><ArrowLink href={`/examples/${walkthrough.relatedPersona.slug}/`}>See {walkthrough.relatedPersona.name}’s individual example</ArrowLink></div>
       </div>
     </section>
+    <ProfileRelatedArticles slug={profile.slug} />
     <section className="section"><div className="container"><BookCta /></div></section>
   </main>;
 }

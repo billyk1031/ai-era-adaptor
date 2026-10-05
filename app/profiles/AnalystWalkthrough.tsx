@@ -1,3 +1,4 @@
+import { ProfileRelatedArticles } from '../components/ProfileRelatedArticles';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowLink, BookCta, Eyebrow } from '../components/SiteShell';
@@ -12,6 +13,7 @@ export default function AnalystWalkthrough() {
     <section className="section"><div className="container split"><div><Eyebrow>03 · An illustrative goal</Eyebrow><h2>Move closer to the decision.</h2></div><div className="prose"><p>Suppose a team analyst’s monthly performance report is increasingly drafted with AI. A useful <strong>medium-term goal</strong> could be: over the next six months, become the person decision makers consult to test the evidence and options behind one recurring operational decision.</p><p>The goal responds to self-service reporting and uses the analyst’s strength in evidence quality. Better decision support will show whether the shift is working.</p></div></div></section>
     <section className="section section-tight blue-band"><div className="container"><Eyebrow>04 · Possible actions and review</Eyebrow><h2>Make the reasoning useful to someone else.</h2><div className="example-chain"><article><h3>First moves</h3><ul><li>Choose one recurring decision that uses the report.</li><li>For the next report, add a short note on the key assumption, an alternative explanation and the decision each would support.</li><li>Ask the decision owner which part helped and what was missing.</li></ul></article><article><h3>What to review</h3><p>After two reporting cycles, check whether the note changed the discussion, uncovered a weak assumption or simply added reading. Keep, shorten or change the approach based on that feedback.</p></article></div><p className="example-caveat">The right next move for another analyst will depend on their career stage, organisation and evidence.</p></div></section>
     <section className="section"><div className="container split"><div><Eyebrow>Apply the lens carefully</Eyebrow><h2>One Work Profile is rarely the whole role.</h2></div><div className="prose"><p>Compare Analyst work with any other <Link className="inline-link" href="/profiles/">Work Profiles</Link> in your role. A useful SWOT will draw on your own decisions, results and responsibilities.</p><ArrowLink href="/examples/">See five individual examples</ArrowLink></div></div></section>
+    <ProfileRelatedArticles slug={'analysts'} />
     <section className="section"><div className="container"><BookCta /></div></section>
   </main>;
 }

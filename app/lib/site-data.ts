@@ -7,8 +7,10 @@ export const siteConfig = {
   author: 'Billy Kan',
 } as const;
 
+export type ProfileSlug = 'administrative-operators' | 'digital-builders' | 'analysts' | 'professional-advisors' | 'team-coordinators' | 'output-creators' | 'relationship-workers';
+
 export type Profile = {
-  slug: string;
+  slug: ProfileSlug;
   letter: string;
   name: string;
   nature: string;
@@ -30,9 +32,9 @@ export const profiles: Profile[] = [
 ];
 
 export type ArticleParagraph = string | (string | { text: string; href: string })[];
-export type ArticleSection = { heading?: string; paragraphs?: ArticleParagraph[]; bullets?: string[] };
+export type ArticleSection = { heading?: string; paragraphs?: ArticleParagraph[]; bullets?: ArticleParagraph[] };
 export type ArticleSource = { title: string; url: string; date: string };
-export type Article = { slug: string; title: string; description: string; category: string; type: 'Knowledge / Advice' | 'Coaching' | 'News reflection' | 'Explainer' | 'Advice' | 'Analysis' | 'Opinion' | 'Workplace guide'; date: string; readTime: string; intro: string; sections: ArticleSection[]; related: string[]; heroImage?: { src: string; alt: string; width: number; height: number }; sources?: ArticleSource[]; sourceNote?: string };
+export type Article = { slug: string; title: string; description: string; category: string; type: 'Knowledge / Advice' | 'Coaching' | 'News reflection' | 'Explainer' | 'Advice' | 'Analysis' | 'Opinion' | 'Workplace guide'; date: string; readTime: string; intro: ArticleParagraph; profiles: ProfileSlug[]; sections: ArticleSection[]; related: string[]; heroImage?: { src: string; alt: string; width: number; height: number }; sources?: ArticleSource[]; sourceNote?: string };
 
 export const categories = [
   { name: 'AI and Workplace Change', slug: 'ai-and-workplace-change', description: 'How AI changes tasks, roles, workflows, and expectations at work.' },
@@ -45,6 +47,7 @@ export const categories = [
 export const articles: Article[] = [
 {
   "slug": "where-does-ai-saved-time-go",
+  profiles: ["output-creators"],
   "title": "AI Saves Time at Work. Who Decides What Happens Next?",
   "description": "Faster AI drafts can lead to better work or simply more work. Agree how to use the capacity gained before raising workload expectations.",
   "category": "AI and Workplace Change",
@@ -145,7 +148,11 @@ export const articles: Article[] = [
             "text": "ADAPTOR AI-Era SWOT",
             "href": "/framework/"
           },
-          ". Faster drafting may expose part of an Output Creator’s work. Taking greater responsibility for customer fit creates an opportunity to develop Relationship Worker skills. A short-term goal could be to demonstrate that contribution through the trial, then use the results to discuss how your role could develop."
+          ". Faster drafting may expose part of an ",
+          { "text": "Output Creator", "href": "/profiles/output-creators/" },
+          "’s work. Taking greater responsibility for customer fit creates an opportunity to develop ",
+          { "text": "Relationship Worker", "href": "/profiles/relationship-workers/" },
+          " skills. A short-term goal could be to demonstrate that contribution through the trial, then use the results to discuss how your role could develop."
         ],
         "You may have limited influence over the final allocation of time. A practical proposal gives your manager an option to assess while expectations are still being discussed."
       ]
@@ -176,6 +183,7 @@ export const articles: Article[] = [
 
 {
   "slug": "can-you-use-ai-tool-at-work",
+  profiles: ["administrative-operators"],
   "title": "Can You Use That AI Tool at Work? Start With the Task",
   "description": "Using AI at work? Check the task and company guidance, judge when an unapproved tool is suitable, and validate automation before it reaches critical data.",
   "category": "AI Policy, Risk and Workplace Culture",
@@ -244,7 +252,7 @@ export const articles: Article[] = [
       "heading": "Define the task before you configure the tool",
       "paragraphs": [
         "Make the required input, the work to be done and the expected output clear. For a chatbot, put those requirements into the prompt. For an automation, specify them in the workflow design.",
-        "As a hypothetical example, a project coordinator could use an approved chatbot to extract actions from meeting notes. Her prompt might say: “From these permitted notes, produce an action list with owners and due dates. Mark missing details as unknown. Do not infer commitments that the notes do not contain.”",
+        ["As a hypothetical example, a project coordinator could use an approved chatbot to extract actions from meeting notes. Her prompt might say: “From these permitted notes, produce an action list with owners and due dates. Mark missing details as unknown. Do not infer commitments that the notes do not contain.” This action-tracking task falls within the ", {"text": "Administrative Operators", "href": "/profiles/administrative-operators/"}, " Work Profile."],
         "She would check the draft against the notes before sharing it. Client launch plans could require different data permissions, even within the same approved tool. Removing names would still leave commercially sensitive details.",
         "Decide where the workflow ends. Producing a draft list leaves the coordinator in control of what enters the project system. Automatically updating records or emailing colleagues needs a separate assessment of those actions."
       ]
@@ -325,6 +333,7 @@ export const articles: Article[] = [
 
 {
   "slug": "ai-training-time-practise-work",
+  profiles: ["team-coordinators"],
   "title": "AI Training Needs Time to Practise at Work",
   "description": "A global workforce survey finds uneven access to learning resources. Here is a practical way to build AI practice into work and make human judgement visible.",
   "category": "Human Value, Skills and Leadership",
@@ -427,6 +436,7 @@ export const articles: Article[] = [
 
 {
   "slug": "mckinsey-ai-jobs-career-transition-2026",
+  profiles: ["relationship-workers", "analysts"],
   "title": "AI May Create New Jobs. Can You Reach Them?",
   "description": "McKinsey’s new workforce report raises a practical question: how can you assess AI’s impact on your work and use it to help build a route into a new role?",
   "category": "AI Job News and Current Affairs",
@@ -468,8 +478,8 @@ export const articles: Article[] = [
       "heading": "My reading: use AI to help build the next role",
       "paragraphs": [
         "If AI is taking over part of your work, ask what that changes about the contribution people need from you. Then ask how the same technology could help you make that contribution. Combining AI with your knowledge of the work, judgement and relationships may open a route you would otherwise overlook.",
-        "Imagine a customer-support adviser in a team introducing an AI assistant for routine enquiries. Fewer straightforward cases reach her, while colleagues spend more time resolving exceptions and correcting poor handoffs. She knows the product and can recognise when a technically correct answer will still leave a customer confused.",
-        "With her manager’s agreement, she uses an approved AI tool to group anonymised escalations and suggest recurring failure patterns. She checks the original cases, talks to colleagues and tests revised handoff rules. Over a month, the team compares repeat contacts, missed escalations and total handling time, including her checking work.",
+        ["Imagine a customer-support adviser in a team introducing an AI assistant for routine enquiries. Fewer straightforward cases reach her, while colleagues spend more time resolving exceptions and correcting poor handoffs. She knows the product and can recognise when a technically correct answer will still leave a customer confused. Her customer-facing work fits the ", {"text": "Relationship Workers", "href": "/profiles/relationship-workers/"}, " Work Profile."],
+        ["With her manager’s agreement, she uses an approved AI tool to group anonymised escalations and suggest recurring failure patterns. She checks the original cases, talks to colleagues and tests revised handoff rules. Over a month, the team compares repeat contacts, missed escalations and total handling time, including her checking work. Investigating those patterns and testing changes develops the ", {"text": "Analysts", "href": "/profiles/analysts/"}, " part of her work profile mix."],
         "This hypothetical adviser is building evidence for a move into service-quality work: understanding customer problems, evaluating AI responses and improving the process. AI helps her examine more cases; her judgement guides what to change. The opportunity depends on whether her employer needs and supports that work. A successful trial would give her something concrete to discuss, rather than guarantee a new position.",
         "Employers can make these transitions more workable by giving staff time, access to approved tools and opportunities to learn on real assignments. Workers need a route into the changing work as well as encouragement to adapt."
       ]
@@ -520,6 +530,7 @@ export const articles: Article[] = [
 
   {
     slug: 'how-ai-is-changing-everyday-work',
+  profiles: [],
     title: 'How AI Is Changing Everyday Work: A 20-Minute Task Audit',
     description: 'Worried about AI and your job? Map one weekly task, check what is changing, and decide what to watch next.',
     category: 'AI and Workplace Change',
@@ -578,6 +589,7 @@ export const articles: Article[] = [
   },
   {
     slug: 'will-ai-replace-my-job',
+  profiles: [],
     title: 'Will AI Replace My Job? Questions Worth Asking First',
     description: 'Worried AI could replace your job? Examine demand for your work, separate evidence from assumptions, and choose a practical next step.',
     category: 'Jobs and Careers in the AI Era',
@@ -634,6 +646,7 @@ export const articles: Article[] = [
   },
   {
     slug: 'microsoft-2026-job-cuts-ai-question',
+  profiles: [],
     title: 'Microsoft’s 2026 Job Cuts and the New Demand for Human Work',
     description: 'Microsoft announced 4,800 role cuts and a plan to place 6,000 experts with AI customers. My reading: roles can disappear while demand for human work shifts.',
     category: 'AI Job News and Current Affairs',
@@ -675,6 +688,7 @@ export const articles: Article[] = [
   },
   {
     slug: 'which-human-skills-become-more-valuable',
+  profiles: ["analysts"],
     title: 'Which Human Skills Become More Valuable as AI Spreads?',
     description: 'Which human skills become more valuable with AI? A practical example shows how question-framing, evidence-checking and collaboration turn AI output into useful work.',
     category: 'Human Value, Skills and Leadership',
@@ -717,6 +731,7 @@ export const articles: Article[] = [
   },
   {
     slug: 'how-employers-should-talk-about-ai',
+  profiles: ["team-coordinators"],
     title: 'How Should Employers Talk to Staff About AI?',
     description: 'Introducing AI at work? Use a before–during–after communication plan for a small pilot, including staff questions, feedback and a clear decision point.',
     category: 'AI Policy, Risk and Workplace Culture',
@@ -729,7 +744,7 @@ export const articles: Article[] = [
       {
         heading: 'Before: explain the pilot in plain terms',
         paragraphs: [
-          'Imagine a support team testing an approved tool that drafts replies to routine customer queries. Tell staff which queries are included, who checks the drafts, what information the tool can use, and how long the pilot will run. Say what you will measure: response time, corrections, customer feedback and the team’s workload.',
+          ["Imagine a support team testing an approved tool that drafts replies to routine customer queries. Tell staff which queries are included, who checks the drafts, what information the tool can use, and how long the pilot will run. Say what you will measure: response time, corrections, customer feedback and the team’s workload. For ", {"text": "Team Coordinators", "href": "/profiles/team-coordinators/"}, ", setting responsibilities and acting on staff feedback are central parts of leading this change."],
           'Be equally clear about decisions. Has a staffing change been proposed, or is the pilot only testing a workflow? Say what is true today and when you will revisit it. Do not promise that roles will never change. If a change affecting roles is already on the table, discuss it openly through the appropriate employee and representative channels.',
           'Acas advises employers to discuss AI early with staff and representatives. Its consultation guidance also stresses that the issue should be clearly defined and raised before a final decision is made.',
         ],
@@ -763,3 +778,8 @@ export function getProfile(slug: string) { return profiles.find((profile) => pro
 export function getArticle(slug: string) { return articles.find((article) => article.slug === slug); }
 export function getCategory(slug: string) { return categories.find((category) => category.slug === slug); }
 export function formatDate(date: string) { return new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(`${date}T12:00:00Z`)); }
+
+export function getArticlesForProfile(slug: ProfileSlug) {
+  return articles.filter((article) => article.profiles.includes(slug))
+    .sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title));
+}
