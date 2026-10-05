@@ -44,6 +44,137 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "where-does-ai-saved-time-go",
+  "title": "AI Saves Time at Work. Who Decides What Happens Next?",
+  "description": "Faster AI drafts can lead to better work or simply more work. Agree how to use the capacity gained before raising workload expectations.",
+  "category": "AI and Workplace Change",
+  "type": "Opinion",
+  "date": "2026-10-05",
+  "readTime": "6 min read",
+  "heroImage": {
+    "src": "/employers-ai-conversation.webp",
+    "alt": "Colleagues discussing a change to their work beside a whiteboard",
+    "width": 1594,
+    "height": 986
+  },
+  "intro": "When AI helps a team finish work sooner, the next question is what to do with the time gained. I think that deserves a conversation before workload targets rise. A faster task could make room for work that has been neglected, and the people doing it should have a chance to make that case.",
+  "sections": [
+    {
+      "heading": "First, establish what time has actually been saved",
+      "paragraphs": [
+        "Finishing an AI-generated draft quickly feels like progress. But the useful saving becomes clear only after the draft has been checked and the work has reached the person who needs it. Extra corrections or a slow approval can absorb much of the time gained.",
+        [
+          "That gap between faster tasks and wider improvement appears in Gallup’s ",
+          {
+            "text": "workplace productivity overview",
+            "href": "https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx"
+          },
+          ", updated on 30 September. Its discussion of US employee surveys describes positive productivity perceptions, with benefits concentrated in individual tasks. Those perceptions are a useful starting point for investigating the complete process. They leave the amount of capacity available for other work to be established."
+        ],
+        "Once a team has evidence of a saving, it can consider where that capacity would do the most good. The choice becomes clearer when there is a specific problem to solve."
+      ]
+    },
+    {
+      "heading": "Use the saving to address a problem the team already has",
+      "paragraphs": [
+        "As a hypothetical example, imagine a sales team using an approved AI tool to draft proposals from permitted product information and customer requirements. Staff verify the claims and pricing before sending anything to the customer. After allowing for those checks, they find the process takes less time.",
+        "The manager sees an opportunity to produce more proposals each week. The salespeople see another possibility. Several previous proposals needed major revisions because the team had misunderstood the customer’s implementation constraints.",
+        "They suggest using some of the saved drafting time for a customer conversation before finalising the recommendation. The salesperson would check what could make implementation difficult and adjust the offer accordingly. AI would handle more of the writing, freeing time to improve the fit of the proposal.",
+        "That gives the manager a concrete alternative to consider. The team is connecting the capacity gained to a problem that already costs it time and weakens its work."
+      ]
+    },
+    {
+      "heading": "Make room for the proposed change to work",
+      "paragraphs": [
+        "The customer conversation will only help if the salesperson can act on what they learn. They need access to the customer and permission to adjust the recommendation. If every adjustment gets stuck in the existing approval process, the proposal may still take just as long to complete.",
+        [
+          "Changes of this kind feature in a ",
+          {
+            "text": "BCG study published on 24 September",
+            "href": "https://www.bcg.com/publications/2026/companies-use-ai-to-redesign-work"
+          },
+          ". Its qualitative interviews with 50 selected companies across ten countries describe shifts in responsibilities and decision-making as firms develop their use of AI. These practices offer ideas to examine in your own workplace, with the needs of the work guiding which changes make sense."
+        ],
+        "For the sales team, the next conversation therefore needs to cover how recommendations can change as well as how staff spend their time. Someone must be responsible for resolving that question before the trial starts."
+      ]
+    },
+    {
+      "heading": "Compare that proposal with the case for more output",
+      "paragraphs": [
+        "Even with those arrangements in place, the manager may prefer to raise the proposal target. Customers could be waiting, and reducing the backlog might bring a greater benefit than spending longer on each offer. Budget constraints may also limit the options.",
+        "I would support a higher target when repeated results show the complete process is faster, quality remains acceptable and the workload is sustainable. Fewer customer delays would strengthen that case. If proposals keep returning for major revision, the team has a stronger reason to investigate customer fit first.",
+        "Before choosing either approach, the manager also needs to consider what the new pace would mean for the people involved."
+      ]
+    },
+    {
+      "heading": "Keep the pace sustainable for people",
+      "paragraphs": [
+        "AI can produce drafts far faster than people can assess them. In the sales example, a sharp rise in proposals could leave the same staff checking more claims and making more customer decisions each day. If every proposal depends on their judgement, pressure builds at that point in the process.",
+        "Shorter deadlines can spread that pressure to colleagues too. The person approving prices may receive more requests marked urgent, even though their own work takes just as long. A saving in one task can become a faster pace of work for everyone around it.",
+        "I think managers and leaders should leave room for careful decisions and unexpected problems when setting targets. Some of the gain could reduce overtime or give staff breathing space. Directing it all towards more and faster deliverables risks making the human workload harder to sustain.",
+        "The trial should therefore test whether people can maintain the proposed pace alongside the improvement in results."
+      ]
+    },
+    {
+      "heading": "Agree a trial before changing expectations",
+      "paragraphs": [
+        "For this sales team, a limited trial could keep the existing volume target while staff test the additional customer conversations. They would record the time spent on the complete proposal and the substantial revisions needed after customer feedback. They would also check whether reviews spill into overtime or leave colleagues waiting. At the review, the manager could judge both the value of the conversations and the pressure on staff.",
+        [
+          "Planning the use of productivity gains, then revisiting that plan against verified results, is also part of the Conference Board’s ",
+          {
+            "text": "24 September briefing on agentic AI and work redesign",
+            "href": "https://www.conference-board.org/publications/framework-for-agentic-AI-and-work-redesign"
+          },
+          ". The briefing draws on executive interviews and other research sessions. Although it concerns AI agents, I would apply the same discipline to ordinary workplace AI tools."
+        ],
+        "If AI is saving time in your own work, bring a similarly specific proposal to your next workload conversation:"
+      ],
+      "bullets": [
+        "Explain the saving across the complete task, including checking and rework. Where you only have an estimate, identify what still needs testing.",
+        "Name the problem you would address with that capacity and the result you expect. Explain why it is worth considering alongside greater output.",
+        "Agree a trial period and the workload expectations that apply during it. Record what you will measure and who will review the results.",
+        "Check the impact on people who review or approve the work. Discuss workload with them and watch for overtime or rushed checks. Agree when to adjust the pace if the work becomes difficult to sustain."
+      ]
+    },
+    {
+      "paragraphs": [
+        "The trial also gives you something useful for a conversation about your role. In the sales example, staff would have evidence of how their customer judgement improves AI-supported proposals.",
+        [
+          "You can carry that evidence into your ",
+          {
+            "text": "ADAPTOR AI-Era SWOT",
+            "href": "/framework/"
+          },
+          ". Faster drafting may expose part of an Output Creator’s work. Taking greater responsibility for customer fit creates an opportunity to develop Relationship Worker skills. A short-term goal could be to demonstrate that contribution through the trial, then use the results to discuss how your role could develop."
+        ],
+        "You may have limited influence over the final allocation of time. A practical proposal gives your manager an option to assess while expectations are still being discussed."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gallup, AI and Workplace Productivity: What Leaders Need to Know",
+      "url": "https://www.gallup.com/workplace/713063/ai-workplace-productivity.aspx",
+      "date": "27 July 2026; updated 30 September 2026"
+    },
+    {
+      "title": "BCG, Five Ways That AI Front-Runners Change How Work Gets Done",
+      "url": "https://www.bcg.com/publications/2026/companies-use-ai-to-redesign-work",
+      "date": "24 September 2026"
+    },
+    {
+      "title": "The Conference Board, A Framework for Agentic AI and Work Redesign",
+      "url": "https://www.conference-board.org/publications/framework-for-agentic-AI-and-work-redesign",
+      "date": "24 September 2026"
+    }
+  ],
+  "related": [
+    "how-ai-is-changing-everyday-work",
+    "which-human-skills-become-more-valuable"
+  ]
+},
+
+{
   "slug": "can-you-use-ai-tool-at-work",
   "title": "Can You Use That AI Tool at Work? Start With the Task",
   "description": "Using AI at work? Check the task and company guidance, judge when an unapproved tool is suitable, and validate automation before it reaches critical data.",
