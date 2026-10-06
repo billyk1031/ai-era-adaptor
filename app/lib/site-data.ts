@@ -46,6 +46,136 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "show-your-value-ai-assisted-developer",
+  "title": "If AI Wrote the Code, What Did You Contribute?",
+  "description": "If AI helped write the code, what did you contribute? Two business-logic examples show how a developer’s analysis improves an AI-built order-allocation tool.",
+  "category": "Jobs and Careers in the AI Era",
+  "type": "Knowledge / Advice",
+  "date": "2026-10-06",
+  "readTime": "6 min read",
+  "profiles": [
+    "digital-builders",
+    "analysts"
+  ],
+  "heroImage": {
+    "src": "/everyday-work-audit.webp",
+    "alt": "A professional mapping a work process beside a laptop",
+    "width": 1594,
+    "height": 986
+  },
+  "intro": "In a developer job interview, you describe a project built with AI assistance. The interviewer asks: “If AI helped write the code, what did you contribute?” A useful answer shows where your understanding changed what the AI produced—and how you checked that the change helped.",
+  "sections": [
+    {
+      "heading": "The code needs a business decision to implement",
+      "paragraphs": [
+        [
+          "Imagine a developer discussing an order-allocation tool in an interview. In this hypothetical project, a distributor has more orders than stock and wants a system to recommend which orders it can fulfil. The developer uses an approved coding agent to build the prototype. For ",
+          {
+            "text": "Digital Builders",
+            "href": "/profiles/digital-builders/"
+          },
+          ", a capable agent can handle much of the implementation, including standard checks and tests."
+        ],
+        "The harder work in this project lies in two decisions: which stock is genuinely available, and whose order takes priority when there is not enough. The records contain quantities, dates and customer details. The rules people use to make those decisions are scattered across departments, with some still disputed.",
+        "The developer investigates those rules with the people responsible for them. Her interview answer can show how that analysis shaped the system the agent built."
+      ]
+    },
+    {
+      "heading": "1. Work out which stock the business can actually promise",
+      "paragraphs": [
+        "The warehouse system shows 120 units on hand. Sales expects the tool to treat them as available. Finance says 30 belong to a supplier under a consignment arrangement. Service has set aside another 20 for warranty replacements. Neither condition appears in the quantity field.",
+        "The coding agent can help trace stock movements and identify conflicting records. But the developer still needs to establish what these entries mean for this business. She examines the supplier arrangement with purchasing and asks service how it uses the reserve. She finds that consignment units can be sold through the normal process. The service reserve can be released only when the service manager confirms that incoming stock will cover outstanding warranty commitments.",
+        "Subtracting every reservation would unnecessarily block sales. Counting everything on hand could promise units that service needs. The developer maps the stock states and asks the responsible managers to agree when each can be used. She then gives the agent those rules to implement, including the approval needed to release the service reserve.",
+        "The resulting tool shows what can be promised now and which additional units depend on a decision. To check it, she takes a past allocation case and works through it with purchasing and service. They compare the recommendation with the obligations that applied at the time.",
+        "Her contribution is the analysis that makes “available stock” meaningful. More elaborate code would not resolve the disagreement about what the business was entitled or willing to promise."
+      ]
+    },
+    {
+      "heading": "2. Resolve priorities that a simple ranking would hide",
+      "paragraphs": [
+        "Now two customers want the remaining stock. One has an older order and a larger account. The other needs a smaller quantity to keep a production line running. Sales favours the larger account; operations points to the disruption the smaller customer would face. A first-come-first-served rule and a revenue ranking would produce different answers.",
+        "The developer looks at how previous shortages were handled and asks what commitments were made to each customer. She discovers that the larger account’s order can be split across two deliveries without missing its agreed deadline. The smaller customer has little usable stock left, but the urgency entered by sales has not been confirmed with the customer.",
+        "She uses the agent to compare possible allocations against those facts. One option would supply the smaller order now and split the larger delivery. That option depends on confirming the smaller customer’s need and the replenishment date. She brings the trade-off to the commercial and operations leads, who own the decision.",
+        "Once they agree the approach, she translates it into system behaviour. The tool checks whether a split delivery can meet an existing commitment. It flags unconfirmed urgency and shows the consequences of each option. When commitments conflict, it asks for an authorised decision rather than silently choosing a customer.",
+        "She checks the prototype against historical shortage cases with the people who handled them. A disagreement becomes a question about the rule or the evidence behind it. Passing tests against an invented ranking would have told her very little about whether the recommendation was acceptable.",
+        "Here, the developer’s value is in finding the hidden commitments and making a disputed trade-off visible. A coding agent could propose the same options with enough context. She can explain how she obtained that context and got the business decision reflected in the implementation."
+      ]
+    },
+    {
+      "heading": "Explain how your analysis improved the AI output",
+      "paragraphs": [
+        "In the interview, the developer could say:",
+        "“The agent built the allocation prototype. I investigated why the stock figure could not be used directly and agreed release rules with purchasing and service. I also found that order age and account size missed some delivery commitments. I worked through the competing allocations with the commercial and operations leads, then used the agent to implement the agreed checks and approval points. We reviewed past shortage cases to see whether the recommendations reflected those commitments.”",
+        "That gives the interviewer two decisions to explore. The developer can show what the initial rules missed, what she learned from the business and how the revised system behaved. She can also identify the decisions that remained with managers.",
+        [
+          "There is a current hiring context for demonstrating this kind of work. In its ",
+          {
+            "text": "5 October workforce report",
+            "href": "https://newsroom.workday.com/2026-10-05-Workday-Global-Workforce-Report-AI-Is-Rewriting-Jobs-More-Than-Its-Cutting-Them"
+          },
+          ", Workday analysed requisitions from roughly 550 enterprise employers using its recruiting software. Demand for hands-on AI skills, including building tools and automating workflows, rose 51% between September 2025 and July 2026. A project like the allocation tool gives an applicant a way to demonstrate that hands-on work."
+        ]
+      ]
+    },
+    {
+      "heading": "A developer’s job can contain several kinds of work",
+      "paragraphs": [
+        [
+          "The job title in this example is developer. Building the tool is ",
+          {
+            "text": "Digital Builder",
+            "href": "/profiles/digital-builders/"
+          },
+          " work. Investigating what the stock records mean, comparing allocations and testing the evidence behind a recommendation is ",
+          {
+            "text": "Analyst",
+            "href": "/profiles/analysts/"
+          },
+          " work. Both contribute to the result."
+        ],
+        "That mix gives the developer a more useful starting point for a career plan. She may be comfortable implementing agreed rules but less confident investigating conflicting requirements. Her next goal could be to lead the analysis of one allocation rule, with an experienced colleague reviewing her findings before implementation. If she already does that analysis well, she can make it visible through the decisions it improves.",
+        [
+          "The ",
+          {
+            "text": "ADAPTOR framework",
+            "href": "/framework/"
+          },
+          " helps you uncover the Work Profile mix inside your own job title. Use that mix to build your personal SWOT, choose what you need to develop and turn it into a goal and action. In this case, learning another coding tool would address only part of the work."
+        ]
+      ]
+    },
+    {
+      "heading": "Look for the business question behind your code",
+      "paragraphs": [
+        "Before your next interview, revisit an AI-assisted project where the requirements were incomplete or contested. Find a decision you helped clarify. What did you have to learn from users, records or other teams before the agent could build the right behaviour?",
+        "Compare the initial approach with the agreed result. Show how your analysis changed a rule, a recommendation or a decision that needed approval. Use a permitted example to explain the consequence, and describe how you checked it with the people responsible.",
+        "If your contribution so far has mainly been accepting generated code, look for an unresolved business question in the project. Investigate it with a colleague who knows the work. Then use the agent to explore options and implement the decision once it has been agreed.",
+        [
+          "The ",
+          {
+            "text": "Digital Builders walkthrough",
+            "href": "/profiles/digital-builders/"
+          },
+          " explores system understanding and delivery ownership as areas to develop. An interview example becomes stronger when you can show how that understanding helped AI produce something the business could use."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Workday, Global Workforce Report: AI Is Rewriting Jobs More Than It’s Cutting Them",
+      "url": "https://newsroom.workday.com/2026-10-05-Workday-Global-Workforce-Report-AI-Is-Rewriting-Jobs-More-Than-Its-Cutting-Them",
+      "date": "5 October 2026"
+    }
+  ],
+  "related": [
+    "will-ai-replace-my-job",
+    "which-human-skills-become-more-valuable",
+    "ai-training-time-practise-work"
+  ]
+},
+
+{
   "slug": "where-does-ai-saved-time-go",
   profiles: ["output-creators"],
   "title": "AI Saves Time at Work. Who Decides What Happens Next?",
