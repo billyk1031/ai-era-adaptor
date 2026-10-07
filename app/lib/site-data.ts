@@ -154,7 +154,13 @@ export const articles: Article[] = [
   "related": [
     "will-ai-replace-my-job",
     "which-human-skills-become-more-valuable"
-  ]
+  ],
+  "heroImage": {
+    "src": "/blog/advisor-client-question-context-v2.webp",
+    "alt": "An advisor and client clarify a question together over a blank page, with a laptop beside them.",
+    "width": 1584,
+    "height": 993
+  }
 },
 
 {
