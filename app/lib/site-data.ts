@@ -46,6 +46,118 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-professional-advice-client-value",
+  "title": "AI and Professional Advice: What Are Clients Paying For Now?",
+  "description": "Thomson Reuters’ latest analysis raises a question for advisors: when AI makes routine answers cheaper, how does your work improve a client’s decision?",
+  "category": "AI Job News and Current Affairs",
+  "type": "News reflection",
+  "date": "2026-10-07",
+  "readTime": "4 min read",
+  "profiles": [
+    "professional-advisors"
+  ],
+  "intro": [
+    "On 2 October 2026, the Thomson Reuters Institute published ",
+    {
+      "text": "an analysis of AI and the value of tax advice",
+      "href": "https://www.thomsonreuters.com/en/institute/articles/what-are-you-actually-charging-for"
+    },
+    ". It argues that firms need to reconsider what clients are paying for as routine preparation becomes automated. I think the question reaches beyond accounting: if a client can get a plausible answer from AI, what does involving you change?"
+  ],
+  "sections": [
+    {
+      "heading": "Clients are asking for better work from AI",
+      "paragraphs": [
+        [
+          "The analysis draws on Thomson Reuters’ ",
+          {
+            "text": "Future of Professionals Report 2026",
+            "href": "https://www.thomsonreuters.com/en/institute/future-of-professionals-2026/report"
+          },
+          ", released on 22 June. Its global survey covered 1,816 professionals across law, tax, audit, accounting, compliance, risk and global trade, in 62 countries. Fieldwork took place in March and April."
+        ],
+        "The report says 78% of corporate clients consider AI-enabled quality improvements from professional service providers very important or essential. Only 6% say most or all of their providers deliver those improvements.",
+        "The October article applies that concern to tax firms and argues for more proactive advice and pricing that reflects judgement. While Thomson Reuters’ view may be influenced by its commercial interest in selling professional AI products, the clients’ expectations are still worth taking seriously."
+      ]
+    },
+    {
+      "heading": "My reading: a quicker answer changes the starting point",
+      "paragraphs": [
+        "A client who arrives with an AI-generated explanation may need less time spent on the basics. They may ask you to assess a proposed course of action, resolve an uncertainty or help them make it work. That changes the service they are likely to value.",
+        "AI can produce plans, options and answers quickly, but their usefulness depends on the questions asked and the context provided. Clients may lack the experience, knowledge or time to give AI the input it needs.",
+        [
+          "That gives ",
+          {
+            "text": "Professional Advisors",
+            "href": "/profiles/professional-advisors/"
+          },
+          " an important role in shaping the question. What is the client trying to achieve? Which circumstances would change the answer? An advisor can help establish that context before AI begins producing recommendations."
+        ],
+        "I would look for value across that whole process: helping the client ask a useful question, providing the relevant context, then assessing and applying the answer. Each contribution can improve the decision the client makes."
+      ]
+    },
+    {
+      "heading": "What that could look like in a client decision",
+      "paragraphs": [
+        "As a hypothetical example, imagine an operations consultant advising a small retailer. The client has asked AI how to launch next-day delivery and received a detailed plan. The consultant starts by asking: “What do customers need from delivery, and which promises can the business reliably keep?”",
+        "Conversations with customers and warehouse staff reveal that predictable delivery dates matter most. The carrier also collects only in the morning. With this context, the consultant uses an approved AI tool to compare a limited next-day service with a dependable two-day offer.",
+        "The client chooses to trial the two-day offer. They agree to check missed delivery promises, complaints and warehouse overtime after two weeks. Asking a better question gave the AI work a clearer purpose and helped the client choose a service they could test."
+      ]
+    },
+    {
+      "heading": "There is still a place for routine services",
+      "paragraphs": [
+        "Some clients need a straightforward task completed accurately at a fair price. Efficient routine work can remain a useful service, and firms may use AI to serve more clients. Others need substantial help with a difficult decision. Both offers need clear expectations about quality and responsibility.",
+        [
+          "For anyone worried about falling demand, ",
+          {
+            "text": "Will AI Replace My Job?",
+            "href": "/blog/will-ai-replace-my-job/"
+          },
+          " offers questions for checking what has actually changed. The same inquiry applies to a client relationship."
+        ]
+      ]
+    },
+    {
+      "heading": "Bring one real decision into your next client conversation",
+      "paragraphs": [
+        "Choose a recent assignment where the client already had an AI answer, or could reasonably have obtained one. Ask which part they could handle themselves and where they needed your help. Consider whether you helped frame the question, supplied missing context or improved how the answer was used. Discuss what that changed for the client.",
+        "In the retailer example, the consultant helped the client examine what customers needed before committing to a faster service. That explains her contribution more clearly than saying that she used AI to prepare a plan.",
+        [
+          "If those conversations suggest your service needs to change, the ",
+          {
+            "text": "Professional Advisors walkthrough",
+            "href": "/profiles/professional-advisors/"
+          },
+          " connects client self-service to a personal SWOT, a development goal and a first action. Start with the client decision you can improve, then work out what you need to learn or change to do it well."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Thomson Reuters Institute, If AI can do the work, then what are you actually charging for?",
+      "url": "https://www.thomsonreuters.com/en/institute/articles/what-are-you-actually-charging-for",
+      "date": "2 October 2026"
+    },
+    {
+      "title": "Thomson Reuters, Future of Professionals Report 2026",
+      "url": "https://www.thomsonreuters.com/en/institute/future-of-professionals-2026/report",
+      "date": "22 June 2026"
+    },
+    {
+      "title": "Thomson Reuters, Future of Professionals report release announcement",
+      "url": "https://www.thomsonreuters.com/en/press-releases/2026/june/ai-is-ready-but-firms-are-not-how-falling-behind-on-ai-implementation-is-costing-clients-and-talent",
+      "date": "22 June 2026"
+    }
+  ],
+  "related": [
+    "will-ai-replace-my-job",
+    "which-human-skills-become-more-valuable"
+  ]
+},
+
+{
   "slug": "show-your-value-ai-assisted-developer",
   "title": "If AI Wrote the Code, What Did You Contribute?",
   "description": "If AI helped write the code, what did you contribute? Two business-logic examples show how a developer’s analysis improves an AI-built order-allocation tool.",
