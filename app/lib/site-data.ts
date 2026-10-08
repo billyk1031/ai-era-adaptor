@@ -46,6 +46,109 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "when-ai-makes-work-more-complex",
+  "title": "What to Do When AI Makes Your Work More Complex",
+  "description": "AI can speed up a task while making the work around it harder. Explore what has changed, find where you get stuck and choose a manageable next step.",
+  "category": "Human Value, Skills and Leadership",
+  "type": "Coaching",
+  "date": "2026-10-08",
+  "readTime": "4 min read",
+  "profiles": [],
+  "intro": "AI helps you finish a task faster, yet the working day feels harder. There may be more output to check, more decisions to make or more difficult cases reaching you. Before deciding you need another AI course, take one piece of work and ask what has become more demanding.",
+  "sections": [
+    {
+      "heading": "What has actually become harder?",
+      "paragraphs": [
+        [
+          "In ",
+          {
+            "text": "findings published on 1 October",
+            "href": "https://www.pwc.co.uk/press-room/press-releases/research-commentary/2026/one-in-five-uk-employees-are-now-using-ai-everyday-at-work-but-4.html"
+          },
+          ", PwC reported that 45% of UK AI users said their role had become more complex, while 44% reported a heavier workload. Its 2026 workforce survey included 2,023 UK workers. If that sounds familiar, where do you feel the extra demand?"
+        ],
+        "Choose a recent piece of AI-assisted work that took more effort than you expected. Trace it from the request to the result, including the checking, decisions and follow-up. Where did you get stuck?",
+        "Try to describe the change precisely. “The AI produces three drafts in minutes, but I now have to resolve conflicting feedback on all three” gives you something to investigate. “Everything is more complicated” leaves you with nowhere to start."
+      ]
+    },
+    {
+      "heading": "What is causing the extra effort?",
+      "paragraphs": [
+        "Look at that difficult point before judging your own ability. Has the amount of work increased? Are you dealing with harder decisions because AI handles the routine steps? Or has faster production exposed an unclear requirement or a dependency on someone else?",
+        "Write your best explanation and one observation that supports it. Then consider another explanation. A longer review might mean the AI output needs correction, or it might mean colleagues disagree about the result they want. Those problems call for different responses.",
+        "If you are unsure, choose someone close to the work and review one example together within the next week. Ask them to help you locate the extra effort. Keep the question open until you have looked at the actual work."
+      ]
+    },
+    {
+      "heading": "An example: when routine enquiries move to AI",
+      "paragraphs": [
+        [
+          "As a hypothetical example, imagine an adviser whose AI assistant now handles routine delivery enquiries. The customers reaching her increasingly need exceptions or help with broken promises. This is ",
+          {
+            "text": "Relationship Workers",
+            "href": "/profiles/relationship-workers/"
+          },
+          " work, but the question is the same: what has changed in the work reaching the person?"
+        ],
+        "One customer has waited through two delayed appliance deliveries. The AI offers a refund, but the adviser learns that the customer would accept a different model if delivery could be guaranteed. She can explore that option with AI, yet needs the warehouse to confirm availability and an authorised colleague to agree the commitment.",
+        "Her next step depends on where she gets stuck. If she struggles to uncover what the customer needs, supported practice may help. If she understands the need but cannot get a delivery decision, she needs a clearer route to the decision-maker. More training alone would leave that delay in place."
+      ]
+    },
+    {
+      "heading": "Which change would help most?",
+      "paragraphs": [
+        "Return to your own example. Complete this sentence: “This work would become more manageable if ___.” Use your answer to choose a small next step."
+      ],
+      "bullets": [
+        "If a skill gap is slowing you down, choose one judgement or technique to practise on real work, with feedback from someone experienced. Decide what you want to do better, such as spotting a weak assumption or asking a question that clarifies the request.",
+        "If missing context or unclear responsibility is the problem, ask for the information or decision you need. You might clarify which result matters before asking AI for more options, or agree who can resolve conflicting instructions.",
+        "If the volume has grown beyond what you can check properly, discuss priorities and capacity. Bring an example of the time spent reviewing and correcting the output. Explore fewer versions, a narrower scope or more time for review.",
+        "If the cause is still unclear, agree a short observation period. For the next week, note where one recurring task stalls and discuss those examples with the person who owns the workflow."
+      ]
+    },
+    {
+      "heading": "How will you know it helped?",
+      "paragraphs": [
+        "Take the proposed change to someone who can support it: your manager, a colleague or the client who sets the brief. Ask to try it on a bounded piece of work and agree a review date. You might say: “AI has made drafting faster, but reviewing several versions is taking longer. Could we agree the brief first and review one version next week?”",
+        "Choose a useful sign of improvement. That could be fewer corrections, a quicker decision or less repeated work. Check the human effort too: did you have enough time to think, and did the change reduce pressure or simply move it to a colleague?",
+        [
+          "At the review, decide whether to keep the change, adjust it or investigate a different cause. If you discover a development need, ",
+          {
+            "text": "AI Training Needs Time to Practise at Work",
+            "href": "/blog/ai-training-time-practise-work/"
+          },
+          " explores how to make room for that learning."
+        ]
+      ]
+    },
+    {
+      "heading": "Keep the feedback loop open",
+      "paragraphs": [
+        "Introducing AI can have unforeseen effects on the work around it. It is difficult to get everything right in one attempt. An ongoing loop of experiment → feedback → review → refine gives you a way to learn from what happens and improve the approach.",
+        "Managers and leaders should encourage the people involved to give feedback, including when the change creates extra work or makes a task harder. Ask what they are noticing, review it together and be open to changing the plan. Show how their feedback has shaped the next experiment."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "PwC UK, One in five UK employees are now using AI everyday at work but 44% report a heavier workload",
+      "url": "https://www.pwc.co.uk/press-room/press-releases/research-commentary/2026/one-in-five-uk-employees-are-now-using-ai-everyday-at-work-but-4.html",
+      "date": "1 October 2026"
+    }
+  ],
+  "related": [
+    "which-human-skills-become-more-valuable",
+    "ai-training-time-practise-work"
+  ],
+  "heroImage": {
+    "src": "/human-skills-value.webp",
+    "alt": "Three colleagues examining a piece of work and considering a decision together",
+    "width": 1594,
+    "height": 986
+  }
+},
+
+{
   "slug": "ai-professional-advice-client-value",
   "title": "AI and Professional Advice: What Are Clients Paying For Now?",
   "description": "Thomson Reuters’ latest analysis raises a question for advisors: when AI makes routine answers cheaper, how does your work improve a client’s decision?",
