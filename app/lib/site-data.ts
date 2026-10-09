@@ -46,6 +46,137 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "staff-challenge-ai-decisions-work",
+  "title": "Staff Should Be Able to Challenge AI Decisions at Work",
+  "description": "Staff need a way to challenge AI decisions and a regular review of how multiple AI changes affect results, workload and working life.",
+  "category": "AI Policy, Risk and Workplace Culture",
+  "type": "Opinion",
+  "date": "2026-10-09",
+  "readTime": "5 min read",
+  "profiles": [
+    "team-coordinators"
+  ],
+  "heroImage": {
+    "src": "/employers-ai-conversation.webp",
+    "alt": "Four colleagues discussing a workplace decision beside a blank whiteboard",
+    "width": 1594,
+    "height": 986
+  },
+  "intro": "I think staff should have a clear way to challenge how AI changes their work. If a tool starts allocating tasks or shaping expectations, they need to know who can reconsider the decision. They also need opportunities to discuss how AI adoption is affecting working life as a whole. Several changes can add up to pressures that a review of one tool would miss.",
+  "sections": [
+    {
+      "heading": "Influence belongs in the rollout plan",
+      "paragraphs": [
+        [
+          "In findings published on 6 October, ",
+          {
+            "text": "Gallup reports",
+            "href": "https://news.gallup.com/poll/714602/benefits-work-unevenly-distributed.aspx"
+          },
+          " that 52% of surveyed US employees had less influence over the adoption of new technology than they wanted. That question covers technology broadly. The American Job Quality Study surveyed 15,482 employees between January and March 2026."
+        ],
+        "For me, this raises a practical question for AI adoption: which decisions can staff influence while there is still time to change them? Explaining a finished plan may help people understand it. Involving them earlier gives the organisation a chance to discover whether the plan will work.",
+        [
+          "UK workplace body Acas ",
+          {
+            "text": "advises employers",
+            "href": "https://www.acas.org.uk/consulting-employees/when-to-hold-a-consultation"
+          },
+          " to consult staff and their representatives when a change is identified, before a final decision. That timing is a useful principle for an AI rollout: make the choices still open clear, and involve the people who understand their consequences."
+        ]
+      ]
+    },
+    {
+      "heading": "A sensible allocation can still miss the work",
+      "paragraphs": [
+        "As a hypothetical example, imagine a manager testing an AI assistant that proposes how to divide incoming work. It uses the team’s task records to suggest an even number of assignments for each person. The manager reviews the plan before using it.",
+        "A colleague points out that some assignments involve resolving disputed customer requirements. The records show a single task, while the work can take several conversations. Another colleague has agreed time for mentoring a new starter. Neither commitment is visible in the information supplied to the assistant.",
+        [
+          "Resolving these competing demands is part of the ",
+          {
+            "text": "Team Coordinators",
+            "href": "/profiles/team-coordinators/"
+          },
+          " Work Profile. The manager checks the examples with staff, agrees how to account for complex cases and mentoring, then supplies that context to the assistant. The team tries the revised allocation and reviews missed deadlines and overtime after a week."
+        ],
+        "The AI proposal improves because people can question its assumptions and change the information and priorities behind it. A feedback form that reaches nobody with authority would leave the same problem in place."
+      ]
+    },
+    {
+      "heading": "Managers still have to make a decision",
+      "paragraphs": [
+        "The strongest objection is speed. Managers cannot reopen every routine assignment, and colleagues may disagree about what is fair. An AI system that works well could lose much of its usefulness if every output requires a meeting.",
+        "I would keep routine decisions within agreed boundaries and give staff a clear route for material exceptions. A repeated workload problem deserves attention; a familiar allocation that fits the agreed rules can proceed. Managers should explain why they accept or reject a challenge, with employee representatives involved where appropriate.",
+        "I would support a lighter review process when experience shows that the tool handles the relevant circumstances reliably and staff can still correct an exception promptly. Repeated complaints, rushed reviews or unexplained overrides would strengthen the case for closer scrutiny."
+      ]
+    },
+    {
+      "heading": "Make the route usable during ordinary work",
+      "paragraphs": [
+        "Before introducing an AI-driven change, a manager should be able to answer these questions in plain language:"
+      ],
+      "bullets": [
+        "What can staff question? Name the decisions or effects they can raise, such as unsuitable assignments, missing context or a workload that cannot be sustained.",
+        "Who can act? Identify the person responsible for reviewing the concern and deciding whether to adjust the tool, change the process or pause the affected use.",
+        "When will they hear back? Set a response time that fits the consequences. Explain how urgent problems will be handled while the concern is being reviewed."
+      ]
+    },
+    {
+      "heading": "Keep reviewing the overall effect of AI",
+      "paragraphs": [
+        "A challenge route deals with a particular concern. The cumulative effects of AI also need attention. In the allocation example, another tool might speed up drafting while a third produces more requests for approval. Each change could look useful on its own, while their combined effect leaves the team with more decisions and less time to make them.",
+        "Alongside checks on individual changes, I would keep a regular review of AI adoption as a whole. A quarterly check could provide structure, with staff able to share observations between reviews. Ask whether AI is improving the work, where it creates extra effort, and how it affects workload, learning and relationships across teams."
+      ]
+    },
+    {
+      "heading": "Listen to staff and act on what you hear",
+      "paragraphs": [
+        [
+          "Short staff surveys can help track how those experiences change. Focus groups can explore the reasons, while informal discussions such as ",
+          {
+            "text": "Lean Coffee sessions",
+            "href": "https://leancoffee.org/"
+          },
+          " give staff room to choose the issues they want to discuss. Use an approach that fits the organisation and gives people a fair chance to contribute."
+        ],
+        "Managers should compare what staff report with results such as quality, delays and overtime. Share what has been learnt, agree any adjustments and keep listening as the work evolves. Staff should be able to raise an urgent concern when it arises, without waiting for the quarterly conversation."
+      ]
+    },
+    {
+      "heading": "Bring the conversation into your own work",
+      "paragraphs": [
+        [
+          "The ",
+          {
+            "text": "guide to talking with staff about AI",
+            "href": "/blog/how-employers-should-talk-about-ai/"
+          },
+          " can help with the wider conversation. The test here is whether a concern reaches someone who can make a decision and whether staff hear the reason for it."
+        ],
+        "If your own work is changing, bring one concrete example to your manager or representative: what the AI-assisted process missed, how it affected the work, and what you want reconsidered. Ask who will decide and when you should expect an answer.",
+        "Over time, look at both the concerns raised and the wider pattern of staff experience. Which changes helped? Where are pressures accumulating, and what needs adjusting? Staff influence becomes credible when those observations shape decisions and people hear what happened next."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gallup, AI Benefits at Work Unevenly Distributed",
+      "url": "https://news.gallup.com/poll/714602/benefits-work-unevenly-distributed.aspx",
+      "date": "6 October 2026"
+    },
+    {
+      "title": "Acas, What to consult on",
+      "url": "https://www.acas.org.uk/consulting-employees/when-to-hold-a-consultation",
+      "date": "Updated 10 August 2026"
+    }
+  ],
+  "related": [
+    "how-employers-should-talk-about-ai",
+    "where-does-ai-saved-time-go"
+  ]
+},
+
+{
   "slug": "when-ai-makes-work-more-complex",
   "title": "What to Do When AI Makes Your Work More Complex",
   "description": "AI can speed up a task while making the work around it harder. Explore what has changed, find where you get stuck and choose a manageable next step.",
