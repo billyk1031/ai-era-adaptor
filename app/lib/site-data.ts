@@ -46,6 +46,141 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-agent-workplace-context",
+  "title": "Give AI Agents the Context They Need to Do the Work",
+  "description": "AI agents can perform better with relevant, current information. See how to improve a recurring workflow and test whether the agent picks up later changes.",
+  "category": "AI and Workplace Change",
+  "type": "Knowledge / Advice",
+  "date": "2026-10-12",
+  "readTime": "5 min read",
+  "profiles": [
+    "administrative-operators"
+  ],
+  "heroImage": {
+    "src": "/everyday-work-audit.webp",
+    "alt": "A professional mapping a work process on paper beside a laptop",
+    "width": 1594,
+    "height": 986
+  },
+  "intro": "An AI agent needs a useful picture of the work to produce a useful result. That means relevant information at the start and a way to retrieve later changes. Before delegating a recurring task, decide which sources it should use and how it will keep its context current.",
+  "sections": [
+    {
+      "heading": "Make the relevant information easy to find",
+      "paragraphs": [
+        [
+          "An AI agent can work through several steps using connected tools. But access to a large workspace still leaves it with the job of finding the information that matters. A recent ",
+          {
+            "text": "WorkWorlds preprint",
+            "href": "https://arxiv.org/html/2609.23806v2"
+          },
+          ", revised on 23 September 2026, explored that difference."
+        ],
+        "Researchers tested agents on eight assignments in a simulated pharmaceutical company. Across 192 matched evaluations, selecting relevant files for the agents improved both their access to evidence and their performance compared with asking them to search the full workspace visible to an employee. Much of the difference arose before they reached enough evidence to do the task.",
+        "For a recurring workplace task, a useful starting point is to identify the sources it depends on. Include the requirements and decisions behind the task, as well as the document that triggered it. Then consider where those facts may change between runs."
+      ]
+    },
+    {
+      "heading": "Start small and keep access focused",
+      "paragraphs": [
+        [
+          "Adding everything can create a different problem. Unrelated records may lead the agent to use information that does not belong in the task. ",
+          {
+            "text": "Anthropic’s guidance on context",
+            "href": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
+          },
+          " recommends keeping it focused and expanding it in response to what testing reveals. Start with the sources you expect the task to need, observe the output and add information when a specific gap appears."
+        ],
+        [
+          "Keep permissions equally focused. Access to information and permission to act are separate decisions. An agent preparing a reminder may need to read a record, while sending the message or changing a booking requires additional authority. ",
+          {
+            "text": "OWASP’s guidance on excessive agency",
+            "href": "https://genai.owasp.org/llmrisk/llm062025-excessive-agency/"
+          },
+          " recommends limiting tools and permissions to the task, so an error cannot easily become an action you never intended to authorise."
+        ],
+        "For an initial trial, allow the agent to read the selected sources and prepare drafts. Check whether it uses relevant information and stays within that task. Add context where it improves the result, and assess any request for wider action permissions separately."
+      ]
+    },
+    {
+      "heading": "Improve the context, then repeat the same task",
+      "paragraphs": [
+        "As a hypothetical example, imagine an operations assistant setting up an approved agent to prepare supplier-visit reminders. Initially, it receives only the meeting notes, which propose a Friday visit. It drafts a Friday reminder. A separate site-readiness record says the visit must wait for a repair to be signed off, so that reminder would be premature.",
+        "The assistant improves the workflow by giving the agent approved read access to the current site-readiness record and relevant supplier messages in the shared mailbox, alongside the meeting notes. The instructions tell it to retrieve these sources before each draft, check the visit’s dependencies and show which records support its proposed date. If they conflict, it should flag the issue for a decision. It can prepare drafts, but it has no permission to send messages or change bookings.",
+        "Given the same request, the agent now finds the outstanding repair and drafts a message saying that the visit is on hold. The assistant checks this against the site record. The result improves because the agent has the relevant context available when doing the work.",
+        "Later, the site lead records the repair sign-off and the supplier confirms a Wednesday visit in the shared mailbox. On the next run, the agent retrieves the updated sources and drafts the Wednesday reminder, with the confirmation linked. This time, the assistant does not have to spot the email and feed the change into the agent manually.",
+        [
+          "For ",
+          {
+            "text": "Administrative Operators",
+            "href": "/profiles/administrative-operators/"
+          },
+          ", designing this flow builds on knowing which records people rely on and where decisions are made. That knowledge helps an agent prepare accurate follow-ups repeatedly. The team also needs to record changes in the agreed sources: a decision left in a private conversation will remain outside this workflow."
+        ]
+      ]
+    },
+    {
+      "heading": "Set up one reliable route to current context",
+      "paragraphs": [
+        "Apply the same approach to one small task your workplace permits AI to perform. Work with the person responsible for the process to agree:"
+      ],
+      "bullets": [
+        "Which sources belong in the context. Begin with the records that define the task, its requirements and current decisions. Limit access to what the task needs, and add sources when the output reveals a relevant gap.",
+        "How changes reach it. Name where updates will be recorded and when the agent should retrieve them. A recurring draft should use current records each time it runs.",
+        "What happens when information is missing or conflicts. Have the agent flag the gap for someone who can decide, before proceeding."
+      ]
+    },
+    {
+      "heading": "Test whether the revised flow works",
+      "paragraphs": [
+        "Use a few completed cases whose correct outcomes you know. Keep the request the same and compare the result with the original context and the improved context. Check whether the agent uses the relevant requirement or decision and produces a more accurate, usable draft.",
+        "Then test a later change in a safe trial: update an agreed source and run the task again without telling the agent the answer. Can it retrieve the change and apply it? In the supplier example, the check is whether the next reminder reflects the newly confirmed date.",
+        "If it misses the update, establish whether the source was inaccessible, the retrieval step was skipped or the information was misunderstood. Fix that part of the workflow and repeat the test. Managers should also check the effort needed to maintain the sources and review drafts before increasing the volume of work.",
+        [
+          "The ",
+          {
+            "text": "Conference Board’s September report on work redesign",
+            "href": "https://www.conference-board.org/publications/framework-for-agentic-AI-and-work-redesign"
+          },
+          " recommends providing the data, permissions and quality checks that agents need. Start small, inspect the output and expand the context only where it improves the result. If you need to choose a task first, the ",
+          {
+            "text": "20-minute task audit",
+            "href": "/blog/how-ai-is-changing-everyday-work/"
+          },
+          " offers a starting point."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hua and Lian, WorkWorlds: An Infrastructure for Evaluating AI Agents on Workplace Tasks (preprint, version 2)",
+      "url": "https://arxiv.org/html/2609.23806v2",
+      "date": "23 September 2026"
+    },
+    {
+      "title": "The Conference Board, A Framework for Agentic AI and Work Redesign",
+      "url": "https://www.conference-board.org/publications/framework-for-agentic-AI-and-work-redesign",
+      "date": "24 September 2026"
+    },
+    {
+      "title": "Anthropic, Effective context engineering for AI agents",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "date": "29 September 2025"
+    },
+    {
+      "title": "OWASP, LLM06:2025 Excessive Agency",
+      "url": "https://genai.owasp.org/llmrisk/llm062025-excessive-agency/",
+      "date": "2025 guidance; checked 12 October 2026"
+    }
+  ],
+  "related": [
+    "how-ai-is-changing-everyday-work",
+    "when-ai-makes-work-more-complex",
+    "where-does-ai-saved-time-go"
+  ]
+},
+
+{
   "slug": "staff-challenge-ai-decisions-work",
   "title": "Staff Should Be Able to Challenge AI Decisions at Work",
   "description": "Staff need a way to challenge AI decisions and a regular review of how multiple AI changes affect results, workload and working life.",
