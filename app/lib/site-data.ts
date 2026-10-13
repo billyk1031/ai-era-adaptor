@@ -46,6 +46,119 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "which-ai-skill-learn-next-role",
+  "title": "Which AI Skill Should You Learn for Your Next Role?",
+  "description": "Choose an AI skill by making something useful: a side-hustle deliverable or a solution to a personal problem. Use the project to decide what to learn next.",
+  "category": "Jobs and Careers in the AI Era",
+  "type": "Coaching",
+  "date": "2026-10-13",
+  "readTime": "5 min read",
+  "profiles": [
+    "output-creators"
+  ],
+  "heroImage": {
+    "src": "/job-risk-reflection.webp",
+    "alt": "A professional holding a notebook and considering two paths",
+    "width": 1594,
+    "height": 987
+  },
+  "intro": "A job advert asks for “AI skills”, but gives you little detail about what that means. You could spend weeks comparing courses and still be unsure where to start. Try making something useful for a side hustle or solving a personal problem that involves similar work. A finished result will show you what you can do with AI and where you need more practice.",
+  "sections": [
+    {
+      "heading": "AI skills build on the work you want to do",
+      "paragraphs": [
+        [
+          "Revelio Labs’ ",
+          {
+            "text": "September US labour-market tracker",
+            "href": "https://www.reveliolabs.com/ai-labor-market-tracker/us/september-2026"
+          },
+          ", released on 1 October 2026, groups around 80 skills under its AI-skilled classification. These range from using ChatGPT to working with machine learning frameworks and infrastructure. Those capabilities involve different learning paths."
+        ],
+        [
+          "CompTIA’s ",
+          {
+            "text": "2 October analysis of US job postings",
+            "href": "https://www.prnewswire.com/news-releases/employer-demand-for-tech-talent-reaches-three-year-high-comptia-analysis-finds-302897245.html"
+          },
+          " counted 349,821 active postings requiring AI-related skills in September, and also reported on a job-title category for dedicated AI and machine learning occupations. An AI requirement sits within a role’s wider responsibilities. AI-assisted graphic design still calls for design ability; AI-assisted software development still calls for programming and system understanding."
+        ],
+        "Look first at the kind of work you want to do. Then consider how AI could help you produce a useful result in that field."
+      ]
+    },
+    {
+      "heading": "Choose something useful to make",
+      "paragraphs": [
+        "Job descriptions can give you a direction even when they say little about AI. A content role might involve product pages and campaign materials. An analyst role might involve comparing options and explaining a recommendation. Use those ordinary responsibilities to choose a project you can do yourself.",
+        "A side hustle gives you a reason to finish: you need a product listing, a customer FAQ or a way to keep track of orders. A personal problem works too. You might compare holiday options within a budget or build a small tool that organises information you keep losing.",
+        "Choose a project close enough to the work you want to practise. Comparing holidays can help you learn to organise evidence and check an AI-assisted recommendation. If your aim is to develop AI-assisted design skills, a poster for an event you are organising would be a better starting point.",
+        "Name the finished thing before choosing the tool. Keep the first version small enough to complete over a weekend. For an event, that might be one page explaining the offer and how to book."
+      ]
+    },
+    {
+      "heading": "A side project makes the skill concrete",
+      "paragraphs": [
+        "As a hypothetical example, imagine a marketing assistant who wants to move into a content role. She also runs occasional weekend drawing workshops. For her next workshop, she decides to make an event page, a short FAQ and two social posts using AI assistance.",
+        "She gathers the facts she already controls: who the workshop is for, what participants will try, the materials provided and the booking details. She gives an AI tool that brief and asks for two ways to present the event. One draft leads with the picture people will take home; the other emphasises the techniques they can try. Her workshop is about experimenting, and people arrive with different levels of experience. She chooses the second approach and asks the tool to develop it into a complete page.",
+        "She edits the page into her own voice and checks the dates, price and booking link. She then uses the finished page to generate the FAQ and posts, checking that they describe the same offer. If someone asks whether beginners are welcome, she can use that question to improve the page.",
+        [
+          "For an ",
+          {
+            "text": "Output Creator",
+            "href": "/profiles/output-creators/"
+          },
+          ", this project develops several connected skills: briefing AI, choosing between drafts, editing for an audience and keeping related materials consistent. She finishes with content she can use for her own event. She can also see which part took the most effort and decide what to practise next."
+        ]
+      ]
+    },
+    {
+      "heading": "Let the difficult part guide your learning",
+      "paragraphs": [
+        "As you work, notice where you get stuck. That gives you a more specific reason to choose a tutorial, a short course or another practice task."
+      ],
+      "bullets": [
+        "If the tool is unfamiliar, learn the feature you need for the next step. Follow a short tutorial and try it on your own project while it is fresh.",
+        "If the outputs are fluent but unhelpful, revisit the brief. Explain who will use the result, what they need to decide and which facts matter. Compare the next version with the first.",
+        "If you struggle to judge the result, practise the underlying craft. For a poster, compare layout and readability with good examples. For an analysis, check the sources and work through the recommendation yourself.",
+        "If the project is becoming too large, finish one useful part. A clear product listing or a working order tracker gives you something to build on. If the AI tool keeps creating more work than it saves, try a simpler approach to that part."
+      ]
+    },
+    {
+      "heading": "Review your work and show what you can do",
+      "paragraphs": [
+        "Review the output, identify what needs improving and try again. Use each attempt to become more proficient with the tools and better at judging the result.",
+        "A side project can also provide concrete evidence for your CV and interviews. Describe what you made and how you used AI. In an interview, show the finished work and explain your choices and checks. The workshop page, FAQ and posts give the marketing assistant something specific to discuss beyond saying she has “AI skills”.",
+        "Managers can offer a similar opportunity at work by giving people a small, useful task and room to improve it. A worker preparing for a move can start with a project outside work, using information and materials they are free to use.",
+        [
+          "Pick something you have been meaning to make or fix, and finish a first version this weekend. If you are working through the ",
+          {
+            "text": "ADAPTOR framework",
+            "href": "/framework/"
+          },
+          ", make that your next action. The experience will give you a concrete basis for deciding which AI skill to develop next."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Revelio Labs, AI Labor Market Tracker: September 2026 (US)",
+      "url": "https://www.reveliolabs.com/ai-labor-market-tracker/us/september-2026",
+      "date": "1 October 2026"
+    },
+    {
+      "title": "CompTIA, Employer demand for tech talent reaches three-year high",
+      "url": "https://www.prnewswire.com/news-releases/employer-demand-for-tech-talent-reaches-three-year-high-comptia-analysis-finds-302897245.html",
+      "date": "2 October 2026"
+    }
+  ],
+  "related": [
+    "ai-training-time-practise-work",
+    "show-your-value-ai-assisted-developer"
+  ]
+},
+
+{
   "slug": "ai-agent-workplace-context",
   "title": "Give AI Agents the Context They Need to Do the Work",
   "description": "AI agents can perform better with relevant, current information. See how to improve a recurring workflow and test whether the agent picks up later changes.",
