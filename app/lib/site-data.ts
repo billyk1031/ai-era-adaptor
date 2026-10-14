@@ -46,6 +46,140 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "hubspot-job-cuts-ai-strategy-work",
+  "title": "HubSpot’s Job Cuts: When a New Strategy Removes Your Role",
+  "description": "An AI business strategy can make a role redundant. A fictional HubSpot example shows how to assess the risk early and use ADAPTOR to plan your next move.",
+  "category": "AI Job News and Current Affairs",
+  "type": "News reflection",
+  "date": "2026-10-14",
+  "readTime": "6 min read",
+  "profiles": [
+    "team-coordinators"
+  ],
+  "heroImage": {
+    "src": "/microsoft-workforce-news.webp",
+    "alt": "Two colleagues discussing a piece of work across a table, with a blank page between them",
+    "width": 1594,
+    "height": 987
+  },
+  "intro": [
+    "On 6 October 2026, HubSpot ",
+    {
+      "text": "announced plans to cut about 7% of its workforce",
+      "href": "https://www.hubspot.com/company-news/company-update"
+    },
+    ", affecting nearly 660 people. It connects the change to a strategy built around delivering customer outcomes with AI. I think the important question for workers is whether their role still has a place in the business being built. A strategy can remove the need for a whole function, even when AI has not taken over every task within it."
+  ],
+  "sections": [
+    {
+      "heading": "What HubSpot announced",
+      "paragraphs": [
+        "In her message to staff, chief executive Yamini Rangan described a shift from providing software that helps customers grow to delivering outcomes for them with AI. The company plans to organise product teams around customer outcomes, reduce management layers and give teams clearer ownership.",
+        "Rangan said the cuts were not driven by AI-related efficiency gains. Her stated reason was to align the organisation with its strategy. That distinction changes how I read the announcement: the company is describing a redesign of the business and its roles.",
+        [
+          "HubSpot’s ",
+          {
+            "text": "SEC filing",
+            "href": "https://www.sec.gov/Archives/edgar/data/1404655/000119312526414965/d183135d8k.htm"
+          },
+          " records that the board authorised the plan on 1 October. It expects the role eliminations to be substantially complete by the end of the first quarter of 2027, subject to local law and consultation requirements. The announcement describes a process still being carried out."
+        ]
+      ]
+    },
+    {
+      "heading": "My reading: a role can lose its purpose in the new business",
+      "paragraphs": [
+        "Much of the discussion about AI and jobs starts with a task: can AI write this report, answer this query or build this feature? A change in business strategy can reach further. The company may stop providing a service, reorganise how it delivers work or remove a layer that existed to connect separate departments.",
+        "In those circumstances, becoming faster at the old tasks may do little to protect the role. The employer has changed the work it wants to organise and pay for. That is why I would pay attention to company strategy alongside learning how to use AI.",
+        "The response depends on timing. Before a restructure, you may have room to investigate where your work is heading and prepare alternatives. Once the business has decided to close your function, the priority may be finding your next role."
+      ]
+    },
+    {
+      "heading": "An imaginary role inside HubSpot",
+      "paragraphs": [
+        "For a fictional example inside HubSpot, imagine Sam, a cross-Hub coordination manager. His post exists to manage handoffs between separately owned product Hubs. He negotiates release priorities, gets decisions from different managers and keeps changes moving across those boundaries.",
+        "Now imagine that the new organisation brings the relevant work into one team responsible for a customer outcome. That team owns its decisions and delivery. The separate coordination function closes, and Sam’s post is removed from the structure.",
+        "Sam might have performed well. His role disappears because the organisational arrangement that required it has gone. Retraining him to carry out the same handoffs more efficiently would leave that problem unchanged."
+      ]
+    },
+    {
+      "heading": "Before the announcement: assess where your role fits",
+      "paragraphs": [
+        "Earlier in this imagined sequence, Sam notices that leaders increasingly discuss AI-delivered outcomes and teams with responsibility for the whole customer journey. He asks what those plans would mean for a post built around coordinating separate Hubs. He also looks at which responsibilities are already moving into the teams.",
+        [
+          "The ",
+          {
+            "text": "ADAPTOR framework",
+            "href": "/framework/"
+          },
+          " gives him a way to work through that question. His primary Work Profile is ",
+          {
+            "text": "Team Coordinator",
+            "href": "/profiles/team-coordinators/"
+          },
+          ": the valuable part of his work is resolving priorities and delivery conflicts. He then builds a personal AI-Era SWOT:"
+        ]
+      ],
+      "bullets": [
+        "Strength: He can bring people with competing priorities to a workable delivery decision. He has examples of commitments kept and delays avoided.",
+        "Weakness: His current role depends heavily on the company’s existing product boundaries. He has limited experience owning delivery within a single team.",
+        "Threat: Teams that own the whole customer outcome could absorb the decisions and handoffs his separate function exists to manage.",
+        "Opportunity: His coordination experience could be useful in delivery roles elsewhere, provided he can demonstrate the responsibilities those employers need."
+      ]
+    },
+    {
+      "heading": "Turn that assessment into options while you have time",
+      "paragraphs": [
+        "Sam sets a short-term goal: within a month, identify two realistic routes into delivery work beyond his current coordination function. He compares a few current vacancies with his experience and notes the responsibilities he has yet to demonstrate.",
+        "He prepares two examples of resolving a difficult delivery conflict, using information he is entitled to share. He speaks to people doing the work he is considering. If a suitable opportunity exists in his company, he explores it; he also looks externally. These actions help him test where his experience meets demand before he needs an immediate move.",
+        "His longer-term goal might be to own delivery within a product team. That would require practice in the gaps he identified, such as setting priorities and following a result through. The sequence is Profile → Personal SWOT → Goals → Action. The strategy gives him a reason to start that work now."
+      ]
+    },
+    {
+      "heading": "After the announcement: focus on the next role",
+      "paragraphs": [
+        "In this fictional case, Sam is then told that his coordination function is closing and his role is being eliminated. He checks the scope, timetable and transition support available. With the closure confirmed, he turns his effort towards moving on quickly.",
+        "His earlier preparation now has a practical use. He updates his CV around the delivery problems he has helped resolve and begins applying to suitable openings. He checks internal alternatives if they are available, while pursuing external ones in parallel. He uses career-transition support to review his target roles and applications.",
+        "He also updates his SWOT: the threat he was watching has become an immediate change in his circumstances. His short-term goal is now securing suitable paid work. That may mean an adjacent role he can do well today while he develops towards broader delivery responsibility.",
+        "For Sam, another course on AI prompting would not restore the closed function. His AI learning needs to serve the work he is moving towards. He might practise using an approved tool to analyse delivery dependencies, then show how he checks the result and uses it to support a decision.",
+        "ADAPTOR cannot protect Sam’s original role when the business no longer needs that function. By starting earlier, he has explored his options and prepared evidence of what he can offer. He faces the transition with more confidence and a clearer next step."
+      ]
+    },
+    {
+      "heading": "Check the strategy before deciding your next action",
+      "paragraphs": [
+        "Look at where your employer or clients are investing, which services they are changing and how they want work delivered. Ask whether your function still has a purpose in that direction. Then choose an action that fits what you know: investigate an uncertain change, build alternatives while time allows or begin a transition when your role is being removed.",
+        "Managers can help by explaining which functions are expected to continue, change or close, and when staff will know more. Where roles are going, give people clear information about available options and practical support for their next move. A general invitation to “learn AI” leaves the central employment question unanswered.",
+        [
+          "If you need help examining the evidence in your own situation, ",
+          {
+            "text": "Will AI Replace My Job?",
+            "href": "/blog/will-ai-replace-my-job/"
+          },
+          " offers a starting point. Use what you learn to decide where to put your effort. The plan you need before an announcement may be very different from the one you need afterwards."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "HubSpot, A message from our CEO: Important HubSpot team and business changes",
+      "url": "https://www.hubspot.com/company-news/company-update",
+      "date": "6 October 2026"
+    },
+    {
+      "title": "HubSpot, Form 8-K: restructuring plan and employee update",
+      "url": "https://www.sec.gov/Archives/edgar/data/1404655/000119312526414965/d183135d8k.htm",
+      "date": "Filed 6 October 2026; board approval 1 October 2026"
+    }
+  ],
+  "related": [
+    "microsoft-2026-job-cuts-ai-question",
+    "will-ai-replace-my-job"
+  ]
+},
+
+{
   "slug": "which-ai-skill-learn-next-role",
   "title": "Which AI Skill Should You Learn for Your Next Role?",
   "description": "Choose an AI skill by making something useful: a side-hustle deliverable or a solution to a personal problem. Use the project to decide what to learn next.",
