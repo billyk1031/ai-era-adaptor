@@ -46,6 +46,125 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-answer-learning-work",
+  "title": "AI Can Write the Answer. Who Is Learning the Work?",
+  "description": "When AI produces a polished first answer, how do people build judgement? A practical case for leaders to make reasoning and learning visible at work.",
+  "category": "Human Value, Skills and Leadership",
+  "type": "Opinion",
+  "date": "2026-10-15",
+  "readTime": "5 min read",
+  "intro": "I think leaders should judge AI-assisted development by what people can explain and decide, alongside what they deliver. A new colleague can produce a polished recommendation while still being unsure which facts would change it. If we accept the document and move straight to the next task, we may miss the chance to develop their judgement.",
+  "profiles": [
+    "professional-advisors"
+  ],
+  "heroImage": {
+    "src": "/human-skills-value.webp",
+    "alt": "Three colleagues discussing a document around a table, with a laptop and notes in front of them",
+    "width": 1594,
+    "height": 986
+  },
+  "sections": [
+    {
+      "heading": "A finished answer can hide an unfinished understanding",
+      "paragraphs": [
+        "AI can give someone a useful structure, compare options and explain unfamiliar material. That is valuable when they are learning a role. The difficulty comes when the finished output makes it hard to see which parts they understand and which parts they have accepted on trust.",
+        [
+          "The Conference Board’s ",
+          {
+            "text": "12 October report on leadership in an AI-enabled workplace",
+            "href": "https://www.conference-board.org/publications/leadership-disrupted-preparing-for-an-AI-enabled-workplace"
+          },
+          " draws on international survey findings and interviews with organisational leaders. Its public summary calls for work-based development and deliberate points where people assess AI-assisted work. I would use those moments to develop the person doing the work as well as review the result."
+        ],
+        [
+          "This question starts early in a career. The World Economic Forum’s ",
+          {
+            "text": "June 2026 report with PwC",
+            "href": "https://www.weforum.org/publications/artificial-intelligence-and-the-future-of-entry-level-work-a-framework-for-safeguarding-and-reinventing-early-career-pathways/"
+          },
+          " puts job design and talent pipelines among its priorities for entry-level work. If AI changes the tasks newcomers do, leaders need to consider how those people will gain experience."
+        ],
+        "Simply keeping every old drafting task would be a poor answer. I would keep the responsibility to investigate, recommend and learn from the consequences, while using AI to support the work."
+      ]
+    },
+    {
+      "heading": "Let the learner investigate the assumption",
+      "paragraphs": [
+        "As a hypothetical example, imagine Maya, a junior business consultant helping a client choose a supplier for a seasonal product launch. Using an approved AI tool and supplier information cleared for that use, she prepares a comparison. The draft recommends the cheaper supplier, whose quoted delivery time fits the launch date.",
+        "Her senior colleague asks: “What would have to be true for you to recommend the other supplier?” Maya points to cost and delivery time, but cannot yet explain how much uncertainty the client could accept. Instead of rewriting the recommendation, her colleague asks her to find out.",
+        "Maya speaks to the client’s operations lead and checks the offers with the suppliers. The launch date is fixed because the client has already booked a promotion. The cheaper supplier has quoted a normal lead time without reserving production capacity; the other offer includes a reserved slot. The client agrees that securing the date justifies the higher price.",
+        "Maya adds that context to the AI-assisted comparison and tests how the recommendation changes. She then explains the trade-off to her senior colleague, who reviews the advice before it goes to the client. The revised recommendation makes the capacity commitment explicit, and the client confirms the booking with the chosen supplier.",
+        [
+          "This is ",
+          {
+            "text": "Professional Advisor",
+            "href": "/profiles/professional-advisors/"
+          },
+          " work: understanding a client’s circumstances, weighing consequences and helping them act. Maya learns why the apparently cheaper answer was incomplete. AI could also compare the capacity commitments once supplied with that information. Her development comes from finding the missing context and taking part in the decision."
+        ],
+        "If the senior colleague had silently corrected the draft, the client might have received the same advice. Maya would have had much less opportunity to learn how to reach it."
+      ]
+    },
+    {
+      "heading": "Check what carries into the next piece of work",
+      "paragraphs": [
+        "Explaining a correction immediately afterwards is a start. I would also look for what the person notices in a new situation.",
+        "On Maya’s next supplier comparison, the client has a flexible launch date and a tight budget. Repeating “choose the reserved slot” would miss the point. A useful sign of progress is that she checks the client’s priorities, investigates the relevant uncertainty and explains when paying more is worthwhile. She can still use AI throughout that work.",
+        "For someone learning a role, a practical request is: “On the next task, could we review my recommendation and the assumption most likely to change it?” Bring your own view to that conversation. Use AI to explore alternatives, then explain which evidence led you to your choice."
+      ]
+    },
+    {
+      "heading": "Allow time to improve the workflow",
+      "paragraphs": [
+        "Even when AI produces a draft faster, leaders should not immediately turn the time saved into higher output targets. This is especially important early in adoption, while people are learning how to use the tool and judge its results.",
+        "People need time to review and correct AI output, understand where it helps, and improve the flow of work around it. For Maya, investigating the missing context and discussing why the recommendation changed are part of making AI useful and developing her judgement.",
+        [
+          "The earlier article on ",
+          {
+            "text": "time to practise with AI at work",
+            "href": "/blog/ai-training-time-practise-work/"
+          },
+          " explores how to make room for learning. As the workflow improves, leaders can make a better judgement about what extra output is realistic."
+        ]
+      ]
+    },
+    {
+      "heading": "Use AI to strengthen the learning",
+      "paragraphs": [
+        "AI itself can explain a recommendation, challenge an assumption or act as a tutor. I would encourage that. A learner could ask it to propose a different conclusion and identify the evidence that would support it.",
+        "The useful check comes when the facts change. Can the person recognise the change, investigate it and adapt the advice? If AI-supported learning produces that ability with less senior review, I would reduce the review time. A fluent explanation of the original answer alone would leave me wanting to see the next case.",
+        [
+          "If you are reviewing your own development, the ",
+          {
+            "text": "ADAPTOR framework",
+            "href": "/framework/"
+          },
+          " can help turn a specific gap into a goal and action. “I need to learn AI” is broad. “I need to investigate the assumptions behind an AI-assisted recommendation and defend my choice” gives you something to practise in your next piece of work."
+        ],
+        "For the next AI-assisted assignment you give or receive, agree what the learner should be able to explain or decide afterwards. Then return to it when the next case arrives. The finished document is useful; growing the person’s ability to handle the work is worth planning for too."
+      ]
+    }
+  ],
+  "related": [
+    "ai-training-time-practise-work",
+    "which-human-skills-become-more-valuable",
+    "ai-professional-advice-client-value"
+  ],
+  "sources": [
+    {
+      "title": "The Conference Board, Leadership Disrupted: Preparing for an AI-Enabled Workplace — public summary",
+      "url": "https://www.conference-board.org/publications/leadership-disrupted-preparing-for-an-AI-enabled-workplace",
+      "date": "12 October 2026"
+    },
+    {
+      "title": "World Economic Forum and PwC, Artificial Intelligence and the Future of Entry-Level Work",
+      "url": "https://www.weforum.org/publications/artificial-intelligence-and-the-future-of-entry-level-work-a-framework-for-safeguarding-and-reinventing-early-career-pathways/",
+      "date": "22 June 2026"
+    }
+  ]
+},
+
+{
   "slug": "hubspot-job-cuts-ai-strategy-work",
   "title": "HubSpot’s Job Cuts: When a New Strategy Removes Your Role",
   "description": "An AI business strategy can make a role redundant. A fictional HubSpot example shows how to assess the risk early and use ADAPTOR to plan your next move.",
