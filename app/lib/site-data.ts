@@ -46,6 +46,122 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "when-ai-goes-wrong-who-can-pause-it",
+  "title": "When AI Goes Wrong at Work, Who Can Pause It?",
+  "description": "An AI error needs a clear response. Agree who can pause the workflow, help the people affected and decide when it is ready to restart.",
+  "category": "AI Policy, Risk and Workplace Culture",
+  "type": "Knowledge / Advice",
+  "date": "2026-10-16",
+  "readTime": "4 min read",
+  "profiles": [
+    "relationship-workers"
+  ],
+  "heroImage": {
+    "src": "/employers-ai-conversation.webp",
+    "alt": "Four colleagues discussing a workplace decision beside a blank whiteboard",
+    "width": 1594,
+    "height": 986
+  },
+  "intro": "An AI agent has sent a customer a promise your team cannot keep. You report it, but the system is still sending replies while people work out who should act. Before that happens, agree who can pause the affected workflow, how the work will continue and who can authorise a restart. Those decisions belong in everyday working arrangements.",
+  "sections": [
+    {
+      "heading": "Bring responsibility close to the work",
+      "paragraphs": [
+        [
+          "In an ",
+          {
+            "text": "IBM survey announced this week",
+            "href": "https://newsroom.ibm.com/2026-10-14-ibm-study-eight-in-ten-emea-enterprises-escalate-ai-incidents-to-board-or-c-suite-as-ai-agents-test-governance"
+          },
+          ", 80% of the 3,221 executives surveyed said an AI-related incident had reached their board or senior leadership in the past year. Censuswide surveyed leaders at organisations with at least 1,000 employees across eight countries in Europe and the Middle East during September 2026."
+        ],
+        "Almost all respondents said responsibility for AI risk had been assigned at board level. Their answers about who was responsible for adverse outcomes from AI agents were much more divided. A worker dealing with a live problem needs to know who can act during their shift.",
+        [
+          "The voluntary ",
+          {
+            "text": "NIST AI Risk Management Framework Playbook",
+            "href": "https://airc.nist.gov/airmf-resources/playbook/manage/"
+          },
+          " offers a useful starting point. It calls for understood responsibilities and mechanisms for disengaging AI systems, alongside plans for response, recovery and communication. In a team, that means agreeing what to do when a specific piece of AI-assisted work becomes unreliable."
+        ]
+      ]
+    },
+    {
+      "heading": "Define the problem that would trigger a pause",
+      "paragraphs": [
+        [
+          "As a hypothetical example, imagine an AI booking agent sending appointment confirmations before the bookings are complete. A ",
+          {
+            "text": "Relationship Worker",
+            "href": "/profiles/relationship-workers/"
+          },
+          " in the service team spots the mismatch and contacts the duty manager. The manager can pause automated confirmations while the team checks the affected bookings and handles enquiries."
+        ],
+        "The trigger is specific: a confirmation sent without a matching booking. A spelling correction in an unsent draft could be handled by its reviewer. An incorrect commitment already sent to a customer needs a response that reaches beyond editing the text.",
+        "For your own workflow, name one failure that would justify intervention. Agree who can pause the affected part, who covers their absence and how to reach them. Check that the person has both the authority and the practical means to act."
+      ]
+    },
+    {
+      "heading": "Keep helping the people affected",
+      "paragraphs": [
+        "A pause needs a workable fallback. In the booking example, someone must take responsibility for incoming enquiries and for contacting customers who received incorrect confirmations. Make those responsibilities clear alongside the decision to stop the automated replies.",
+        "For any workflow, ask what will happen to work already in progress and who will help the people affected. The person who spots the error may be able to report it without having the access or authority to resolve it. Give them a clear route to someone who can.",
+        "Managers also need to check whether the fallback is manageable. If it creates rushed replies or a growing backlog, adjust capacity or the service promise while the problem is being resolved."
+      ]
+    },
+    {
+      "heading": "Agree what has to happen before restarting",
+      "paragraphs": [
+        "Name the person who can authorise a restart and agree what evidence they need. In the booking example, the team would need to see that confirmations now match completed bookings. They would also need a way to catch another mismatch after restarting.",
+        "Check the revised workflow under the conditions that caused the problem, including relevant exceptions. A changed prompt or a supplier saying the issue is fixed gives you something to test. The restart decision should depend on the result.",
+        "A limited restart with an early review may be appropriate. Agree who will monitor it, when they will review the results and what would trigger another pause. That keeps responsibility clear as the workflow returns to use."
+      ]
+    },
+    {
+      "heading": "Walk through one failure before it happens",
+      "paragraphs": [
+        "Choose one AI workflow your team already uses. Take a plausible failure into a short discussion with its owner and someone who handles the work. Agree the following in the procedure people actually consult."
+      ],
+      "bullets": [
+        "Trigger and authority: what would justify a pause, who can apply it and who covers their absence?",
+        "Continuity and recovery: how will work continue, who will identify affected people and who can approve a remedy?",
+        "Restart and review: what evidence is needed, who decides and when will the team check the result?"
+      ]
+    },
+    {
+      "paragraphs": [
+        "Try the procedure with a fictional case, without changing a live system. Ask each participant to explain their first action. If the response stalls at “ask IT” or “tell the manager”, identify the actual contact and the decision they can make. Rehearse the revised route and check whether people can reach the fallback without leaving work unattended.",
+        [
+          "If you are still deciding whether a tool is suitable for the task, start with ",
+          {
+            "text": "Can You Use That AI Tool at Work?",
+            "href": "/blog/can-you-use-ai-tool-at-work/"
+          },
+          ". For a workflow already in use, the next useful step is to make the pause and recovery route clear enough that the person who spots a problem can set it in motion."
+        ]
+      ]
+    }
+  ],
+  "related": [
+    "can-you-use-ai-tool-at-work",
+    "how-employers-should-talk-about-ai",
+    "staff-challenge-ai-decisions-work"
+  ],
+  "sources": [
+    {
+      "title": "IBM, Eight in Ten EMEA Enterprises Escalate AI Incidents to Board or C-Suite as AI Agents Test Governance",
+      "url": "https://newsroom.ibm.com/2026-10-14-ibm-study-eight-in-ten-emea-enterprises-escalate-ai-incidents-to-board-or-c-suite-as-ai-agents-test-governance",
+      "date": "15 October 2026 announcement; page dated 14 October"
+    },
+    {
+      "title": "NIST, AI Risk Management Framework Playbook — Manage 2.4 and Manage 4",
+      "url": "https://airc.nist.gov/airmf-resources/playbook/manage/",
+      "date": "accessed 16 October 2026"
+    }
+  ]
+},
+
+{
   "slug": "ai-answer-learning-work",
   "title": "AI Can Write the Answer. Who Is Learning the Work?",
   "description": "When AI produces a polished first answer, how do people build judgement? A practical case for leaders to make reasoning and learning visible at work.",
