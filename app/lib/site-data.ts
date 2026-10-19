@@ -46,6 +46,112 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "scaling-ai-agents-at-work",
+  "title": "Is Your Workflow Ready for More AI Agents?",
+  "description": "Scaling AI agents means coordinating specialised decisions as well as handling more work. Test shared constraints, decision rules and the exceptions people must resolve.",
+  "category": "AI and Workplace Change",
+  "type": "Coaching",
+  "date": "2026-10-19",
+  "readTime": "5 min read",
+  "profiles": [
+    "team-coordinators"
+  ],
+  "heroImage": {
+    "src": "/human-skills-value.webp",
+    "alt": "Three colleagues discussing how their work fits together around a table",
+    "width": 1594,
+    "height": 986
+  },
+  "intro": "More orders, more customers or more specialised work can make a single AI agent insufficient. Adding agents increases capacity, but their decisions may now affect one another. Before expanding, examine how those decisions will fit together and which trade-offs the organisation has authorised the system to make.",
+  "sections": [
+    {
+      "heading": "What are people carrying as agent use grows?",
+      "paragraphs": [
+        [
+          "In ",
+          {
+            "text": "research published on 14 October",
+            "href": "https://asana.com/inside-asana/ai-agents-flow-of-work-which-agents-you-use"
+          },
+          ", Asana reported that 46% of surveyed workers using at least two agents weekly estimated that coordinating them took more than 10% of their working time. That included switching tools, managing outputs and resolving conflicting results. Censuswide conducted the September survey among AI-using office workers and leaders in the UK and US, at companies with more than 50 employees."
+        ],
+        "Only 23% of the surveyed workers said the agents being introduced addressed the tasks and problems they most needed help with. That raises a question worth taking into your own workplace: which part of the work would another agent actually improve?",
+        "Choose one workflow where you already use several agents, or are considering adding them. Name the finished result someone needs. Then identify what is currently stopping that result from arriving sooner or working better. Another drafting agent may offer little help if the difficult part is agreeing which recommendation to act on."
+      ]
+    },
+    {
+      "heading": "What becomes harder as agents multiply?",
+      "paragraphs": [
+        "You might add agents to handle more customers, or introduce specialists because purchasing, scheduling and account management need different expertise. As their work becomes more connected, one agent’s decision can change the options available to several others.",
+        "Shared context helps them understand the situation. They also need a way to coordinate action: reserve a scarce resource, revise a plan when another agent uses it, and resolve competing objectives. More agents can generate more proposals for the same limited capacity.",
+        "A well-designed system can handle much of this automatically. For your chosen workflow, identify which interactions already have agreed rules and which still require someone to decide. Is the remaining human effort routine coordination that could be automated, or a business trade-off the system has no authority to make?"
+      ]
+    },
+    {
+      "heading": "An example: specialist agents sharing limited stock",
+      "paragraphs": [
+        "As a hypothetical example, imagine a wholesaler that initially uses one agent to help process orders. As volume and customer requirements grow, it adds agents for individual accounts and specialists for stock allocation, purchasing and delivery planning.",
+        "All use the same live records. Two account agents propose promising the remaining stock to different customers. The purchasing agent finds cheaper replenishment that would arrive after one customer’s deadline. The delivery agent can meet either urgent request using the last available priority slot. These proposals draw on current information, but they cannot all become commitments.",
+        "The workflow needs a way to turn those proposals into one feasible plan. Shared reservations can prevent stock or delivery capacity being allocated twice. A coordinating agent can compare options across the specialists and apply agreed priorities, asking them to revise proposals when resources are committed elsewhere.",
+        "The operations manager needs to agree which customers or orders take priority when capacity is short, and how much extra cost the system may authorise. Agents can then apply those rules and bring forward exceptions with feasible options. People would have to keep settling the same conflicts if those decisions were left undefined.",
+        [
+          "For a ",
+          {
+            "text": "Team Coordinator",
+            "href": "/profiles/team-coordinators/"
+          },
+          " overseeing this workflow, readiness to expand means testing whether the agents can reach a workable shared plan. More account agents could help serve more customers, but their commitments must remain within the stock, capacity and authority available."
+        ]
+      ]
+    },
+    {
+      "heading": "What would show that your workflow is ready to expand?",
+      "paragraphs": [
+        "Return to your chosen workflow. With the person responsible for its outcome, pick one interaction to observe over the next five working days, or through the next complete cycle if the work happens less often. Set the review date before you start.",
+        "Watch what happens when several agents compete for the same resource or recommend incompatible actions. Can the system resolve the conflict under agreed rules? Which cases reach a person, and what decision is missing? Include coordination effort alongside the quality and usefulness of the completed result.",
+        "For the wholesaler, a trial could replay a busy order period in a test environment. Do the agents produce a feasible allocation without overpromising? How many exceptions need a manager’s decision, and are they new trade-offs or repeated gaps in the rules? Those results help the team assess whether it can handle more accounts."
+      ]
+    },
+    {
+      "heading": "Use what you find to make one scaling decision",
+      "paragraphs": [
+        "Which conclusion fits the evidence from your workflow?"
+      ],
+      "bullets": [
+        "The agents reach useful results and resolve routine conflicts reliably. Consider a limited expansion aimed at a specific unmet need. Agree what improvement you expect, then check whether the additional volume or specialisation delivers it.",
+        "People repeatedly settle the same conflicts or reconcile incompatible plans. Identify the missing coordination mechanism, priority or authority. Test that change before increasing the number of agents or the work they handle.",
+        "You still cannot see where the effort goes. Keep the scope steady for another observed cycle. Name the missing information and who will collect it, then set a date to decide with the workflow owner."
+      ]
+    },
+    {
+      "paragraphs": [
+        "Managers should involve the people handling exceptions in the expansion decision. Check whether the system brings them clear options and enough time to judge them. Routine coordination may become automated, while a growing stream of unusual cases still puts pressure on the people authorised to decide.",
+        [
+          "Reliable access to current information is one part of this. ",
+          {
+            "text": "Give AI Agents the Context They Need to Do the Work",
+            "href": "/blog/ai-agent-workplace-context/"
+          },
+          " explores that foundation. As agent use expands, also test how their decisions fit together under pressure. Leave the review with a specific decision about what to expand or improve, who will own the change and when you will assess the result."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Asana, AI agents are in the flow of work. Whether you find value depends on which agents you use.",
+      "url": "https://asana.com/inside-asana/ai-agents-flow-of-work-which-agents-you-use",
+      "date": "14 October 2026"
+    }
+  ],
+  "related": [
+    "ai-agent-workplace-context",
+    "when-ai-makes-work-more-complex",
+    "where-does-ai-saved-time-go"
+  ]
+},
+
+{
   "slug": "when-ai-goes-wrong-who-can-pause-it",
   "title": "When AI Goes Wrong at Work, Who Can Pause It?",
   "description": "An AI error needs a clear response. Agree who can pause the workflow, help the people affected and decide when it is ready to restart.",
