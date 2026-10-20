@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
-import { SiteFooter, SiteHeader } from './components/SiteShell';
+import { SiteFooter } from './components/SiteShell';
+import { SiteHeader } from './components/SiteHeader';
 import { JsonLd } from './lib/seo';
 import { siteConfig } from './lib/site-data';
 import './globals.css';

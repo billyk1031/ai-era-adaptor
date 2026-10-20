@@ -3,22 +3,6 @@ import type { ProfileSlug } from '../lib/site-data';
 import Link from 'next/link';
 import { formatDate, profiles, siteConfig } from '../lib/site-data';
 
-export function SiteHeader() {
-  return <header className="site-header">
-    <div className="container header-inner">
-      <Link className="brand" href="/" aria-label="ADAPTOR home"><span className="brand-mark">A</span><strong>ADAPTOR</strong></Link>
-      <nav className="main-nav" aria-label="Main navigation">
-        <Link href="/framework/">The framework</Link><Link href="/examples/">People and examples</Link><Link href="/profiles/">Work profiles</Link><Link href="/blog/">AI at work</Link><Link href="/faq/">FAQ</Link><Link href="/book/" className="nav-cta">The book</Link>
-      </nav>
-      <details className="mobile-menu">
-        <summary>Menu</summary>
-        <nav aria-label="Mobile navigation">
-          <Link href="/framework/">The framework</Link><Link href="/examples/">People and examples</Link><Link href="/profiles/">Work profiles</Link><Link href="/blog/">AI at work</Link><Link href="/faq/">FAQ</Link><Link href="/book/">The book</Link>
-        </nav>
-      </details>
-    </div>
-  </header>;
-}
 export function SiteFooter() { return <footer className="site-footer"><div className="container footer-grid"><div><Link className="footer-brand" href="/"><span className="brand-mark">A</span> ADAPTOR</Link><p className="footer-note">Practical thinking for people navigating AI-era work.</p></div><div className="footer-links"><Link href="/framework/">The framework</Link><Link href="/examples/">People and examples</Link><Link href="/profiles/">Work profiles</Link><Link href="/blog/">AI at work</Link><Link href="/book/">The book</Link><Link href="/faq/">FAQ</Link><Link href="/about/">About the author</Link><a href={siteConfig.linkedinUrl} target="_blank" rel="noreferrer">LinkedIn</a><Link href="/privacy/">Privacy</Link><Link href="/disclaimer/">Disclaimer</Link></div></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} Billy Kan</span><span>Built for clearer next moves.</span></div></footer>; }
 export function Eyebrow({ children }: { children: React.ReactNode }) { return <p className="eyebrow">{children}</p>; }
 export function ArrowLink({ href, children, className = '' }: { href: string; children: React.ReactNode; className?: string }) { return <Link className={`arrow-link ${className}`} href={href}>{children}<span aria-hidden="true">→</span></Link>; }
