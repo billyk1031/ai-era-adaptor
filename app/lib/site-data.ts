@@ -46,6 +46,134 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-job-change-career-progression",
+  "title": "AI Has Changed Your Job. Has Your Career Path Kept Up?",
+  "description": "New AI responsibilities can change your role before your career path catches up. Ask what the work counts towards, what support you need and when it will be reviewed.",
+  "category": "Jobs and Careers in the AI Era",
+  "type": "Opinion",
+  "date": "2026-10-20",
+  "readTime": "5 min read",
+  "profiles": [
+    "administrative-operators"
+  ],
+  "heroImage": {
+    "src": "/employers-ai-conversation.webp",
+    "alt": "Four colleagues discussing their work beside a whiteboard",
+    "width": 1594,
+    "height": 986
+  },
+  "intro": "You used to process the requests. Now AI handles many of them, and colleagues come to you when the process needs changing. Your responsibilities have grown, but your development plan still describes the old job. I think that change deserves a career conversation while the new expectations are taking shape.",
+  "sections": [
+    {
+      "heading": "AI can reshape a job that still exists",
+      "paragraphs": [
+        [
+          "Workday’s ",
+          {
+            "text": "5 October Global Workforce Report",
+            "href": "https://newsroom.workday.com/2026-10-05-Workday-Global-Workforce-Report-AI-Is-Rewriting-Jobs-More-Than-Its-Cutting-Them"
+          },
+          " says most business leaders surveyed did not expect AI to shrink their workforce. Forty per cent expected it to help them get more from existing employees, while 28% expected it to reduce headcount."
+        ],
+        "That challenges the assumption that adopting AI automatically means cutting jobs. Many of these leaders envisage people staying while the work changes. For a worker, that opens another career question: if AI takes over parts of my job, what will I become responsible for instead?",
+        "I think we should pay more attention to that question. A job can retain its title while the contribution it needs from you shifts. Producing an output may take less time; understanding what is needed, improving the process and taking responsibility for the result may become a larger part of the work.",
+        [
+          "This is the kind of transition the ",
+          {
+            "text": "ADAPTOR framework",
+            "href": "/framework/"
+          },
+          " helps you plan for. Start with the work you actually do, assess where AI creates threats and opportunities, then choose goals and actions that move you towards a useful contribution. That gives you a basis for shaping the changed role with your manager."
+        ]
+      ]
+    },
+    {
+      "heading": "When handling requests becomes improving the process",
+      "paragraphs": [
+        "Imagine an office administrator whose employer introduces an AI assistant for travel requests. In this hypothetical workplace, the assistant checks the written policy and prepares routine bookings. The administrator spends less time entering details and more time resolving requests that need a decision.",
+        "One request falls outside the normal travel budget. The assistant correctly sends it for approval. The administrator discovers that a sales director has promised the customer an urgent visit, but nobody has agreed whose budget should cover the extra cost. She gets the responsible managers to settle that question. After similar cases recur, she helps them define an approval rule and checks that the assistant routes new requests to the right person.",
+        [
+          "For this ",
+          {
+            "text": "Administrative Operator",
+            "href": "/profiles/administrative-operators/"
+          },
+          ", reliable processing now includes improving the rules behind the workflow. Once the rule is agreed, AI can apply it. Her developing contribution is understanding where the process needs a business decision and helping turn that decision into dependable practice."
+        ]
+      ]
+    },
+    {
+      "heading": "Turn the change into a development goal",
+      "paragraphs": [
+        [
+          "The administrator can use an ",
+          {
+            "text": "AI-Era SWOT",
+            "href": "/framework/#personal-swot"
+          },
+          " to work out where she stands. Her job title still fits, but the balance of her work is changing. Looking at both the exposed tasks and the emerging responsibilities makes the choice clearer."
+        ]
+      ],
+      "bullets": [
+        "Strength: she understands how travel requests work in practice and knows who can resolve an exception.",
+        "Weakness: she has limited experience of testing and maintaining approval rules once they become part of an automated process.",
+        "Opportunity: she could develop responsibility for improving the travel workflow as AI handles more routine processing.",
+        "Threat: demand for manually processing bookings may fall, leaving less need for that part of her existing role."
+      ]
+    },
+    {
+      "paragraphs": [
+        "Her short-term goal could be to improve one recurring approval problem over the next three months. She could review recent cases with the managers who own the decisions, agree a clearer rule and test the revised routing. At the review, they would check whether requests reach the right person with fewer delays or corrections.",
+        "That connects her SWOT to a goal and concrete action. It also identifies what she needs from her employer: access to the decision-makers, time to test the change and feedback from someone who can assess her work. Completing the task would give her evidence for a conversation about taking on wider process responsibility."
+      ]
+    },
+    {
+      "heading": "Agree how the role can develop",
+      "paragraphs": [
+        [
+          "The route forward needs to be visible. In ",
+          {
+            "text": "ISACA’s 19 October research summary",
+            "href": "https://www.isaca.org/resources/news-and-trends/newsletters/atisaca/2026/volume-20/isaca-research-shows-tech-professionals-mostly-satisfied-but-retention-risks-persist"
+          },
+          ", an unclear upward path was the leading career obstacle, cited by 41% of women and 33% of men in its global survey of 1,025 technology professionals."
+        ],
+        "A short trial may fit within an existing role. If improving the AI-assisted process becomes a continuing responsibility, I think the development plan should recognise that change. The discussion could lead to a revised role, a route towards another position, or a project that builds the experience needed for it. Pay and title belong in the discussion when the responsibility warrants them.",
+        "Before your next development conversation, describe one responsibility that has changed because of AI. Explain what you did before, what you do now and who relies on the result. Use your SWOT to identify the contribution you want to develop, and bring a permitted example of how your involvement improved the work.",
+        "Ask: “Do you expect this to be a continuing part of my role? If so, what would doing it well count towards in my development?” Agree the support you need, who can assess the change and a date to review it.",
+        "Managers can make the answer useful by naming the criteria for the next level or an adjacent role. Give the person a chance to demonstrate those criteria through the actual AI-assisted work. Check which existing duties can be reduced so the development task has room to succeed.",
+        "If there is no internal route, compare the responsibilities you have developed with roles elsewhere and identify what you still need to learn. If the task is temporary, agree when it ends and what feedback you will receive.",
+        [
+          "If you are still building the skills, ",
+          {
+            "text": "a small AI-assisted project",
+            "href": "/blog/which-ai-skill-learn-next-role/"
+          },
+          " gives you a starting point. If your work has already shifted, bring a goal and a proposed first action into the conversation. Leave knowing how your employer sees the role developing, and when you will revisit that answer."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Workday, Global Workforce Report: AI Is Rewriting Jobs More Than It’s Cutting Them",
+      "url": "https://newsroom.workday.com/2026-10-05-Workday-Global-Workforce-Report-AI-Is-Rewriting-Jobs-More-Than-Its-Cutting-Them",
+      "date": "5 October 2026"
+    },
+    {
+      "title": "ISACA, Tech Professionals Mostly Satisfied, but Retention Risks Persist",
+      "url": "https://www.isaca.org/resources/news-and-trends/newsletters/atisaca/2026/volume-20/isaca-research-shows-tech-professionals-mostly-satisfied-but-retention-risks-persist",
+      "date": "19 October 2026"
+    }
+  ],
+  "related": [
+    "which-ai-skill-learn-next-role",
+    "show-your-value-ai-assisted-developer",
+    "will-ai-replace-my-job"
+  ]
+},
+
+{
   "slug": "scaling-ai-agents-at-work",
   "title": "Is Your Workflow Ready for More AI Agents?",
   "description": "Scaling AI agents means coordinating specialised decisions as well as handling more work. Test shared constraints, decision rules and the exceptions people must resolve.",
