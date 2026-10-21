@@ -46,6 +46,117 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "anthropic-junior-hiring-ai-entry-level-work",
+  "title": "Anthropic’s Junior Hiring Shift: What Happens to the First Job?",
+  "description": "As AI reduces demand for beginner tasks, how can less experienced workers respond—and when does hiring and developing junior staff still make business sense?",
+  "category": "AI Job News and Current Affairs",
+  "type": "News reflection",
+  "date": "2026-10-21",
+  "readTime": "5 min read",
+  "profiles": [
+    "digital-builders"
+  ],
+  "heroImage": {
+    "src": "/job-risk-reflection.webp",
+    "alt": "A professional holding a notebook and considering two paths",
+    "width": 1594,
+    "height": 987
+  },
+  "intro": "If AI can do beginner tasks faster and more cheaply, a business has a reason to hire fewer beginners. Anthropic’s latest employment report brings that pressure into focus. Less experienced people need ways to respond before they have a first role. Employers need to decide whether developing junior staff can produce a better return than relying on AI and experienced people alone.",
+  "sections": [
+    {
+      "heading": "What Anthropic reported on 16 October",
+      "paragraphs": [
+        [
+          "In ",
+          {
+            "text": "How employment is changing at Anthropic",
+            "href": "https://www.anthropic.com/research/employment-at-anthropic"
+          },
+          ", published on 16 October 2026, the company reports that juniors’ share of its technical hires fell from 27% to 9%. Anthropic also says it tripled in size over the preceding year, with technical hiring continuing to grow in absolute terms."
+        ],
+        "A falling junior share describes the mix of hiring; the number of junior hires also depends on total recruitment. The report draws on internal records and 17 employee interviews at this rapidly growing AI company. It also describes human attention becoming a constraint as agents produce more work.",
+        "My reading is that we need to examine entry routes alongside redundancies. When beginner tasks become cheaper to automate, business growth may create fewer opportunities to gain the experience employers want. That leaves decisions for both people trying to enter work and the organisations deciding whom to hire."
+      ]
+    },
+    {
+      "heading": "For less experienced people: build evidence before the first role",
+      "paragraphs": [
+        "Start by checking how demand is changing in the work you want to enter. Read current vacancies and speak to people doing the hiring where you can. Look beyond the junior label: which results do employers still need, what experience do they ask for, and where could your existing knowledge help? A familiar industry or customer problem may give you a more useful starting point than learning another general AI tool.",
+        [
+          "Use that evidence in your ",
+          {
+            "text": "AI-Era SWOT",
+            "href": "/framework/#personal-swot"
+          },
+          ". Fewer traditional junior openings may be a threat. Knowledge from a previous job, study or another part of your life may be a strength. The opportunity is to combine that knowledge with AI to solve a small problem you understand."
+        ],
+        [
+          "You can begin through a ",
+          {
+            "text": "small independent project",
+            "href": "/blog/which-ai-skill-learn-next-role/"
+          },
+          ". Choose an outcome for someone willing to try it: perhaps making a recurring task easier. Use AI to help build the solution, find out what the person actually needs, and revise it after use. Keep evidence of the result and explain the decisions you made. A generated demonstration on its own gives an employer little reason to choose you over using the same tool."
+        ],
+        "Set a short-term goal to complete and test one useful outcome within a month, then use it in targeted applications or conversations. Ask for specific feedback on the gap between that evidence and the work an employer needs. If the same experience gap keeps blocking you, consider adjacent paid work where you can build it, including roles outside your original job title.",
+        "Fewer openings still mean more competition for each place. Workers can improve what they bring to that competition; employers determine how many entry routes they create."
+      ]
+    },
+    {
+      "heading": "For employers: make the investment case explicit",
+      "paragraphs": [
+        "I would automate a routine task when AI delivers the required result at a lower total cost. The reason to hire a junior must come from what that person can contribute alongside the tool, and what they can become capable of doing as the business develops.",
+        "There are two potential returns. In the near term, an AI-assisted junior may take on recurring work that otherwise consumes more expensive colleagues’ time. Over time, they may develop the company knowledge and judgement needed for larger responsibilities. That can reduce dependence on recruiting experienced people whenever the business needs more capacity.",
+        "Both returns need scrutiny. Include salary, tools, supervision and corrections in the cost. Count released senior time only where it improves delivery or serves real demand. For the longer-term case, ask which capabilities the business expects to need and how likely it is to retain and develop the person. Compare that with further automation, hiring experienced staff or buying outside support."
+      ]
+    },
+    {
+      "heading": "A hiring decision that starts with the work",
+      "paragraphs": [
+        "Imagine a small software firm deciding whether to stop junior recruitment. In this hypothetical business, AI has made routine coding much faster. Its senior developers still spend substantial time clarifying customers’ requirements, arranging access to their systems and following changes through testing and release. More generated code would leave that work waiting.",
+        [
+          "The firm considers hiring a junior ",
+          {
+            "text": "Digital Builder",
+            "href": "/profiles/digital-builders/"
+          },
+          " to take responsibility for a repeatable class of small customer changes, using AI throughout. A senior developer would initially approve the proposed approach and release. The commercial case is that, with training, the junior could handle more of the customer-to-release work and free senior capacity for complex projects the firm already has demand for."
+        ],
+        "Before committing, the manager examines recent changes: how much work fits that scope, what it costs seniors now, and how much review a beginner would need. If the volume and expected return support a hire, the development plan gradually expands responsibility as the person demonstrates reliable delivery.",
+        "The manager then reviews completed customer outcomes, corrections and senior time across the first three months. Supervision may cost more at first. The plan needs a credible path towards less support and greater useful capacity, with time reserved for teaching rather than rushed reviews.",
+        "If improved automation can cover the whole workflow more economically, the business case for that particular junior role weakens. The firm should then reassess which future responsibilities still justify developing people, rather than preserve an old role simply because it used to be the entry point."
+      ]
+    },
+    {
+      "heading": "Short-term efficiency and future capability belong in the same decision",
+      "paragraphs": [
+        [
+          "The question for employers is what workforce they will need as AI develops, and how they will obtain it. Our article on ",
+          {
+            "text": "learning when AI writes the answer",
+            "href": "/blog/ai-answer-learning-work/"
+          },
+          " examines the development side. Here, the hiring decision comes first: identify the work and future capability worth investing in, then fund a route into it."
+        ],
+        "For less experienced people, the corresponding move is to build evidence around those changing needs while keeping alternative routes open. For companies, it is to judge AI adoption and junior development together over a useful business horizon. A saving on this year’s recruitment budget is only part of that calculation."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Anthropic, How employment is changing at Anthropic",
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "date": "16 October 2026"
+    }
+  ],
+  "related": [
+    "ai-answer-learning-work",
+    "show-your-value-ai-assisted-developer"
+  ]
+},
+
+{
   "slug": "ai-job-change-career-progression",
   "title": "AI Has Changed Your Job. Has Your Career Path Kept Up?",
   "description": "New AI responsibilities can change your role before your career path catches up. Ask what the work counts towards, what support you need and when it will be reviewed.",
