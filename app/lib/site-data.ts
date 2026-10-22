@@ -46,6 +46,108 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "how-much-trust-ai-at-work",
+  "title": "How Much Should You Trust AI at Work?",
+  "description": "Executives report greater trust in AI than workers, even over their own judgement. How can both groups decide when AI output deserves their confidence?",
+  "category": "Human Value, Skills and Leadership",
+  "type": "Knowledge / Advice",
+  "date": "2026-10-22",
+  "readTime": "4 min read",
+  "profiles": [
+    "relationship-workers"
+  ],
+  "heroImage": {
+    "src": "/human-skills-value.webp",
+    "alt": "Three colleagues considering a document together around a table",
+    "width": 1594,
+    "height": 986
+  },
+  "intro": "How readily do you trust an AI answer? New research from Charter finds a marked difference between executives and workers. Executives report greater trust in AI output, including a greater willingness to put it ahead of their own judgement. That makes trust a leadership question as well as a personal one: what gives you enough confidence to act on an AI result?",
+  "sections": [
+    {
+      "heading": "Executives report much greater trust",
+      "paragraphs": [
+        [
+          "Charter’s ",
+          {
+            "text": "AI Pulse research summary",
+            "href": "https://www.charterworks.com/research/ai-pulse/"
+          },
+          ", released on 21 October 2026, draws on over 5,000 surveys and 90 interviews with AI users. Compared with workers, executives were:"
+        ]
+      ],
+      "bullets": [
+        "2.5 times as likely to trust AI-generated output.",
+        "Around twice as likely to favour AI over their own judgement.",
+        "More than twice as likely to favour AI over a knowledgeable colleague."
+      ]
+    },
+    {
+      "heading": "What earns your confidence?",
+      "paragraphs": [
+        "The finding about our own judgement deserves attention. AI can help us question a familiar assumption or work through something beyond our experience. Sometimes its answer will be better than the one we would have produced alone. Learning when to rely on it is part of using it well.",
+        "A fluent explanation can also make an unfamiliar subject feel settled. If you cannot assess the answer yourself, its confident tone may carry more weight than it deserves. Ask what you can check: the source behind a claim, the calculation behind a figure or the result of trying the proposal on a small scale. Asking the same AI whether it is confident gives you another answer to assess.",
+        "The executive–worker gap gives teams a reason to compare those checks. A leader might value a strategic summary while the people handling individual cases notice missing details. A worker might also dismiss a useful proposal because it changes a familiar routine. Bring both views back to the work: what has this AI process actually done well, and where has it needed correction?"
+      ]
+    },
+    {
+      "heading": "A convincing account review still needs testing",
+      "paragraphs": [
+        "As a hypothetical example, imagine a director using an approved AI tool to review customer profitability. It compares revenue with support costs and recommends higher fees for several accounts. The analysis is clear and consistent. The director is tempted to accept its recommendation across the group, even though she would previously have reviewed each renewal separately.",
+        "Before changing the fees, she asks an account manager to investigate a few cases. One customer’s high support costs followed a failed billing-system change. The account manager checks the history with the service team and speaks to the customer about what would make renewal worthwhile. She obtains a feasible repair estimate, then uses AI to compare repair-and-renewal with a higher fee.",
+        [
+          "For ",
+          {
+            "text": "Relationship Workers",
+            "href": "/profiles/relationship-workers/"
+          },
+          ", the contribution includes understanding the customer’s needs, negotiating a sustainable commitment and following it through. The account manager can use AI to prepare those conversations and assess options. She still needs to establish what the customer will accept and what colleagues can deliver."
+        ],
+        "The director now has a better basis for deciding how far to rely on the original recommendation. Some fee increases may be justified; the billing problem needs a different response. Her own instinct to retain an account also needs testing against the costs. The team agrees the commitments and reviews support demand, margin and customer feedback after a month."
+      ]
+    },
+    {
+      "heading": "Match your reliance to the task",
+      "paragraphs": [
+        "Trust can grow as you see reliable results on a particular task. Keep the check proportionate to what happens if the answer is wrong."
+      ],
+      "bullets": [
+        "For an editable first draft, use AI within your workplace’s rules and assess whether the result serves its purpose. A useful email draft is evidence about that drafting task; a pricing recommendation needs its own assessment.",
+        "For factual or numerical work, check the important claims against original sources or an independent calculation. If you lack the knowledge to assess a consequential answer, involve someone who can or test it before relying on it.",
+        "For decisions affecting customers, budgets or colleagues, establish the objective and assumptions before acting. Where possible, start with a limited, reversible step, name the decision owner and agree when to review the result. Include the workload created for people who must carry it out."
+      ]
+    },
+    {
+      "heading": "Let leaders and workers learn from the same results",
+      "paragraphs": [
+        "Managers can make this practical by reviewing one recent AI-assisted task with the people doing the work. Compare the original output, the corrections and what happened after it was used. Include an occasion when AI improved the team’s initial judgement, if you have one. Give people room to explain both confidence and hesitation.",
+        "Use that review to agree one change: a better source of information, a check before a customer commitment or a task the tool can now handle with less supervision. Try it over the next month and look for fewer corrections, useful results and a manageable workload. Increase reliance where the evidence supports it; revisit the process where it keeps letting people down.",
+        [
+          "The ",
+          {
+            "text": "human skills that support good AI use",
+            "href": "/blog/which-human-skills-become-more-valuable/"
+          },
+          " include framing the question, assessing evidence and working with other people. Those skills help executives and workers explain why they trust an answer, recognise when that trust was misplaced and make better use of the next one."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Charter, AI Pulse: Fall 2026 research summary",
+      "url": "https://www.charterworks.com/research/ai-pulse/",
+      "date": "21 October 2026"
+    }
+  ],
+  "related": [
+    "which-human-skills-become-more-valuable",
+    "when-ai-makes-work-more-complex",
+    "ai-agent-workplace-context"
+  ]
+},
+
+{
   "slug": "anthropic-junior-hiring-ai-entry-level-work",
   "title": "Anthropic’s Junior Hiring Shift: What Happens to the First Job?",
   "description": "As AI reduces demand for beginner tasks, how can less experienced workers respond—and when does hiring and developing junior staff still make business sense?",
