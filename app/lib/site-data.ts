@@ -46,6 +46,119 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-adoption-barriers-staff-resistance",
+  "title": "Before Calling It AI Resistance, Check the Barrier",
+  "description": "A stalled AI rollout can reflect resources, trust or fears about changing work. Understand both practical and human barriers before deciding how to respond.",
+  "category": "AI Policy, Risk and Workplace Culture",
+  "type": "Opinion",
+  "date": "2026-10-23",
+  "readTime": "6 min read",
+  "profiles": [],
+  "heroImage": {
+    "src": "/employers-ai-conversation.webp",
+    "alt": "Four colleagues discussing work beside a blank whiteboard",
+    "width": 1594,
+    "height": 986
+  },
+  "intro": "I would be cautious about describing a slow AI rollout as staff resistance. A manager needs to understand what is stopping the work, including the concerns people may struggle to say aloud. Unclear permission to use client information, a lack of time to learn and anxiety about losing a valued role need different responses. A useful adoption plan takes both practical and human difficulties seriously.",
+  "sections": [
+    {
+      "heading": "Look beyond willingness to change",
+      "paragraphs": [
+        [
+          "The European Commission’s ",
+          {
+            "text": "full October report on AI and automated management",
+            "href": "https://webgate.ec.europa.eu/ebsm/api/public/deliverable/download?deliverableId=110055&doc=true"
+          },
+          " helps put the question in context. It draws on 12,826 interviews conducted in March and April 2026 with representatives of privately owned EU companies employing 1–749 people. The study covers AI and other automated systems."
+        ],
+        "Across the surveyed businesses, investment costs (50%), regulatory uncertainty (49%) and a lack of internal expertise (48%) were the most frequently cited important difficulties. Management distrust (37%), employee concerns about surveillance (33%) and other employee fears (31%) also featured. These are employers’ accounts of adoption barriers, including firms at different stages of use.",
+        "The percentages describe how often employers named a difficulty. In a particular team, a less frequently reported concern may decide whether adoption works at all. An employer survey depends on what respondents recognise and are willing to discuss. I would leave room for concerns staff have not voiced, and for managers’ reluctance to acknowledge their own uncertainty.",
+        "My reading is that an adoption plan needs to examine resources, suitability and people’s experience together. A reminder to embrace AI will not resolve an unfunded implementation. Buying a suitable tool will not, by itself, earn the confidence of the people expected to use it."
+      ]
+    },
+    {
+      "heading": "The obstacle can exist even when people want to proceed",
+      "paragraphs": [
+        [
+          "Reported business experiences make that distinction more concrete. A ",
+          {
+            "text": "Federal Reserve Bank of San Francisco research brief",
+            "href": "https://www.frbsf.org/wp-content/uploads/ai-adoption-among-small-businesses-cdrb202601.pdf"
+          },
+          ", published in July 2026, examined written responses to the 2024 US Small Business Credit Survey. More than 8,500 businesses answered its open question about current or planned AI use."
+        ],
+        "One respondent wanted to investigate AI but said the business lacked the resources and staff to do so. Another described interest in healthcare applications while struggling to find affordable options meeting its privacy requirements. These were business owners describing their circumstances in 2024.",
+        "The researchers also found deliberate decisions against adoption, including concerns about accuracy and a preference for personal service. Their analysis distinguishes firms facing practical barriers from those that saw insufficient benefit. It treats those responses as individual accounts and leaves open whether some judgements reflected knowledge gaps.",
+        "For a manager, that suggests a useful starting point: ask what would have to change for this particular use of AI to be worth trying. A cost problem needs an assessment of resources and likely value. A suitability concern needs examination of the proposed task and tool. General encouragement answers neither."
+      ]
+    },
+    {
+      "heading": "Ask for a specific obstacle and a decision",
+      "paragraphs": [
+        "Choose one piece of work where adoption has stalled. Ask the people doing it to show what happens when they try the proposed approach, or explain the step they cannot yet take. Examine the task and tool, then ask how the proposed change affects their confidence, responsibilities and working relationships.",
+        "Then identify who can act on the answer. A manager may need to fund a more suitable service, obtain a decision from the person responsible for data use, or reconsider whether the task is worth changing. If the expected benefit is small beside the cost, postponing that use may be a reasonable decision.",
+        [
+          "For a question about whether a particular task is permitted, ",
+          {
+            "text": "Can You Use That AI Tool at Work?",
+            "href": "/blog/can-you-use-ai-tool-at-work/"
+          },
+          " offers a way to frame it. When the obstacle is learning capacity, ",
+          {
+            "text": "AI Training Needs Time to Practise at Work",
+            "href": "/blog/ai-training-time-practise-work/"
+          },
+          " develops the practical implications. Naming the obstacle helps the conversation reach someone who can resolve it."
+        ]
+      ]
+    },
+    {
+      "heading": "Make room for concerns people may not say aloud",
+      "paragraphs": [
+        "Start by asking what people expect the change to mean for their work. Someone may worry about job security, being monitored or losing the part of the role in which they feel most capable. Another may fear looking incompetent while learning. A manager may be uneasy about overseeing a process they do not understand. I would treat these as possibilities to explore with the people involved.",
+        "Offer a private conversation as well as a team discussion. Where concerns involve the line manager, make another route available through another manager, an employee representative or an appropriate support channel. Invite people to describe a specific concern without requiring them to perform enthusiasm for the rollout.",
+        "Respond to what you hear. Explain what is decided about roles and monitoring, what remains open and who will decide. Avoid promises of job security that you cannot keep. If a worry concerns proposed changes to jobs, involve the appropriate employee and representative channels. A lesson in prompting will not answer that concern.",
+        "When confidence or trust is the obstacle, let staff help choose a relevant task and examine the results with someone who can answer questions. Provide supported practice without public comparisons of who learns fastest. Show how errors can be raised and who can reconsider an AI-assisted decision. Managers should be willing to demonstrate their own learning and acknowledge where they need help.",
+        "Then check whether people feel more able to use and question the tool. If concerns persist, ask what remains unresolved and act on it. Better participation and clearer reports of problems can tell you more than silence in a launch meeting."
+      ]
+    },
+    {
+      "heading": "There is still a place for clear expectations",
+      "paragraphs": [
+        "The reasonable objection is that some people will resist a useful change. Managers cannot leave every agreed improvement waiting indefinitely for universal enthusiasm. Workers also have a responsibility to develop skills as the work changes.",
+        "I would support firmer learning expectations when the task is relevant, the tool is permitted and people have support and time to learn it. Managers should also have listened to concerns and explained what they can change. If supported use produces an acceptable result but someone still declines an agreed learning activity, the conversation can address that specific behaviour.",
+        "Keep that discussion separate from judging whether someone sounds positive about AI. A colleague may remain anxious while making a serious effort to learn. The useful expectation is responsible participation, including raising problems when they arise."
+      ]
+    },
+    {
+      "heading": "Judge progress by the work that becomes possible",
+      "paragraphs": [
+        "End the discussion with a decision: what will be funded, clarified, tested or deferred, who owns it and when the team will review the result. Include the response to people’s concerns. If a trial goes ahead, examine the finished work and the effort needed to check it. Ask staff about confidence and workload as well as the output.",
+        "For a worker, the useful contribution is a concrete account of what is stuck and what would allow a fair test. For a manager, it is a response that addresses that obstacle. I would judge the adoption plan by whether it enables useful work, rather than by how enthusiastic people sound about AI."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "European Commission, Flash Eurobarometer 578: Workplace-related drivers and obstacles for adoption of AI and algorithmic management by SMEs and Mid-Caps — full report",
+      "url": "https://webgate.ec.europa.eu/ebsm/api/public/deliverable/download?deliverableId=110055&doc=true",
+      "date": "October 2026; released 14 October; fieldwork March–April 2026"
+    },
+    {
+      "title": "Sanchez-Moyano, Holmes and Simms, AI Adoption Among Small Businesses: Qualitative Insights from the Small Business Credit Survey — full research brief",
+      "url": "https://www.frbsf.org/wp-content/uploads/ai-adoption-among-small-businesses-cdrb202601.pdf",
+      "date": "15 July 2026; responses collected September–November 2024"
+    }
+  ],
+  "related": [
+    "can-you-use-ai-tool-at-work",
+    "ai-training-time-practise-work"
+  ]
+},
+
+{
   "slug": "how-much-trust-ai-at-work",
   "title": "How Much Should You Trust AI at Work?",
   "description": "Executives report greater trust in AI than workers, even over their own judgement. How can both groups decide when AI output deserves their confidence?",
