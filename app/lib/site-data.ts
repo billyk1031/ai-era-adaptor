@@ -46,6 +46,134 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-expands-skills-changes-specialist-value",
+  "title": "AI Expands Your Skills. What Happens to the Specialist?",
+  "description": "The same AI capability can open up work for one person and threaten another. Use ADAPTOR to assess your position and test where you can create value.",
+  "category": "AI and Workplace Change",
+  "type": "Coaching",
+  "date": "2026-10-26",
+  "readTime": "6 min read",
+  "intro": "AI can help you do work that previously required someone else’s expertise. That can be an exciting opportunity—until you are the person whose service is needed less. The same change looks different from each side. Understanding your own position is the starting point for deciding what to do next.",
+  "profiles": [
+    "analysts"
+  ],
+  "heroImage": {
+    "src": "/human-skills-value.webp",
+    "alt": "Three colleagues discussing a document around a table, with a laptop and notes in front of them",
+    "width": 1594,
+    "height": 986
+  },
+  "sections": [
+    {
+      "heading": "New capabilities can change who does the work",
+      "paragraphs": [
+        [
+          "A study published in Nature Human Behaviour on 26 October, ",
+          {
+            "text": "Generative AI and the temporary upskilling of knowledge workers",
+            "href": "https://www.nature.com/articles/s41562-026-02566-6"
+          },
+          ", examined consultants attempting data science tasks outside their usual expertise. The analysis covered 487 consultants. Those given ChatGPT access and training performed better across coding, statistical understanding and prediction tasks than those using conventional online resources."
+        ],
+        "The experiment took place in March and April 2024 using GPT-4. It tested specific technical tasks, with the AI-assisted group’s overall performance remaining below the data scientist benchmarks. On a subsequent technical knowledge test without AI, the researchers found no evidence of an advantage for that group.",
+        "The useful distinction is between being able to accomplish more with a tool and acquiring the expertise behind the work. AI-supported capability can still be valuable. It can also change which tasks you need to ask another person to perform.",
+        [
+          "That creates two personal questions: what work could you now take on, and which parts of your own work could others begin doing for themselves? The ",
+          {
+            "text": "ADAPTOR framework",
+            "href": "/framework/"
+          },
+          " provides a way to work through both: identify your Work Profile, build a personal AI-era SWOT, then turn a significant opportunity or threat into goals and action."
+        ]
+      ]
+    },
+    {
+      "heading": "The opportunity: extending the work you can do",
+      "paragraphs": [
+        "As a hypothetical example, imagine Priya, a sales operations manager who regularly asks an analyst, Daniel, to investigate repeat purchasing. She knows the customers and commercial priorities, but combining order files and writing the analysis has usually required his help.",
+        "Using an approved AI tool with data she is authorised to use, Priya can now generate code to combine those files and explore purchasing patterns. She can ask follow-up questions while investigating an account, rather than requesting another report each time.",
+        [
+          "In ADAPTOR terms, she is considering adding more ",
+          {
+            "text": "Analyst",
+            "href": "/profiles/analysts/"
+          },
+          " work to her profile mix. That means interpreting evidence and supporting decisions, beyond producing a chart. Her desired capability is to answer a recurring commercial question reliably."
+        ],
+        "Her personal SWOT makes the opportunity more specific. She understands buying cycles and customer agreements—a strength. Her limited knowledge of analytical methods is a weakness. AI creates an opportunity to investigate more questions herself. A threat is that she becomes responsible for conclusions she cannot adequately assess.",
+        "Priya chooses a short-term goal: within a month, reproduce one established repeat-purchasing analysis and use it to support a customer review. She starts with the agreed reporting definitions and a completed period for which a checked result already exists. She compares results and investigates differences before using the analysis in a new decision.",
+        "AI can explain the code and suggest tests. Priya also needs to understand what the figures mean commercially. An annual customer agreement, for example, changes how she should interpret a long gap between orders. She checks those details against the account records and explains which customers warrant a follow-up.",
+        "If the analysis agrees with the reference and helps the review, she can try another period. If she cannot explain a material difference, her next action is targeted training or an authorised review. The result tells her how far to extend the work."
+      ]
+    },
+    {
+      "heading": "The threat: when people need less of your service",
+      "paragraphs": [
+        "Daniel sees the same development from another position. Producing recurring reports is part of what he is paid to do. If managers can generate them independently, demand for that part of his work could fall. Asking him to help Priya take it over gives him a reason to worry about his own role.",
+        "His SWOT needs an honest view of what remains valuable. More sophisticated analysis is also becoming accessible through AI. He needs to examine where his experience, relationships and judgement make a difference that would be difficult or costly for someone else to reproduce.",
+        "In this imagined business, Daniel has worked across several regional sales teams. He knows how their targets influence reported results and has earned a reputation for challenging figures fairly. Managers will discuss awkward findings with him because he checks their explanation before drawing a conclusion. Those are strengths he has built through the work.",
+        "The business wants to know whether a promotion creates additional sales or simply discounts purchases customers would have made anyway. AI can propose a method and analyse the available records. The harder problem is obtaining a credible comparison when sales teams have reasons to resist the test.",
+        "Daniel sees an opportunity to take responsibility for that investigation: establish what evidence is missing, negotiate a workable test and bring a recommendation the budget owner can act on. His technical knowledge helps him recognise when a commercially convenient compromise would undermine the result. His relationships help him find an acceptable alternative."
+      ]
+    },
+    {
+      "heading": "Build on value that is difficult to reproduce",
+      "paragraphs": [
+        "Daniel sets a short-term goal: within six weeks, agree a test of the next promotion that will help the budget owner decide whether to repeat the discount.",
+        "Regional managers resist withholding the offer from some customers because their sales targets are at stake. They propose choosing the comparison group themselves. Drawing on earlier campaigns, Daniel recognises that their choices could favour customers already likely to buy, making the result misleading.",
+        "He uses AI to explore alternative designs, then draws on his relationships across the teams to negotiate a smaller, randomly assigned trial. The sales director agrees how participation will affect performance reviews. Daniel checks that the trial can still produce useful evidence.",
+        "His contribution combines analytical judgement with the trust needed to resolve competing interests. AI supports the technical work; Daniel secures the commitments that make a credible test possible.",
+        "At six weeks, he reviews whether the design and commitments are workable. After the promotion, he checks whether the evidence helped the budget decision and whether the benefit justified the teams’ effort.",
+        "If the business values this contribution, his medium-term goal could be to take responsibility for evaluating major promotions. His SWOT may identify further training or relationship-building to support that move. If demand is weak, he needs to test another direction."
+      ]
+    },
+    {
+      "heading": "The transition needs a decision from management",
+      "paragraphs": [
+        "Priya’s opportunity and Daniel’s threat will not automatically resolve into a happy partnership. A manager who wants more self-service should discuss what work Daniel will stop, what contribution he can develop and how that contribution will be recognised. Training others should have an agreed place in his responsibilities.",
+        "The manager also needs to account for review effort. Giving more people the ability to generate analyses can create more requests for specialist checks. A trial should assess the quality of decisions and the workload on both sides before increasing output expectations.",
+        "Where there is no credible role for the proposed new contribution, Daniel needs a candid answer. His action plan can then include building options elsewhere."
+      ]
+    },
+    {
+      "heading": "Use the change to choose your next move",
+      "paragraphs": [
+        "Choose one task AI is making accessible to you, or to someone who currently depends on you. Work through the same sequence:"
+      ],
+      "bullets": [
+        "Profile: identify the work involved and how it fits your current or desired profile mix.",
+        "Personal SWOT: name your relevant strengths and gaps, then describe the specific opportunity or threat created by AI. For exposed work, ask what you contribute that would be difficult or costly to obtain through self-service.",
+        "Goal: choose a near-term result that would test your proposed direction. State the task, the decision it should support and what successful work would look like.",
+        "Action: run one bounded trial and set a review date. Use the result to decide whether to extend the work, develop a missing skill or explore another direction."
+      ]
+    },
+    {
+      "paragraphs": [
+        "If you are unsure where demand is changing, spend the next week examining recent requests or speaking with the person who uses your work. By Friday 30 October, identify one concrete change to investigate. If your first trial shows little benefit, change the goal before investing in a larger transition.",
+        "Priya and Daniel face the same technology from different starting points. Each needs a plan grounded in the work they can contribute and the value others need. Start with the change closest to your own work, and choose one action that will give you better evidence for your next decision."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wiles and colleagues, Generative AI and the temporary upskilling of knowledge workers",
+      "url": "https://www.nature.com/articles/s41562-026-02566-6",
+      "date": "26 October 2026"
+    },
+    {
+      "title": "Author-hosted manuscript, including methods and appendices",
+      "url": "https://emmawiles.github.io/storage/reskill.pdf",
+      "date": "Accessed 26 October 2026"
+    }
+  ],
+  "related": [
+    "ai-answer-learning-work",
+    "which-ai-skill-learn-next-role",
+    "ai-professional-advice-client-value"
+  ]
+},
+
+{
   "slug": "ai-adoption-barriers-staff-resistance",
   "title": "Before Calling It AI Resistance, Check the Barrier",
   "description": "A stalled AI rollout can reflect resources, trust or fears about changing work. Understand both practical and human barriers before deciding how to respond.",
