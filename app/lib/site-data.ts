@@ -46,6 +46,124 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "how-to-ask-about-ai-job-interview",
+  "title": "How to Ask About AI in a Job Interview",
+  "description": "Ask how AI shapes the work, responsibilities and learning in a prospective role, then consider whether it fits your career aspirations.",
+  "category": "Jobs and Careers in the AI Era",
+  "type": "Knowledge / Advice",
+  "date": "2026-10-27",
+  "readTime": "5 min read",
+  "intro": "When an interviewer asks whether you have any questions, AI is worth discussing. You may already know which tools the company uses. What you still need to understand is how those tools shape the work you would do, what you would be responsible for and where the role could take you.",
+  "profiles": [
+    "output-creators"
+  ],
+  "heroImage": {
+    "src": "/employers-ai-conversation.webp",
+    "alt": "Four colleagues discussing work beside a blank whiteboard",
+    "width": 1594,
+    "height": 986
+  },
+  "sections": [
+    {
+      "heading": "Start with the work you want to grow into",
+      "paragraphs": [
+        [
+          "ZipRecruiter’s ",
+          {
+            "text": "26 October AI Worker Report",
+            "href": "https://www.ziprecruiter-research.org/economic-insights-research/2026-ai-worker-report"
+          },
+          " found differing preferences about AI in a future job: 30.5% of respondents wanted less involvement and 20.4% wanted more. Its September online survey covered more than 1,500 US workers. Those preferences sit alongside reported benefits from AI, including greater enjoyment of work."
+        ],
+        "I think the useful next question is what someone wants to change about their working life. More AI might mean help with repetitive tasks, or more time reviewing generated output. The work behind the label matters.",
+        [
+          "Before an interview, consider the work you want to do more of, the responsibility you want to grow into and the experience you need. Your ",
+          {
+            "text": "personal AI-Era SWOT",
+            "href": "/framework/#personal-swot"
+          },
+          " can help connect those ambitions to your current strengths, gaps and changing demand."
+        ],
+        "Choose questions that suit the opportunity and interview stage. A prospective manager should be able to discuss the work in more detail than an initial recruiter."
+      ]
+    },
+    {
+      "heading": "“Could you walk me through a recent assignment?”",
+      "paragraphs": [
+        "You might begin: “How does the team use AI in this role, and could you walk me through a recent assignment where it made a difference?”",
+        "Find out which parts AI handled and what the person did before and after. Compare that with your interests: would you investigate problems, improve workflows or mainly operate an established process? A list of tools tells you little about how you would spend your time."
+      ]
+    },
+    {
+      "heading": "“What would I be responsible for deciding?”",
+      "paragraphs": [
+        "Ask: “When AI contributes to the work, which decisions would I own, and where would I need someone else’s agreement?” A useful follow-up is: “What happened on a recent occasion when the output needed changing?”",
+        "The answer may describe checking drafts, investigating unclear requirements or recommending an approach. Consider whether those responsibilities fit your development goals, and whether you would have the information and support to exercise them.",
+        "Also ask how people handle disagreement about an AI recommendation. Listen for who investigates the issue and who makes the final call. That can help you understand both the judgement expected and the authority attached to the role."
+      ]
+    },
+    {
+      "heading": "“How have expectations changed with AI?”",
+      "paragraphs": [
+        "Ask: “As the team has introduced AI, how have you changed delivery expectations and allowed for checking or improving the workflow?”",
+        "Find out what counts as a good result and how the team handles the review and decisions that follow faster production. Ask about corrections, approval queues and staff feedback. A recent adjustment can show how the manager responds when the work takes more effort than expected."
+      ]
+    },
+    {
+      "heading": "“What could I learn here as the work changes?”",
+      "paragraphs": [
+        "Ask: “Which capabilities would you expect me to develop over the next year as AI changes the work, and how would you support that?”",
+        "Explore the support your goal needs: practice on real assignments, feedback from experienced colleagues or opportunities for wider responsibility. If improving AI workflows interests you, ask who can propose changes and how the team tests them.",
+        "Ask how someone in the team has progressed as the work changed. A course may be useful, but your aspiration might also require the chance to make decisions and learn from their consequences."
+      ]
+    },
+    {
+      "heading": "How the questions work together",
+      "paragraphs": [
+        [
+          "As a hypothetical example, imagine Maya, a communications writer spending much of her time reviewing AI-generated variations. She wants to develop audience research and editorial judgement in her work as an ",
+          {
+            "text": "Output Creator",
+            "href": "/profiles/output-creators/"
+          },
+          "."
+        ],
+        "At an interview, “We use AI throughout content production” initially sounds like more of the same. She asks about a recent campaign. The manager describes a writer interviewing customers, exploring messages with AI and recommending one to test. Maya follows up on who chose the direction and how the team assessed the result.",
+        "She then asks how often writers do that research, how production targets leave room for it and what support she would receive to lead a campaign. Together, the answers help her assess whether the role could develop the capabilities she wants. She still needs to weigh the rest of the job."
+      ]
+    },
+    {
+      "heading": "Use the conversation to assess the whole opportunity",
+      "paragraphs": [
+        "Afterwards, compare what you heard with your aspirations. Identify the work that appeals to you, where you would stretch and what remains unclear. Keep the examples behind your impressions so you can follow up specifically.",
+        "Weigh that picture alongside pay, colleagues, stability, flexibility and your other priorities. A worthwhile opportunity may involve compromises. Where an interviewer needs to check a detail, ask who could clarify it before you decide.",
+        "If you are hiring, prepare to answer these questions through real assignments and development examples. Explain what is established, what the team is still testing and where the new person could influence the approach.",
+        [
+          "These questions also work in a development conversation with your current manager. Discuss the responsibility you want to grow into as AI changes the work. If you need ideas for independent practice, ",
+          {
+            "text": "Which AI Skill Should You Learn for Your Next Role?",
+            "href": "/blog/which-ai-skill-learn-next-role/"
+          },
+          " offers a starting point. You will know the conversation helped if you can explain how the opportunity fits your goals and what you still need to find out."
+        ]
+      ]
+    }
+  ],
+  "related": [
+    "ai-job-change-career-progression",
+    "which-ai-skill-learn-next-role",
+    "show-your-value-ai-assisted-developer"
+  ],
+  "sources": [
+    {
+      "title": "ZipRecruiter Economic Research, Better Work, More to Learn: The 2026 AI Worker Report",
+      "url": "https://www.ziprecruiter-research.org/economic-insights-research/2026-ai-worker-report",
+      "date": "26 October 2026"
+    }
+  ]
+},
+
+{
   "slug": "ai-expands-skills-changes-specialist-value",
   "title": "AI Expands Your Skills. What Happens to the Specialist?",
   "description": "The same AI capability can open up work for one person and threaten another. Use ADAPTOR to assess your position and test where you can create value.",
