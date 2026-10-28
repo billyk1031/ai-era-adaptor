@@ -46,6 +46,146 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "gender-education-gap-ai-jobs-career-plan",
+  "title": "The Gender Gap in AI-Exposed Jobs: What It Means for Your Career Plan",
+  "description": "Pew’s gender and education findings raise questions about how AI could reshape demand for work. Use them to sharpen your personal SWOT and career plans.",
+  "category": "AI Job News and Current Affairs",
+  "type": "News reflection",
+  "date": "2026-10-28",
+  "readTime": "6 min read",
+  "intro": "Women and men are experiencing different employment outcomes in occupations exposed to AI. New US research from Pew finds a gap that is particularly marked among workers without a bachelor’s degree. I think that finding deserves more attention in career planning: the work AI can help with is only part of the picture. We also need to consider whose work is under pressure and what options they can realistically reach.",
+  "profiles": [
+    "administrative-operators"
+  ],
+  "heroImage": {
+    "src": "/job-risk-reflection.webp",
+    "alt": "A woman holding a notebook considering two paths",
+    "width": 1594,
+    "height": 987
+  },
+  "sections": [
+    {
+      "heading": "What Pew found",
+      "paragraphs": [
+        [
+          "Pew’s ",
+          {
+            "text": "22 October analysis",
+            "href": "https://www.pewresearch.org/short-reads/2026/10/22/men-are-experiencing-more-job-growth-than-women-in-ai-exposed-occupations/"
+          },
+          " compares US employment in 2017–19 with January 2023–June 2026. It examines how women’s and men’s employment growth within occupations relates to the extent AI can perform or assist their work."
+        ],
+        "As AI exposure rises, employment growth is stronger for men than women. The gap is concentrated among people without a bachelor’s degree. Among degree holders, neither group’s employment growth has a statistically significant relationship with increasing exposure.",
+        "Pew also describes the different work people do. Women without degrees often work in secretarial, reception and customer-service roles with greater exposure. Men with similar education are more concentrated in lower-exposure physical work. That occupational context sits alongside the study’s comparison within occupations.",
+        "These are employment patterns spanning years of economic change. How much AI contributed to the differences remains an open question."
+      ]
+    },
+    {
+      "heading": "Growth can conceal a very different experience",
+      "paragraphs": [
+        "The first implication is that growth in AI-exposed occupations gives us an incomplete picture of who is doing well. The gender and education findings reveal differences that disappear in a single total. A growing occupation may still offer a difficult outlook for some of the people working in it.",
+        "For personal planning, I would look beyond a forecast for a whole profession. Different responsibilities, levels of seniority and parts of an industry may face different demand. Those are possible places to investigate the gap Pew identifies. The research leaves its explanation open.",
+        [
+          "This also changes how I would read a reassuring headline about AI creating work. New demand matters, but so does ",
+          {
+            "text": "the route from someone’s current position to that work",
+            "href": "/blog/mckinsey-ai-jobs-career-transition-2026/"
+          },
+          ". A vacancy requiring experience or qualifications they cannot quickly acquire offers limited help with an immediate loss of demand."
+        ]
+      ]
+    },
+    {
+      "heading": "What the education difference might mean",
+      "paragraphs": [
+        "The education pattern makes me question the idea that all work involving information will follow the same path. AI might help someone deliver more specialist work while allowing another employer to consolidate routine work into fewer roles. Both situations can involve substantial AI exposure, with very different consequences for demand.",
+        "That is one possible interpretation worth testing against changes around us. A degree may be associated with different responsibilities, sectors or options for moving jobs. We would need more evidence to explain why the gender pattern differs by education.",
+        "I would therefore be cautious about making another qualification the automatic response. The useful question is what a qualification would let you do or access. Does it open a credible route to work with demand, or would you still face the same problem after completing it?"
+      ]
+    },
+    {
+      "heading": "A future in which existing divisions become sharper",
+      "paragraphs": [
+        "One possibility is that AI reinforces divisions already present in the labour market. People able to use it in work with growing demand may gain further options. People whose routine work shrinks may face a harder move, especially if the next opportunity requires credentials, time or money they lack. The gender pattern makes the distribution of that pressure worth watching.",
+        [
+          "There are other possible paths. AI assistance could ",
+          {
+            "text": "make unfamiliar tasks more accessible",
+            "href": "/blog/ai-expands-skills-changes-specialist-value/"
+          },
+          " and reduce some barriers to a move. As the tools improve, they could also change demand for work that currently looks well positioned. Today’s education pattern gives us a reason to examine our assumptions about the future, rather than settle on one forecast."
+        ],
+        "For a personal plan, I would consider two situations: AI mainly helps people do their existing work, or it enables an employer to meet demand with fewer people. What would strengthen your position in each? The answer will depend on the work, the employer and your starting point."
+      ]
+    },
+    {
+      "heading": "Turning that view into a personal SWOT",
+      "paragraphs": [
+        [
+          "As a hypothetical example, imagine Leila, an administrator without a degree. Managers have begun using an approved AI tool to prepare routine documents themselves, and requests to her have fallen. Her work fits the ",
+          {
+            "text": "Administrative Operators",
+            "href": "/profiles/administrative-operators/"
+          },
+          " profile. The change gives her a specific reason to review her position."
+        ],
+        "Leila knows where requests get stuck and which exceptions lead to delays. She has resolved cases where two departments applied conflicting requirements. She wonders whether that experience could help improve the process as more colleagues use AI.",
+        "Her SWOT can distinguish what she has observed from what she still needs to establish:"
+      ],
+      "bullets": [
+        "Strength: knowledge of the process and evidence of resolving exceptions. She can describe a real case and the result she helped achieve.",
+        "Weakness: limited experience analysing the wider pattern of delays. She needs to find out how much that skill matters for the work she wants to pursue.",
+        "Opportunity: helping investigate and improve the AI-assisted process, if her employer needs that contribution. She could use an approved tool to explore anonymised delay records and check its suggestions against actual cases.",
+        "Threat: fewer requests may reduce demand for her current role. A degree requirement in potential next roles could also restrict her options."
+      ]
+    },
+    {
+      "paragraphs": [
+        "Her next step is to check whether process improvement is a real need and what evidence would qualify her to contribute. She can discuss one small investigation with the person responsible for the process. If agreed, she would check whether the proposed change reduces delays and rework, including any extra checking it creates for colleagues.",
+        "If the organisation has little need for that work, or entry requirements rule out a near-term move, she needs to explore another route. Her operational experience remains useful evidence; she still has to find where someone needs it."
+      ]
+    },
+    {
+      "heading": "Revisit one assumption in your own plan",
+      "paragraphs": [
+        [
+          "Use the gender and education findings to question how well a broad employment trend describes your position. In your ",
+          {
+            "text": "personal AI-Era SWOT",
+            "href": "/framework/#personal-swot"
+          },
+          ", connect a possible change in demand to the work you actually do. Then examine the skills, evidence and access you would need for an opportunity you are considering."
+        ],
+        [
+          "The questions in ",
+          {
+            "text": "Will AI Replace My Job?",
+            "href": "/blog/will-ai-replace-my-job/"
+          },
+          " can help you separate changes you have observed from assumptions about demand. Choose one assumption that could change your plan. Write what supports it, what is still unknown and who or what could help you check it. Set a date for that check, then use the answer to choose your next action. A broad trend becomes useful when it helps you investigate a decision you can actually make."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Pew Research Center, Men Are Experiencing More Job Growth Than Women in AI-Exposed Occupations",
+      "url": "https://www.pewresearch.org/short-reads/2026/10/22/men-are-experiencing-more-job-growth-than-women-in-ai-exposed-occupations/",
+      "date": "22 October 2026"
+    },
+    {
+      "title": "Pew Research Center, Technical Appendix: data, exposure measures and statistical model",
+      "url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/10/SR_26.10.22_ai-work-gender_appendix.pdf",
+      "date": "22 October 2026"
+    }
+  ],
+  "related": [
+    "will-ai-replace-my-job",
+    "how-ai-is-changing-everyday-work"
+  ]
+},
+
+{
   "slug": "how-to-ask-about-ai-job-interview",
   "title": "How to Ask About AI in a Job Interview",
   "description": "Ask how AI shapes the work, responsibilities and learning in a prospective role, then consider whether it fits your career aspirations.",
