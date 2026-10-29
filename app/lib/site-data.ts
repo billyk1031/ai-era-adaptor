@@ -45,6 +45,111 @@ export const categories = [
 ] as const;
 
 export const articles: Article[] = [
+  {
+    "slug": "use-ai-to-challenge-your-thinking-at-work",
+    "title": "Use AI to Challenge Your Thinking at Work",
+    "description": "Use AI to question assumptions, uncover possible blind spots and test your thinking before making a decision at work.",
+    "category": "Human Value, Skills and Leadership",
+    "type": "Coaching",
+    "date": "2026-10-29",
+    "readTime": "5 min read",
+    "profiles": [
+      "digital-builders"
+    ],
+    "heroImage": {
+      "src": "/employers-ai-conversation.webp",
+      "alt": "Four colleagues discussing their work beside a whiteboard",
+      "width": 1594,
+      "height": 986
+    },
+    "intro": "You have looked at the problem and reached a conclusion. Before you act, what might you have missed? AI can help you question an assumption, consider another explanation and work out what you need to check. The useful result is a better-informed decision about your work.",
+    "sections": [
+      {
+        "heading": "Make room for another explanation",
+        "paragraphs": [
+          [
+            "In ",
+            {
+              "text": "a 2026 study of software engineering students",
+              "href": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.31"
+            },
+            ", participants described using AI to prepare ideas for discussions. One student used it to make an angry message more measured before sending it. Students also described unresolved difficulties with communication, uneven participation and feedback in their teams."
+          ],
+          "The research drew on interviews and written reflections from 116 students in project-based courses in Canada and Germany. Some students preferred to keep AI out of interpersonal problems. Their experiences suggest a useful question for our own work: how might AI help us prepare our thinking before we make a decision or speak with someone else?",
+          "The way you describe a situation to AI shapes the answer you receive. If you ask it to help you persuade a colleague to stop delaying work, you have already decided what the problem is. You might also reach a premature conclusion about a customer complaint or a proposed change. Before asking AI to support your answer, invite it to challenge your reasoning."
+        ]
+      },
+      {
+        "heading": "Ask AI to challenge your thinking",
+        "paragraphs": [
+          "Choose a decision or problem you are working on. Write down what you have observed, the conclusion you are leaning towards and what you want to achieve. Use an approved tool and follow your workplace’s rules about information you can share. You can describe the situation without names or confidential details.",
+          "Then ask the tool to challenge your account:"
+        ],
+        "bullets": [
+          "Which parts of my account are observations, and which are assumptions?",
+          "What other explanations could fit the facts? What information would help me tell them apart?",
+          "What might I be overlooking, and what should I check before deciding?"
+        ]
+      },
+      {
+        "paragraphs": [
+          "Treat its suggestions as possibilities. AI can propose a blind spot, but it can also miss one or invent a plausible explanation. Check the ideas against records, results or the people involved. The aim is to improve your decision, not simply accept a different answer."
+        ]
+      },
+      {
+        "heading": "When the delay has another cause",
+        "paragraphs": [
+          "Imagine Nina, a developer who has used AI to build a feature allowing customers to change their delivery date. The code passes its tests, but Sam keeps returning it for changes. Nina wants to ask Sam for faster approval. She uses AI to draft a polite message, then asks it to challenge her assumption that he is holding up the release.",
+          "The tool suggests several possible explanations and helps her prepare a question: ‘What is still preventing you from approving this?’ When Nina asks, Sam explains that he is reviewing against a restriction she has not seen.",
+          "Sales expects customers to change delivery dates after an order is confirmed. Operations can only guarantee changes before delivery planning begins. Nina has built the feature around the sales request; Sam has been checking it against the operational limit. Neither has authority to settle the difference.",
+          "Now they have a different question: what can the business promise customers? They use AI to compare a smaller launch with a later release that supports changes after planning. They take the options to the delivery owner, who agrees to launch with the earlier cut-off and to explain it to customers. Nina updates the feature and its tests; Sam reviews against the agreed criteria.",
+          [
+            "For ",
+            {
+              "text": "Digital Builders",
+              "href": "/profiles/digital-builders/"
+            },
+            ", this is part of delivering reliable work: uncovering the requirement, testing what the system should do and getting a decision when commitments conflict. AI can help examine the options once the relevant information is available. Nina's question brought that information into the discussion."
+          ]
+        ]
+      },
+      {
+        "heading": "Turn the challenge into a better decision",
+        "paragraphs": [
+          "Once you have considered alternatives, decide what would make a material difference to your next move. Nina needed to understand Sam’s review; another situation might call for checking a customer record, testing a proposed change or comparing costs with a colleague.",
+          "If the evidence supports your original conclusion, you may be ready to act. If it points elsewhere, revise your plan. If you still do not know, identify who or what can provide the missing information and set a date to check it. Where a decision needs someone else’s authority, bring them the options and the trade-off.",
+          "Managers can help by making the decision owner clear and giving colleagues time to resolve uncertainty. A faster AI draft does not settle a requirement, and an urgent deadline can make review harder if people are still working to different expectations."
+        ]
+      },
+      {
+        "heading": "Check whether your thinking improved",
+        "paragraphs": [
+          "After you act, look at the result you wanted to improve. Did the decision resolve the problem? Did you avoid a correction, discover a constraint sooner or find a better option? Ask the people affected whether the change worked for them.",
+          "If the outcome falls short, revisit the assumption and the evidence you used. You may need a different source, a conversation or a smaller test. If the challenge helped, keep the question that opened up your thinking for the next decision.",
+          [
+            "For a wider look at judging AI output, ",
+            {
+              "text": "How Much Should You Trust AI at Work?",
+              "href": "/blog/how-much-trust-ai-at-work/"
+            },
+            " explores how to match your confidence to the task and the evidence available."
+          ]
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "title": "Isabella Graßl, How Students Construct Human–AI Boundaries in Software Engineering Teamwork",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESEM.2026.31",
+        "date": "5 October 2026"
+      }
+    ],
+    "related": [
+      "how-much-trust-ai-at-work",
+      "which-human-skills-become-more-valuable",
+      "ai-agent-workplace-context"
+    ]
+  },
 {
   "slug": "gender-education-gap-ai-jobs-career-plan",
   "title": "The Gender Gap in AI-Exposed Jobs: What It Means for Your Career Plan",
