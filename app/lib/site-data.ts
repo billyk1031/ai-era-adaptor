@@ -45,6 +45,120 @@ export const categories = [
 ] as const;
 
 export const articles: Article[] = [
+{
+  "slug": "does-workplace-need-ai-council",
+  "title": "Does Your Workplace Need an AI Council?",
+  "description": "Microsoft’s six AI councils connect priorities, delivery and accountability. What can large enterprises learn, and how could smaller teams adapt the model?",
+  "category": "AI Policy, Risk and Workplace Culture",
+  "type": "News reflection",
+  "date": "2026-10-30",
+  "readTime": "5 min read",
+  "intro": [
+    "On 29 October, Microsoft published ",
+    {
+      "text": "a playbook for deploying AI through employee councils",
+      "href": "https://www.microsoft.com/insidetrack/blog/deploying-ai-with-employee-councils-an-it-playbook-from-microsoft/"
+    },
+    ". Its internal IT organisation uses connected councils to guide AI adoption across the enterprise. I think the model offers a useful way to examine how AI decisions fit together, whether you work in a large organisation or a smaller team."
+  ],
+  "profiles": [
+    "professional-advisors"
+  ],
+  "heroImage": {
+    "src": "/employers-ai-conversation.webp",
+    "alt": "Four colleagues discussing a decision beside a blank whiteboard",
+    "width": 1594,
+    "height": 986
+  },
+  "sections": [
+    {
+      "heading": "How Microsoft organises the work",
+      "paragraphs": [
+        [
+          "Microsoft had already described its approach in ",
+          {
+            "text": "a June account",
+            "href": "https://www.microsoft.com/insidetrack/blog/guiding-our-ai-deployment-with-a-set-of-employee-councils/"
+          },
+          ". The new playbook explains six connected council responsibilities:"
+        ]
+      ],
+      "bullets": [
+        "Strategy: choose AI priorities and investments against business goals.",
+        "Enablement: give teams shared practices, technical support and learning through an AI Center of Excellence.",
+        "Data: establish standards for information quality, access and ownership.",
+        "Continuous improvement: examine the process and improve the work before automating it.",
+        "Responsible AI and compliance: bring standards, risk assessment and review into delivery.",
+        "Measurement: define expected value, track results and use findings to guide further investment."
+      ]
+    },
+    {
+      "heading": "Why the connections matter at enterprise scale",
+      "paragraphs": [
+        "Microsoft keeps product teams responsible for delivery while its councils provide direction and shared support. Its data approach combines local ownership with common standards. That gives different parts of the organisation a role in decisions that reach beyond a single project.",
+        "Microsoft is sharing its experience as both an employer and an AI supplier. My reading is that the connections between these responsibilities are the most useful part to examine. In a large enterprise, one team may identify a promising use while another controls the data, budget or specialist expertise needed to make it work.",
+        "A proposal can therefore need several decisions before it can progress. Which result takes priority? Can another team reuse what is being built? Who will maintain the information and assess the risks? A connected council model gives those questions a route to people with the relevant authority.",
+        "For an enterprise adopting this approach, I would make those routes explicit. Agree which choices belong to each council, how shared decisions are resolved and what delivery teams can decide themselves. Check whether the arrangement helps projects progress, including when a sensible decision is to change or stop one."
+      ]
+    },
+    {
+      "heading": "An example: connecting two proposed AI assistants",
+      "paragraphs": [
+        "As a hypothetical example, imagine two divisions of a large employer proposing AI assistants for staff policy questions. Central IT can provide a shared platform, but the divisions have different policies and employee arrangements. Each proposal looks reasonable on its own; together they raise choices about investment, shared support and local responsibility.",
+        [
+          "An HR adviser, doing ",
+          {
+            "text": "Professional Advisor",
+            "href": "/profiles/professional-advisors/"
+          },
+          " work, identifies where an answer depends on location or individual circumstances. She proposes general policy explanations linked to current sources, with personal cases referred to the appropriate HR team. This defines a service boundary that both divisions can test."
+        ],
+        "The strategy group agrees to fund a shared pilot. The enablement team helps the divisions reuse the platform, while policy owners agree which sources apply to each group of staff. Responsible AI reviewers examine access and referral arrangements with the delivery team. The adviser remains responsible for the policy guidance; the project owner remains responsible for delivering the pilot.",
+        [
+          "Staff help test whether the answers and referrals are useful. The ",
+          {
+            "text": "guide to talking with staff about AI",
+            "href": "/blog/how-employers-should-talk-about-ai/"
+          },
+          " develops that conversation. At review, the project compares answer quality, unresolved questions and staff feedback alongside the maintenance and checking effort. Those findings inform whether to expand, revise or stop the service. The councils connect the decisions; the teams carry out the work."
+        ]
+      ]
+    },
+    {
+      "heading": "A lighter version for smaller companies and teams",
+      "paragraphs": [
+        "In a smaller workplace, I would combine these responsibilities in an existing management or team meeting. A named owner with authority over priorities and resources can work with the workflow owner and the person supporting the AI tool. One person may cover several functions, with outside expertise brought in when needed.",
+        "For the same policy-assistant idea, the business owner, HR adviser and technical contact could agree the scope, sources and support in one discussion. They would still need to decide what the assistant may do, who maintains it and how results will be reviewed. Keep those decisions in the notes people already use.",
+        "This is my suggested adaptation: retain the responsibilities and reduce the organisational layers. If shared decisions repeatedly stall or several teams compete for the same resources, a dedicated group may become useful. Keep urgent problems on a direct route to someone who can act."
+      ]
+    },
+    {
+      "heading": "Check how the model would work where you are",
+      "paragraphs": [
+        "Choose one AI initiative already under discussion. Trace the decisions it needs from proposal through delivery and review. In a large enterprise, ask which councils or existing bodies own those decisions and how they connect. In a smaller company, identify the people who can cover the same responsibilities.",
+        "Leave that discussion with a named decision-maker, the next decision required and a review date. Check for gaps in ownership, repeated referrals and unnecessary approval steps. Look at the quality of the result and the staff effort needed to sustain it. That gives you a practical basis for deciding whether your current structure needs strengthening or simplifying."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Microsoft Inside Track, Deploying AI with employee councils: An IT playbook from Microsoft",
+      "url": "https://www.microsoft.com/insidetrack/blog/deploying-ai-with-employee-councils-an-it-playbook-from-microsoft/",
+      "date": "29 October 2026"
+    },
+    {
+      "title": "Microsoft Inside Track, Guiding our AI deployment with a set of employee councils",
+      "url": "https://www.microsoft.com/insidetrack/blog/guiding-our-ai-deployment-with-a-set-of-employee-councils/",
+      "date": "18 June 2026"
+    }
+  ],
+  "related": [
+    "how-employers-should-talk-about-ai",
+    "staff-challenge-ai-decisions-work",
+    "when-ai-goes-wrong-who-can-pause-it"
+  ]
+},
+
   {
     "slug": "use-ai-to-challenge-your-thinking-at-work",
     "title": "Use AI to Challenge Your Thinking at Work",
