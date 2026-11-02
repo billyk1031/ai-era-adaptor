@@ -46,6 +46,101 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "realistic-expectations-ai-productivity",
+  "title": "Set Realistic Expectations for AI Productivity",
+  "description": "AI productivity gains take time to establish. Learn how trials and workflow improvements can make later runs more efficient.",
+  "category": "AI and Workplace Change",
+  "type": "Opinion",
+  "date": "2026-11-02",
+  "readTime": "3 min read",
+  "intro": "AI can make work faster. Expecting that improvement as soon as a tool is introduced can put pressure on a team before it has had time to make the tool useful. I think employers should treat early use as a period of testing and adjustment, with productivity expectations based on what the work actually demonstrates.",
+  "profiles": [
+    "analysts"
+  ],
+  "heroImage": {
+    "src": "/everyday-work-audit.webp",
+    "alt": "An analyst mapping a work process beside a laptop",
+    "width": 1594,
+    "height": 986
+  },
+  "sections": [
+    {
+      "heading": "A fast first draft can set the wrong expectation",
+      "paragraphs": [
+        "Seeing a report appear in seconds makes an earlier deadline or a higher output target look reasonable. Yet that first result may depend on carefully prepared information and leave parts of the task unfinished. Turning the demonstration into a reliable process takes further work.",
+        [
+          "That effort can be overlooked. For its October 2026 ",
+          {
+            "text": "Botsitting Report",
+            "href": "https://founderreports.com/botsitting-report/"
+          },
+          ", Founder Reports asked 2,052 employed US adults who used AI at work at least weekly about their experience. Of the 1,693 who reported spending time overseeing AI, 34.5% said their employer did not factor that time into their workload."
+        ],
+        "I would allow for the effort of getting an AI-assisted process working before counting on its savings. The first few attempts may involve learning the tool, improving its inputs and adjusting how work moves through it. Those attempts need time in the plan, with a clear aim of making later runs more efficient."
+      ]
+    },
+    {
+      "heading": "What that adjustment can look like",
+      "paragraphs": [
+        "Consider a hypothetical analyst, Maya, testing an approved AI tool for a monthly supplier comparison used in contract-renewal decisions. The draft appears quickly, but an old spreadsheet causes it to assess deliveries against outdated contract terms.",
+        "Maya uses the finding to improve the workflow. It now draws on maintained contract records and applies the terms valid on each delivery date. Missing or conflicting information goes to purchasing through an exception list. She saves the changes and tests them against previous deliveries before the next reporting cycle.",
+        [
+          "The next trial handles routine records correctly and separates unresolved cases. Maya spends less time correcting the comparison. For ",
+          {
+            "text": "Analysts",
+            "href": "/profiles/analysts/"
+          },
+          ", knowledge of the data and the decision can therefore help create a more efficient, repeatable process."
+        ],
+        "The first draft’s speed was promising. The improvement work made that promise more useful. Expecting the full saving immediately would have left little room for this adjustment."
+      ]
+    },
+    {
+      "heading": "Give the trial realistic expectations",
+      "paragraphs": [
+        "Managers should agree what the trial is meant to improve and give people time and support to refine it. Access to better data or help configuring the tool may be needed before a faster result becomes dependable.",
+        "For one recurring task, agree:"
+      ],
+      "bullets": [
+        "Intended gain: a quicker completed task, fewer corrections or another useful improvement, with quality maintained.",
+        "Trial period: enough comparable runs to test the approach, with time between them to make changes.",
+        "Review point: assess whether recurring effort is falling, including exceptions and checking, without transferring extra work to colleagues."
+      ]
+    },
+    {
+      "paragraphs": [
+        "The expectation should be progress across those trials. Repeatedly fixing the same output leaves the underlying problem in place. Use each trial to improve what the next run receives or how it operates, so the effort invested can reduce later intervention.",
+        "Patience also needs a limit. If targeted changes produce little improvement, reconsider the tool or narrow its role. Separate the initial setup effort from recurring work when judging whether the likely saving warrants further investment.",
+        [
+          "Once repeated runs show a reliable gain, there is a basis for changing deadlines or ",
+          {
+            "text": "deciding how to use the time saved",
+            "href": "/blog/where-does-ai-saved-time-go/"
+          },
+          ". Greater output, better service or less overtime may all be worthwhile. Give the team a chance to establish that gain before making it an expectation."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Founder Reports, Botsitting Report",
+      "url": "https://founderreports.com/botsitting-report/",
+      "date": "October 2026"
+    },
+    {
+      "title": "Founder Reports, Botsitting Report (full report)",
+      "url": "https://founderreports.com/wp-content/uploads/2026/10/Botsitting_Report_2026_FR.pdf",
+      "date": "October 2026"
+    }
+  ],
+  "related": [
+    "where-does-ai-saved-time-go",
+    "how-ai-is-changing-everyday-work"
+  ]
+},
+
+{
   "slug": "does-workplace-need-ai-council",
   "title": "Does Your Workplace Need an AI Council?",
   "description": "Microsoft’s six AI councils connect priorities, delivery and accountability. What can large enterprises learn, and how could smaller teams adapt the model?",
