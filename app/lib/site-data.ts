@@ -46,6 +46,129 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "linkedin-ai-skills-career-plan",
+  "title": "What LinkedIn’s AI Skills Data Means for Your Career",
+  "description": "Explore what LinkedIn’s AI literacy findings mean for your career, then turn a relevant strength or capability gap into a practical development goal.",
+  "category": "Jobs and Careers in the AI Era",
+  "type": "News reflection",
+  "date": "2026-11-03",
+  "readTime": "4 min read",
+  "intro": "AI literacy deserves a place in your career plan. LinkedIn’s latest figures associate it with substantially better hiring and promotion outcomes, alongside growing employer demand. For workers thinking about their next move, that gives a practical reason to assess how well their own AI capability fits the opportunities they want.",
+  "profiles": [
+    "relationship-workers",
+    "analysts"
+  ],
+  "heroImage": {
+    "src": "/human-skills-value.webp",
+    "alt": "Three colleagues discussing a document beside a laptop",
+    "width": 1594,
+    "height": 986
+  },
+  "sections": [
+    {
+      "heading": "A substantial career advantage in the data",
+      "paragraphs": [
+        [
+          "In its ",
+          {
+            "text": "27 October 2026 announcement",
+            "href": "https://news.linkedin.com/2026/linkedin-data-shows-where-opportunity-is-emerging-as-work-changes"
+          },
+          ", LinkedIn reports that members listing AI literacy skills are 78% more likely to be hired than those without them. It also reports an 11% advantage in the likelihood of promotion."
+        ],
+        "It also reports roughly 65% growth over the preceding year in the share of job postings requiring AI literacy. Employers seek these skills in fields including marketing, project management and administration.",
+        [
+          "LinkedIn’s ",
+          {
+            "text": "Work & AI Pulse",
+            "href": "https://pulse.linkedin.com/reporting-ai"
+          },
+          " distinguishes people building AI from those using it in everyday work. Its data draw on profiles and job postings, with members reporting their own skills and experience."
+        ],
+        "I read the combination of rising demand and better observed outcomes as a strong reason to take AI literacy seriously as a career asset. The useful next question is where that capability could strengthen your contribution."
+      ]
+    },
+    {
+      "heading": "Connect the advantage to your profession",
+      "paragraphs": [
+        "Start with work you want to do. A role might require you to use AI to investigate information, improve a customer response or develop a useful proposal. Each calls for professional knowledge as well as proficiency with a tool.",
+        "Look at relevant vacancies and progression criteria. Which AI responsibilities appear, and what would you need to demonstrate? Compare them with work you have actually done. You may find an existing strength that you have barely mentioned, or a gap worth making your next development priority."
+      ]
+    },
+    {
+      "heading": "Turn a capability gap into a goal",
+      "paragraphs": [
+        "As a hypothetical example, imagine Leah, an account manager interested in more senior customer-success work. The vacancies she is considering mention AI-assisted customer insights. She knows her customers well and uses AI for meeting summaries, but has little experience turning AI-supported analysis into a service decision.",
+        [
+          "Her work as a ",
+          {
+            "text": "Relationship Worker",
+            "href": "/profiles/relationship-workers/"
+          },
+          " gives her a starting point: she understands customer priorities and can negotiate an agreed response. In her ",
+          {
+            "text": "AI-Era SWOT",
+            "href": "/framework/#personal-swot"
+          },
+          ", she identifies an Opportunity to combine that knowledge with AI, alongside a gap in her analytical use of the tools."
+        ],
+        "She agrees one account review with her manager. Using an approved tool and permitted customer records, she groups recurring complaints. Pricing is a prominent theme. Leah checks the underlying messages and speaks with the customer and delivery team. A promised rollout has stalled, leaving the customer paying for a service they cannot fully use.",
+        "She adds that context to the analysis and compares recovery options. The customer wants the full rollout immediately; the delivery team has limited training capacity. Leah negotiates a phased plan both can accept. At the follow-up, she checks whether the rollout has progressed and the complaint is being resolved.",
+        [
+          "Her goal now has a clear purpose: develop AI-assisted customer analysis that leads to a useful service action. She is developing the ",
+          {
+            "text": "Analyst",
+            "href": "/profiles/analysts/"
+          },
+          " part of her role while building on her customer relationships. The review gives her evidence to discuss when seeking greater responsibility, including how she framed the problem, used AI and followed through."
+        ]
+      ]
+    },
+    {
+      "heading": "Choose one priority for your own plan",
+      "paragraphs": [
+        "Pick one role or progression opportunity you want. Then:"
+      ],
+      "bullets": [
+        "Identify the capability: translate its AI requirement into a piece of work and the result it should support.",
+        "Assess your position: put relevant experience or a specific gap into your SWOT. Keep the evidence beside your judgement.",
+        "Set one goal: develop the missing capability, or make an existing strength visible through a concrete example and informed feedback."
+      ]
+    },
+    {
+      "paragraphs": [
+        [
+          "If the requirement is unclear, identify someone familiar with that work or a reliable published example. Check it within a week before choosing your goal. If you need independent practice, ",
+          {
+            "text": "Which AI Skill Should You Learn for Your Next Role?",
+            "href": "/blog/which-ai-skill-learn-next-role/"
+          },
+          " offers a way to start with a useful project."
+        ],
+        "Managers can support this by explaining which AI capabilities matter for progression and giving staff a suitable assignment with feedback. Agree what a good result looks like and allow time for learning and review.",
+        "At your next development review, assess whether the work improved and what you can now demonstrate. That gives you a concrete basis for deciding which opportunity to pursue or which capability to develop next."
+      ]
+    }
+  ],
+  "related": [
+    "which-ai-skill-learn-next-role",
+    "ai-job-change-career-progression",
+    "show-your-value-ai-assisted-developer"
+  ],
+  "sources": [
+    {
+      "title": "LinkedIn, LinkedIn data shows where opportunity is emerging as work changes",
+      "url": "https://news.linkedin.com/2026/linkedin-data-shows-where-opportunity-is-emerging-as-work-changes",
+      "date": "27 October 2026"
+    },
+    {
+      "title": "LinkedIn, Work & AI Pulse: definitions and methodology",
+      "url": "https://pulse.linkedin.com/reporting-ai",
+      "date": "labelled updated September 2026; checked 3 November 2026"
+    }
+  ]
+},
+{
   "slug": "realistic-expectations-ai-productivity",
   "title": "Set Realistic Expectations for AI Productivity",
   "description": "AI productivity gains take time to establish. Learn how trials and workflow improvements can make later runs more efficient.",
