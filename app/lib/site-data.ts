@@ -46,6 +46,117 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-hiring-slowdown-canada-evidence",
+  "title": "Is AI Behind the Hiring Slowdown? New Evidence from Canada",
+  "description": "Canada’s new hiring study challenges a blanket AI explanation. Use ADAPTOR to assess changing demand and choose a practical next move.",
+  "category": "AI Job News and Current Affairs",
+  "type": "News reflection",
+  "date": "2026-11-04",
+  "readTime": "4 min read",
+  "intro": "If you are struggling to find work while hearing that AI is replacing jobs, it is easy to connect the two. A new Canadian study gives reason to question that explanation. Understanding what is making your next move difficult matters: fewer openings and changing work requirements call for different responses.",
+  "profiles": [],
+  "heroImage": {
+    "src": "/job-risk-reflection.webp",
+    "alt": "A professional holding a notebook and considering two paths",
+    "width": 1594,
+    "height": 987
+  },
+  "sections": [
+    {
+      "heading": "What the Canadian study found",
+      "paragraphs": [
+        [
+          "On 28 October 2026, Statistics Canada published ",
+          {
+            "text": "research on hiring and job separations",
+            "href": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026010/article/00003-eng.htm"
+          },
+          ". It found no broad evidence so far that AI had led to substantial decreases in hiring or increases in job separations in Canada."
+        ],
+        "The researchers analysed employees aged 15–64 in Canada’s ten provinces from January 2006 to August 2026. They compared occupations by potential AI exposure and whether AI might complement or substitute for human work.",
+        "Hiring among younger workers weakened across exposure groups, with declines generally beginning before ChatGPT became publicly available. Job separations, which include voluntary departures, generally remained within historical ranges. The authors also noted more volatile results in coding-intensive occupations.",
+        "These are early Canadian findings based on potential exposure. The effect of AI in a particular workplace still depends on how employers use it and organise the work."
+      ]
+    },
+    {
+      "heading": "Separate the job market from the work",
+      "paragraphs": [
+        "My reading is that we should be careful about turning a difficult job search into a verdict on an occupation. A hiring slowdown deserves attention even while its causes remain uncertain. You still need to find paid opportunities, and you may need more options than you originally expected.",
+        "Alongside that, examine how AI changes the work employers want. Are they asking for fewer routine outputs, different responsibilities or experience using AI? Those observations can shape a development goal. Choose any AI training around the work it would help you do.",
+        [
+          "The ",
+          {
+            "text": "ADAPTOR framework",
+            "href": "/framework/"
+          },
+          " connects these questions through Profile, Personal SWOT, Goals and Action. Start with the work you can contribute, then assess the changes around it."
+        ]
+      ]
+    },
+    {
+      "heading": "Turn a worry into a personal assessment",
+      "paragraphs": [
+        "As a hypothetical example, imagine Nadia, an early-career office administrator looking for her next role. She sees few suitable vacancies and wonders whether AI has made her experience obsolete.",
+        [
+          "She maps the work behind her job title: maintaining records, following up requests and organising documents. This gives her an ",
+          {
+            "text": "Administrative Operator",
+            "href": "/profiles/administrative-operators/"
+          },
+          " starting point for examining what employers still need."
+        ],
+        [
+          "Nadia reviews recent vacancies in her intended market and speaks with a recruiter. Recruitment is limited, but some openings combine administration with improving AI-assisted processes. She uses that information to build a more specific ",
+          {
+            "text": "AI-Era SWOT",
+            "href": "/framework/#personal-swot"
+          },
+          ":"
+        ]
+      ],
+      "bullets": [
+        "Strength: She has experience keeping request records accurate and following work through to completion.",
+        "Weakness: She has little experience configuring or assessing an AI-assisted workflow.",
+        "Opportunity: Some relevant vacancies ask for process-improvement capability alongside administrative experience.",
+        "Threat: Suitable openings are scarce, while AI makes routine drafting easier to automate or handle independently."
+      ]
+    },
+    {
+      "paragraphs": [
+        "Her concern now leads to two practical priorities: investigate a relevant capability gap and consider a wider range of paid opportunities. The reason for limited recruitment remains an open question."
+      ]
+    },
+    {
+      "heading": "Choose a goal that responds to the evidence",
+      "paragraphs": [
+        "Nadia sets a short-term goal: within a month, be able to demonstrate and explain an AI-assisted request-tracking workflow relevant to the vacancies she has found.",
+        "Her first actions are to clarify the expected workflow with the recruiter and practise using fictional records. She will test whether requests reach the right person, whether missing information is flagged and whether the completed record is accurate. She asks someone familiar with the work to assess how closely her demonstration matches what an employer needs.",
+        "That feedback will help her decide whether to develop the capability further or change direction. She continues applying for paid work during the month, including adjacent roles that use her existing experience."
+      ]
+    },
+    {
+      "heading": "Make your next move specific",
+      "paragraphs": [
+        "Choose one assumption about AI and your prospects. Over the next two weeks, examine recent vacancies or changed responsibilities and speak with someone close to that work. If you are employed, a manager can help clarify what has actually changed and which capabilities the team expects to need.",
+        "Use the evidence to update your SWOT and choose a goal. If AI-related requirements recur, identify a capability you can develop or demonstrate. If opportunities are scarce across the options you are considering, broaden the search alongside any learning. If the picture is unclear, name the missing information and set a date to check it.",
+        "At the review, ask whether your chosen goal addresses something you have observed. A relevant capability gap or a credible adjacent option gives you a firmer basis for action than a broad conclusion about AI and your occupation."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Statistics Canada, Hiring and job separation rates in the era of generative artificial intelligence: Early evidence, Tahsin Mehdi and Marc Frenette",
+      "url": "https://www150.statcan.gc.ca/n1/pub/36-28-0001/2026010/article/00003-eng.htm",
+      "date": "28 October 2026"
+    }
+  ],
+  "related": [
+    "will-ai-replace-my-job",
+    "anthropic-junior-hiring-ai-entry-level-work"
+  ]
+},
+
+{
   "slug": "linkedin-ai-skills-career-plan",
   "title": "What LinkedIn’s AI Skills Data Means for Your Career",
   "description": "Explore what LinkedIn’s AI literacy findings mean for your career, then turn a relevant strength or capability gap into a practical development goal.",
