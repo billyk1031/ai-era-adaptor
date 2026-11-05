@@ -46,6 +46,105 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-training-more-than-tools",
+  "title": "AI Training Must Cover More Than the Tools",
+  "description": "AI training should cover effective tool use, security, privacy and responsible judgement. A practical exercise helps managers check whether staff are ready.",
+  "category": "Human Value, Skills and Leadership",
+  "type": "Knowledge / Advice",
+  "date": "2026-11-05",
+  "readTime": "4 min read",
+  "intro": "Before asking people to use AI at work, managers should make sure they have the training to use it well. That includes getting a useful result, protecting information and knowing when an AI-generated answer needs to be challenged. A demonstration of faster drafting leaves too much for staff to work out on their own.",
+  "profiles": [],
+  "sections": [
+    {
+      "heading": "A wider view of AI capability",
+      "paragraphs": [
+        [
+          "In its ",
+          {
+            "text": "29 October guidance on AI in pension schemes",
+            "href": "https://www.thepensionsregulator.gov.uk/en/document-library/scheme-management-detailed-guidance/governing-body-detailed-guidance/use-of-artificial-intelligence-ai-in-pension-schemes"
+          },
+          ", the UK Pensions Regulator connects understanding AI with the ability to identify risks and ask informed questions. Its example of AI handling member complaints includes what personal data the system accesses, where people remain involved and how employees are trained."
+        ],
+        "That is a useful starting point for thinking about training across the workplace. Someone may know how to get a polished answer from an AI tool while being unsure whether they should upload the source material or act on the result. Employers need to address those decisions as part of preparing people for the work.",
+        [
+          "The ",
+          {
+            "text": "Australian Cyber Security Centre’s small-business guidance",
+            "href": "https://www.cyber.gov.au/sites/default/files/2025-12/artificial_intelligence_for_small_business.pdf"
+          },
+          " makes this practical. It recommends training staff on responsible use involving sensitive information, and on checking outputs for inaccuracies and bias. It also asks businesses to examine how their AI providers handle data. Those arrangements give staff a basis for applying what they learn."
+        ]
+      ]
+    },
+    {
+      "heading": "What the training should cover",
+      "paragraphs": [
+        "For an everyday use such as drafting, research or summarising documents, I would expect training to cover four areas:"
+      ],
+      "bullets": [
+        "Using the tool for the task. Staff should understand what it can help with, how to supply useful context and how to judge whether the result serves its purpose. Practise on work relevant to their role.",
+        "Protecting information. Explain which tools and accounts are approved, what information may be entered and what must stay out. Cover confidential business material as well as personal data. Show how to recognise suspicious requests for information or access.",
+        "Using the result responsibly. Teach people to check important facts against reliable sources, question unsupported claims and look for unfair assumptions. Make clear which decisions need human review and when AI use should be explained to others.",
+        "Getting help when something goes wrong. Staff need to know whom to contact after an accidental upload, a misleading answer or unexpected tool behaviour. Give them a safe way to pause and ask before proceeding."
+      ]
+    },
+    {
+      "paragraphs": [
+        "The balance will vary with the work. A team drafting internal updates needs different depth from one using AI to support decisions about customers or employees. Managers should establish the approved uses and data rules with appropriate support, then teach staff how to apply them."
+      ]
+    },
+    {
+      "heading": "Put those decisions into the exercise",
+      "paragraphs": [
+        "As a hypothetical example, imagine a small service business introducing AI-assisted customer replies. The manager demonstrates how to turn a long complaint into a concise, courteous response.",
+        "For the training exercise, staff receive a fictional complaint containing contact details, payment information and a refund request. Before drafting, they must decide which information the approved tool is permitted to receive. The manager shows them a safe version of the input and explains where the full customer record should remain.",
+        "The exercise also includes an AI draft promising a refund within five days. Staff check that promise against the company’s actual terms and approval process. They revise the reply and identify who must agree the refund. Finally, they work through what to do if they accidentally submit information that should have stayed out of the tool.",
+        "This teaches the whole task: using AI to prepare a response while protecting the customer and avoiding an unsupported commitment. It also reveals gaps in the employer’s preparation. If the manager cannot explain what data is permitted or who handles an incident, those arrangements need attention before staff are expected to use the tool."
+      ]
+    },
+    {
+      "heading": "Check readiness before extending use",
+      "paragraphs": [
+        "Choose one AI use your team is introducing or already relies on. Compare its training with the four areas above, then ask staff to work through a realistic scenario using fictional information.",
+        "Watch where they hesitate. Can they choose appropriate inputs, spot a misleading claim and explain when they need help? Use the answers to improve the training and clarify responsibilities. If a material question remains unresolved, keep that use limited until the team has an answer.",
+        [
+          "Give people ",
+          {
+            "text": "time to practise during work",
+            "href": "/blog/ai-training-time-practise-work/"
+          },
+          ", including time for questions and feedback. Revisit the training when the tool, its access or the task changes."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "The Pensions Regulator: Use of artificial intelligence (AI) in pension schemes",
+      "url": "https://www.thepensionsregulator.gov.uk/en/document-library/scheme-management-detailed-guidance/governing-body-detailed-guidance/use-of-artificial-intelligence-ai-in-pension-schemes",
+      "date": "29 October 2026"
+    },
+    {
+      "title": "Australian Signals Directorate’s Australian Cyber Security Centre: Artificial intelligence for small business — Managing cyber security risks",
+      "url": "https://www.cyber.gov.au/sites/default/files/2025-12/artificial_intelligence_for_small_business.pdf",
+      "date": "accessed 5 November 2026"
+    }
+  ],
+  "related": [
+    "ai-training-time-practise-work",
+    "can-you-use-ai-tool-at-work"
+  ],
+  "heroImage": {
+    "src": "/employers-ai-conversation.webp",
+    "alt": "Four colleagues discussing a workplace topic beside a whiteboard",
+    "width": 1594,
+    "height": 986
+  }
+},
+
+{
   "slug": "ai-hiring-slowdown-canada-evidence",
   "title": "Is AI Behind the Hiring Slowdown? New Evidence from Canada",
   "description": "Canada’s new hiring study challenges a blanket AI explanation. Use ADAPTOR to assess changing demand and choose a practical next move.",
