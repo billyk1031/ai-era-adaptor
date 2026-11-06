@@ -46,6 +46,65 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "give-staff-room-to-experiment-with-ai",
+  "title": "Give Staff Room to Try an AI Idea That Might Go Nowhere",
+  "description": "Giving staff room to try their own ideas with AI can build motivation and uncover customer problems worth solving.",
+  "category": "AI Policy, Risk and Workplace Culture",
+  "type": "Opinion",
+  "date": "2026-11-06",
+  "readTime": "3 min read",
+  "intro": "If the only reason you’re given to use AI is to get through your work faster, it’s fair to wonder what you get out of it. The report is due sooner. There’s another report waiting. I’d give people some room to try something they’re curious about, even if they’d struggle to explain its business value in advance.",
+  "sections": [
+    {
+      "paragraphs": [
+        [
+          "In a ",
+          {
+            "text": "2 November interview with The Washington Post",
+            "href": "https://www.washingtonpost.com/business/2026/11/02/why-mandating-ai-use-workplace-can-backfire/"
+          },
+          ", Stanford researcher Arvind Karunakaran makes the point that employees can use up plenty of AI tokens without doing anything useful. He suggests giving people scope to experiment and share what works. That gives staff something they can take back to their own work. A colleague’s rough demo can also make you think, “I wonder if I could use that for something I’ve been stuck on.”"
+        ]
+      ]
+    },
+    {
+      "heading": "An idea you’d never put in a business case",
+      "paragraphs": [
+        [
+          "In April 2025, Shopify made AI use a baseline expectation. What caught my attention was what the company encouraged people to do with it. In ",
+          {
+            "text": "Shopify’s account of its internal AI playground",
+            "href": "https://www.shopify.com/news/unserious-exploration"
+          },
+          ", engineer Daniel Beauchamp describes how staff build small, sometimes deliberately silly prototypes and share them on an internal site called Quick. You can show someone an idea while you’re still figuring out what it might be good for."
+        ],
+        "Imagine working at an equipment hire branch. Customers often ask whether a machine will fit through their front door. One of the advisers uses AI to turn that question into a daft little quiz, using made-up examples. A colleague who handles returns has a go and says, “The front door’s usually fine. It’s the turn at the top of the stairs.”",
+        "That’s a different problem from the one the adviser set out to solve. The two colleagues look back at why equipment came back unused and find cases where customers could get it through the door but couldn’t get it upstairs. They check which machines are awkward to manoeuvre and try asking about tight turns when customers book those models. The quiz may never leave the branch. It has already helped two people who see different ends of a hire work out where a better conversation could save a customer a wasted trip."
+      ]
+    },
+    {
+      "heading": "Give people a reason to come back to it",
+      "paragraphs": [
+        "The adviser has had a chance to turn her own idea into something a colleague could try. That’s a good reason to learn a bit more about AI. Next time she has an idea she would usually leave in her notebook, she knows how to get a first version in front of someone. If it goes nowhere, a colleague might still pick up a technique or see why an approach they were considering would be awkward in practice. Both are worth talking about.",
+        "Exploration takes time, especially when the team is already stretched. If people feel they have to produce an impressive demo or catch up on their regular work afterwards, I’d rethink how they’re being asked to take part. A place to share rough ideas might help one team. Somewhere safe to try them might be what another team needs first.",
+        "If someone on your team had an odd idea they wanted to try with AI, where would they try it, and who would they show?"
+      ]
+    }
+  ],
+  "profiles": [],
+  "related": [
+    "ai-training-more-than-tools",
+    "how-employers-should-talk-about-ai"
+  ],
+  "heroImage": {
+    "src": "/human-skills-value.webp",
+    "alt": "Three colleagues discussing an idea around a table",
+    "width": 1594,
+    "height": 986
+  }
+},
+
+{
   "slug": "ai-training-more-than-tools",
   "title": "AI Training Must Cover More Than the Tools",
   "description": "AI training should cover effective tool use, security, privacy and responsible judgement. A practical exercise helps managers check whether staff are ready.",
