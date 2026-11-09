@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import { ResponsiveImage } from '../components/ResponsiveImage';
 import Link from 'next/link';
 import { Eyebrow } from '../components/SiteShell';
 import { BreadcrumbJsonLd, JsonLd, pageMetadata } from '../lib/seo';
@@ -30,9 +30,9 @@ export default function BookPage() {
     <BreadcrumbJsonLd items={[{ name: 'Home', path: '/' }, { name: 'The book', path: '/book/' }]} />
     <JsonLd data={bookData} />
     <section className="page-hero"><div className="container"><Eyebrow>The book</Eyebrow><h1>Be an AI-Era ADAPTOR</h1><p className="lede">A Step-by-Step Process to Find Your Value and Plan Your Next Move in the Age of AI</p></div></section>
-    <section className="visual-strip"><div className="container"><Image src="/book-hero.png" width={2169} height={725} alt="The ADAPTOR book beside a laptop and coffee" /></div></section>
+    <section className="visual-strip"><div className="container"><ResponsiveImage asset="book-hero" sizes="(max-width: 1168px) calc(100vw - 48px), 1120px" alt="The ADAPTOR book beside a laptop and coffee" /></div></section>
     <section className="section"><div className="container book-page-grid">
-      <div><Image className="book-cover" src="/cover.png" width={330} height={528} alt="Cover of Be an AI-Era ADAPTOR by Billy Kan" /></div>
+      <div><ResponsiveImage asset="cover" sizes="(max-width: 650px) 240px, 300px" className="book-cover" alt="Cover of Be an AI-Era ADAPTOR by Billy Kan" /></div>
       <div className="book-copy"><Eyebrow>By Billy Kan</Eyebrow><h2>Make the ADAPTOR process personal.</h2><p className="subtitle">The website explains the method and shows illustrative results. The book guides you through your own Work Profile, personal AI-Era SWOT, goals and action plan, with advice for interpreting what you find.</p>
         <ul className="book-bullets"><li>A ten-scenario assessment to help identify and sense-check your Work Profile mix.</li><li>Seven profile-specific chapters on building a personal AI-Era SWOT, with five recurring people and their evolving decisions.</li><li>Examples for connecting real Threats and Opportunities to goals across three time horizons.</li><li>Action planning, milestones for longer-term goals, and a quarterly review process.</li><li>Practical chapters on learning AI with a goal, showing evidence of value, talking about change at work, and responding when a role is already at risk.</li></ul>
         <p>The website has a <Link className="inline-link" href="/framework/">framework explanation</Link>, <Link className="inline-link" href="/examples/">five illustrative people</Link> and <Link className="inline-link" href="/profiles/">seven Work Profiles</Link>. The book provides fuller guidance, prompts and templates for working through your own situation.</p>
@@ -47,7 +47,7 @@ export default function BookPage() {
         <ul><li><strong>Profile Assessment:</strong> work through ten scenarios, then record a primary, secondary, supporting, or desired profile.</li><li><strong>AI-Era SWOT:</strong> organise Strengths, Weaknesses, Opportunities, and Threats with evidence from your work.</li><li><strong>Goal Bank:</strong> connect selected SWOT signals to short-, medium-, and long-term goals.</li><li><strong>Actions:</strong> link actions and milestones to goals, then record dates, progress, and review notes.</li></ul>
         <p>Access instructions are in the book. The website’s illustrated people and Work Profile pages let you see the kind of result the workbook helps you build for yourself.</p>
         <a className="button" href={siteConfig.amazonUrl} target="_blank" rel="noreferrer">Get the book and companion workbook <span aria-hidden="true">↗</span></a>
-      </div><Image className="wide-feature-image" src="/workbook.png" width={1600} height={983} alt="Preview of the ADAPTOR Framework Workbook, with sheets for profile assessment, personal SWOT, goals, and actions" /></div>
+      </div><ResponsiveImage asset="workbook" sizes="(max-width: 650px) calc(100vw - 32px), (max-width: 900px) calc(100vw - 48px), (max-width: 1168px) 44vw, 490px" className="wide-feature-image" alt="Preview of the ADAPTOR Framework Workbook, with sheets for profile assessment, personal SWOT, goals, and actions" /></div>
     </div></section>
 
     <section className="section section-tight"><div className="container split"><div><Eyebrow>What you can take from it</Eyebrow><h2>A clearer basis for your next decision.</h2></div><div className="prose"><p>Use the guide to examine your position, gather evidence, consider options and take steps you can review. It cannot tell you what an employer will decide or guarantee job security.</p><p>The starting point is your work: the value you create, the changes you can observe and the choices available to you. Technical AI expertise is optional.</p><Link className="arrow-link" href="/framework/">Understand the framework <span aria-hidden="true">→</span></Link></div></div></section>

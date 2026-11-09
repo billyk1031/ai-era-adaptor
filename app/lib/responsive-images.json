@@ -1,0 +1,46 @@
+{
+  "personas": {
+    "width": 1594,
+    "height": 986,
+    "widths": [
+      480,
+      800,
+      1200,
+      1594
+    ],
+    "fallbackWidth": 1200
+  },
+  "cover": {
+    "width": 1600,
+    "height": 2560,
+    "widths": [
+      320,
+      480,
+      640,
+      960
+    ],
+    "fallbackWidth": 640
+  },
+  "book-hero": {
+    "width": 2169,
+    "height": 725,
+    "widths": [
+      800,
+      1200,
+      1600,
+      2169
+    ],
+    "fallbackWidth": 1600
+  },
+  "workbook": {
+    "width": 1600,
+    "height": 983,
+    "widths": [
+      640,
+      960,
+      1280,
+      1600
+    ],
+    "fallbackWidth": 1280
+  }
+}

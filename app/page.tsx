@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import { ResponsiveImage } from './components/ResponsiveImage';
 import { AdaptorWordmark, ArticleCard, ArrowLink, Eyebrow } from './components/SiteShell';
 import { pageMetadata } from './lib/seo';
 import { articles } from './lib/site-data';
@@ -25,7 +25,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-art">
-            <Image src="/personas.png" width={1594} height={986} alt="Five professionals representing different kinds of work" priority />
+            <ResponsiveImage asset="personas" sizes="(max-width: 650px) calc(100vw - 32px), (max-width: 720px) calc(100vw - 48px), (max-width: 900px) 672px, (max-width: 1168px) 44vw, 490px" alt="Five professionals representing different kinds of work" priority />
           </div>
         </div>
       </section>
@@ -83,7 +83,7 @@ export default function Home() {
 
       <section className="section" id="book">
         <div className="container book-page-grid">
-          <Image className="book-cover" src="/cover.png" width={330} height={528} alt="Cover of Be an AI-Era ADAPTOR" />
+          <ResponsiveImage asset="cover" sizes="(max-width: 650px) 240px, 300px" className="book-cover" alt="Cover of Be an AI-Era ADAPTOR" />
           <div className="book-copy">
             <Eyebrow>Go further with the book</Eyebrow>
             <h2>Apply ADAPTOR with a guide beside you.</h2>

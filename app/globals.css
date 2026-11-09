@@ -173,7 +173,7 @@ p { margin: 0 0 1rem; color: var(--body); }
 .book-cta .button { flex: 0 0 auto; }
 .book-cta-compact { margin-top: 2rem; }
 .book-page-grid { display: grid; grid-template-columns: minmax(220px, 300px) minmax(0, 1fr); gap: 4rem; align-items: center; }
-.book-cover { display: block; width: 100%; max-width: 300px; border-radius: 4px; box-shadow: 8px 12px 28px rgba(23, 32, 44, .16); }
+.book-cover { display: block; width: 100%; height: auto; max-width: 300px; border-radius: 4px; box-shadow: 8px 12px 28px rgba(23, 32, 44, .16); }
 .book-copy h2 { margin-bottom: 1rem; }
 .book-copy .subtitle { font-size: var(--lead-size); line-height: 1.55; }
 .book-bullets { display: grid; gap: .65rem; margin: 1.5rem 0; padding: 0; list-style: none; }
