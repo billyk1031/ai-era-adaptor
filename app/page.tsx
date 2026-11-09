@@ -1,3 +1,4 @@
+import { PracticalHelp } from './components/PracticalHelp';
 import Link from 'next/link';
 import { ResponsiveImage } from './components/ResponsiveImage';
 import { AdaptorWordmark, ArticleCard, ArrowLink, Eyebrow } from './components/SiteShell';
@@ -22,6 +23,7 @@ export default function Home() {
             <p className="lede">AI is changing tasks, roles, expectations and business models. A clearer picture of your own work will help you decide how to respond.</p>
             <div className="hero-actions">
               <Link className="button" href="#framework">See how ADAPTOR works <span aria-hidden="true">↓</span></Link>
+              <Link className="button button-outline" href="#practical-help">Find a practical starting point <span aria-hidden="true">↓</span></Link>
             </div>
           </div>
           <div className="hero-art">
@@ -29,6 +31,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <PracticalHelp />
 
       <section className="section" id="the-problem">
         <div className="container split">

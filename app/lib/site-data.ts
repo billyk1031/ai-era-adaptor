@@ -34,7 +34,7 @@ export const profiles: Profile[] = [
 export type ArticleParagraph = string | (string | { text: string; href: string })[];
 export type ArticleSection = { heading?: string; paragraphs?: ArticleParagraph[]; bullets?: ArticleParagraph[] };
 export type ArticleSource = { title: string; url: string; date: string };
-export type Article = { slug: string; title: string; description: string; category: string; type: 'Knowledge / Advice' | 'Coaching' | 'News reflection' | 'Explainer' | 'Advice' | 'Analysis' | 'Opinion' | 'Workplace guide'; date: string; readTime: string; intro: ArticleParagraph; profiles: ProfileSlug[]; sections: ArticleSection[]; related: string[]; heroImage?: { src: string; alt: string; width: number; height: number }; sources?: ArticleSource[]; sourceNote?: string };
+export type Article = { slug: string; title: string; description: string; category: string; type: 'Knowledge / Advice' | 'Coaching' | 'News reflection' | 'Explainer' | 'Advice' | 'Analysis' | 'Opinion' | 'Workplace guide'; date: string; updatedDate?: string; readTime: string; intro: ArticleParagraph; profiles: ProfileSlug[]; sections: ArticleSection[]; related: string[]; heroImage?: { src: string; alt: string; width: number; height: number }; sources?: ArticleSource[]; sourceNote?: string };
 
 export const categories = [
   { name: 'AI and Workplace Change', slug: 'ai-and-workplace-change', description: 'How AI changes tasks, roles, workflows, and expectations at work.' },
@@ -2193,12 +2193,12 @@ export const articles: Article[] = [
 
 {
   "slug": "which-ai-skill-learn-next-role",
-  "title": "Which AI Skill Should You Learn for Your Next Role?",
-  "description": "Choose an AI skill by making something useful: a side-hustle deliverable or a solution to a personal problem. Use the project to decide what to learn next.",
+  "title": "Which AI Skill Should You Learn for Your Work or Next Role?",
+  "description": "Choose an AI skill from the work you want to do, identify a capability gap and practise through a small project with a clear result to check.",
   "category": "Jobs and Careers in the AI Era",
   "type": "Coaching",
   "date": "2026-10-13",
-  "readTime": "5 min read",
+  "readTime": "6 min read",
   "profiles": [
     "output-creators"
   ],
@@ -2208,7 +2208,7 @@ export const articles: Article[] = [
     "width": 1594,
     "height": 987
   },
-  "intro": "A job advert asks for “AI skills”, but gives you little detail about what that means. You could spend weeks comparing courses and still be unsure where to start. Try making something useful for a side hustle or solving a personal problem that involves similar work. A finished result will show you what you can do with AI and where you need more practice.",
+  "intro": "A job advert asks for “AI skills”, but gives you little detail about what that means. Start with a result you want to produce in that role. Work out which capability would help you deliver it, then try a small project that lets you practise and check your progress.",
   "sections": [
     {
       "heading": "AI skills build on the work you want to do",
@@ -2233,6 +2233,31 @@ export const articles: Article[] = [
       ]
     },
     {
+      "heading": "Choose a capability before choosing a course",
+      "paragraphs": [
+        "Use one responsibility from your current work or a role you want to move into. Then make four choices."
+      ],
+      "bullets": [
+        "Name a useful result. A content role might need a clear event page; an analyst role might need an evidence-based recommendation.",
+        "Identify the gap. Do you need to brief an AI tool more clearly, check its output, improve the underlying work or learn a feature you have not used?",
+        "Check your starting point. Look at something you have already made or tried. Which part can you do well, and where do you still need help?",
+        "Choose a small practice task and a way to judge it. Decide what a usable result would look like and who or what could help you check it."
+      ]
+    },
+    {
+      "paragraphs": [
+        "For any project, learn the tool’s relevant limits and the rules for information you may share. Use an approved tool for workplace material, and keep a way to check important facts and decisions.",
+        [
+          "If you cannot yet name the work that is changing, the ",
+          {
+            "text": "20-minute task audit",
+            "href": "/blog/how-ai-is-changing-everyday-work/"
+          },
+          " gives you a place to start. Then return to the capability you want to practise."
+        ]
+      ]
+    },
+    {
       "heading": "Choose something useful to make",
       "paragraphs": [
         "Job descriptions can give you a direction even when they say little about AI. A content role might involve product pages and campaign materials. An analyst role might involve comparing options and explaining a recommendation. Use those ordinary responsibilities to choose a project you can do yourself.",
@@ -2245,6 +2270,7 @@ export const articles: Article[] = [
       "heading": "A side project makes the skill concrete",
       "paragraphs": [
         "As a hypothetical example, imagine a marketing assistant who wants to move into a content role. She also runs occasional weekend drawing workshops. For her next workshop, she decides to make an event page, a short FAQ and two social posts using AI assistance.",
+        "She has written event notices before, but finds AI drafts hard to steer towards the offer she wants to make. Her first learning goal is to give a clear brief and judge whether the page answers the questions a prospective participant would ask.",
         "She gathers the facts she already controls: who the workshop is for, what participants will try, the materials provided and the booking details. She gives an AI tool that brief and asks for two ways to present the event. One draft leads with the picture people will take home; the other emphasises the techniques they can try. Her workshop is about experimenting, and people arrive with different levels of experience. She chooses the second approach and asks the tool to develop it into a complete page.",
         "She edits the page into her own voice and checks the dates, price and booking link. She then uses the finished page to generate the FAQ and posts, checking that they describe the same offer. If someone asks whether beginners are welcome, she can use that question to improve the page.",
         [
@@ -2276,7 +2302,7 @@ export const articles: Article[] = [
         "A side project can also provide concrete evidence for your CV and interviews. Describe what you made and how you used AI. In an interview, show the finished work and explain your choices and checks. The workshop page, FAQ and posts give the marketing assistant something specific to discuss beyond saying she has “AI skills”.",
         "Managers can offer a similar opportunity at work by giving people a small, useful task and room to improve it. A worker preparing for a move can start with a project outside work, using information and materials they are free to use.",
         [
-          "Pick something you have been meaning to make or fix, and finish a first version this weekend. If you are working through the ",
+          "Pick something you have been meaning to make or fix, and set a feasible date for a first version. If you are working through the ",
           {
             "text": "ADAPTOR framework",
             "href": "/framework/"
@@ -2301,7 +2327,8 @@ export const articles: Article[] = [
   "related": [
     "ai-training-time-practise-work",
     "show-your-value-ai-assisted-developer"
-  ]
+  ],
+  "updatedDate": "2026-11-09"
 },
 
 {
@@ -3464,62 +3491,118 @@ export const articles: Article[] = [
     related: ['will-ai-replace-my-job', 'which-human-skills-become-more-valuable'],
   },
   {
-    slug: 'will-ai-replace-my-job',
-  profiles: [],
-    title: 'Will AI Replace My Job? Questions Worth Asking First',
-    description: 'Worried AI could replace your job? Examine demand for your work, separate evidence from assumptions, and choose a practical next step.',
-    category: 'Jobs and Careers in the AI Era',
-    type: 'Coaching',
-    date: '2026-09-27',
-    readTime: '4 min read',
-    heroImage: { src: '/job-risk-reflection.webp', alt: 'A professional considering two possible paths', width: 1594, height: 987 },
-    intro: 'A new tool appears at work. Someone mentions a hiring freeze. You begin to wonder: “Will AI replace my job?” Look at the work people still need from you, what has changed and what you can check. That will give you a better answer than your job title alone.',
-    sections: [
-      {
-        heading: 'What are you paid to make happen?',
-        paragraphs: [
-          'Write one sentence about the result of your work. Who relies on it, and what would they miss if you stopped doing it? A job description may list dozens of tasks; the result tells you why those tasks exist.',
-          'Now ask which parts a colleague, manager or customer might do for themselves with AI. Could the same work be covered by fewer people? Where would they still need your judgement, help with exceptions or accountability? What evidence do you have?',
-          ['If that is hard to picture, try the ', { text: '20-minute task audit', href: '/blog/how-ai-is-changing-everyday-work/' }, ' on one real piece of work. The ', { text: 'seven Work Profiles', href: '/profiles/' }, ' can then help you recognise the other kinds of work inside your role.'],
-        ],
-      },
-      {
-        heading: 'What has actually changed?',
-        paragraphs: [
-          'Make two short lists. Under “I have seen”, put specific changes: fewer requests, a new tool in regular use, different expectations, or work moving to someone else. Under “I am assuming”, put the conclusions you have drawn from those changes.',
-          'Consider another explanation for each signal. A quiet month might reflect budget pressure or seasonality. A faster draft may leave the checking work untouched. The ILO’s 2025 research finds that changes to jobs are a more likely broad effect of generative AI than wholesale replacement of most occupations. Your employer’s plans still need a conversation closer to home.',
-        ],
-      },
-      {
-        heading: 'Which question could someone help you answer?',
-        paragraphs: [
-          'Choose the assumption that matters most. You might ask a manager: “As this work changes, which results will you still need from my role?” A freelancer might ask a client which work they now handle themselves and where they still want support. Pick someone close enough to the work to give you a useful answer.',
-        ],
-      },
-      {
-        heading: 'Use the answer to choose your next move',
-        paragraphs: [
-          'Once you have checked, which of these comes closest to your situation?',
-        ],
-        bullets: [
-          'People still need the result, but the work is changing. Ask which contribution matters most now. Choose one way to improve or show that contribution, and agree how you will judge it in a month.',
-          'You cannot yet tell what will happen to demand. Name the missing fact and who can clarify it. Set a date for that conversation. Meanwhile, note the results you have delivered and identify one adjacent role or client need worth exploring.',
-          'Requests are falling, work is being reassigned, or your role is formally at risk. Check whether the shift is temporary. If a restructure is proposed, get its scope, timetable and available support. Begin looking at internal and external options now; the pressure may have several causes.',
-        ],
-      },
-      {
-        heading: 'Write a conclusion you can revisit',
-        paragraphs: [
-          'Complete this sentence: “Based on ___, my role currently looks [in demand but changing / uncertain / under pressure]. I will ___ by ___, and I will reassess if ___.” This gives you a working answer to the question you started with—and a way to update it when the facts change.',
-          ['To build a fuller plan, use the ', { text: 'ADAPTOR framework guide', href: '/framework/' }, ' to connect your work profile and personal SWOT to goals and action. ', { text: 'Aisha’s example', href: '/examples/aisha/' }, ' shows how one person made her less visible judgement easier to recognise.'],
-        ],
-      },
-    ],
-    sources: [
-      { title: 'ILO, Generative AI and Jobs: A Refined Global Index of Occupational Exposure', url: 'https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure', date: '20 May 2025' },
-    ],
-    related: ['how-ai-is-changing-everyday-work', 'which-human-skills-become-more-valuable'],
+  "slug": "will-ai-replace-my-job",
+  "profiles": [],
+  "title": "Will AI Take My Job? Assess Your Work and Choose a Next Step",
+  "description": "Assess how AI could affect demand for your work. Check tasks, self-service and workplace evidence, then choose a next step you can review.",
+  "category": "Jobs and Careers in the AI Era",
+  "type": "Coaching",
+  "date": "2026-09-27",
+  "readTime": "3 min read",
+  "heroImage": {
+    "src": "/job-risk-reflection.webp",
+    "alt": "A professional considering two possible paths",
+    "width": 1594,
+    "height": 987
   },
+  "intro": "AI can take over parts of a job and change how many people are needed to do the work. To assess what that means for you, look at which tasks are changing, whether people still need the result and what your employer or clients plan to do next.",
+  "sections": [
+    {
+      "heading": "What are you paid to make happen?",
+      "paragraphs": [
+        "Write one sentence about the result of your work. Who relies on it, and what would they miss if you stopped doing it? A job description may list dozens of tasks; the result tells you why those tasks exist.",
+        "Now ask which parts a colleague, manager or customer might do for themselves with AI. Could the same work be covered by fewer people? Where would they still need your judgement, help with exceptions or accountability? What evidence do you have?",
+        [
+          "If that is hard to picture, try the ",
+          {
+            "text": "20-minute task audit",
+            "href": "/blog/how-ai-is-changing-everyday-work/"
+          },
+          " on one real piece of work. The ",
+          {
+            "text": "seven Work Profiles",
+            "href": "/profiles/"
+          },
+          " can then help you recognise the other kinds of work inside your role."
+        ]
+      ]
+    },
+    {
+      "heading": "What has actually changed?",
+      "paragraphs": [
+        "Make two short lists. Under “I have seen”, put specific changes: fewer requests, a new tool in regular use, different expectations, or work moving to someone else. Under “I am assuming”, put the conclusions you have drawn from those changes.",
+        [
+          "Consider another explanation for each signal. A quiet month might reflect budget pressure or seasonality. A faster draft may leave the checking work untouched. The ",
+          {
+            "text": "ILO’s 2025 task-exposure research",
+            "href": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure"
+          },
+          " identifies transformation of jobs as the most likely broad effect of generative AI. Your employer’s plans still need a conversation closer to home."
+        ]
+      ]
+    },
+    {
+      "heading": "Which question could someone help you answer?",
+      "paragraphs": [
+        "Choose the assumption that matters most. You might ask a manager: “As this work changes, which results will you still need from my role?” A freelancer might ask a client which work they now handle themselves and where they still want support. Pick someone close enough to the work to give you a useful answer."
+      ]
+    },
+    {
+      "heading": "Use the answer to choose your next move",
+      "paragraphs": [
+        "Once you have checked, which of these comes closest to your situation?"
+      ],
+      "bullets": [
+        "People still need the result, but the work is changing. Ask which contribution matters most now. Choose one way to improve or show that contribution, and agree how you will judge it in a month.",
+        "You cannot yet tell what will happen to demand. Name the missing fact and who can clarify it. Set a date for that conversation. Meanwhile, note the results you have delivered and identify one adjacent role or client need worth exploring.",
+        "Requests are falling, work is being reassigned, or your role is formally at risk. Check whether the shift is temporary. If a restructure is proposed, get its scope, timetable and available support. Begin looking at internal and external options now; the pressure may have several causes."
+      ]
+    },
+    {
+      "paragraphs": [
+        [
+          "If your next move is to develop a capability, the guide to ",
+          {
+            "text": "choosing an AI skill for your work or next role",
+            "href": "/blog/which-ai-skill-learn-next-role/"
+          },
+          " helps you choose something useful to practise. Start from the contribution you want to make."
+        ]
+      ]
+    },
+    {
+      "heading": "Write a conclusion you can revisit",
+      "paragraphs": [
+        "Complete this sentence: “Based on ___, my role currently looks [in demand but changing / uncertain / under pressure]. I will ___ by ___, and I will reassess if ___.” This gives you a working answer to the question you started with—and a way to update it when the facts change.",
+        [
+          "To build a fuller plan, use the ",
+          {
+            "text": "ADAPTOR framework guide",
+            "href": "/framework/"
+          },
+          " to connect your work profile and personal SWOT to goals and action. ",
+          {
+            "text": "Aisha’s example",
+            "href": "/examples/aisha/"
+          },
+          " shows how one person made her less visible judgement easier to recognise."
+        ]
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "ILO, Generative AI and Jobs: A Refined Global Index of Occupational Exposure",
+      "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+      "date": "20 May 2025"
+    }
+  ],
+  "related": [
+    "how-ai-is-changing-everyday-work",
+    "which-human-skills-become-more-valuable"
+  ],
+  "updatedDate": "2026-11-09"
+},
   {
     slug: 'microsoft-2026-job-cuts-ai-question',
   profiles: [],

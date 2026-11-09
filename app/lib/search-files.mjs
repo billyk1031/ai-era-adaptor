@@ -28,7 +28,11 @@ function absoluteUrl(path) {
 }
 
 export function buildSitemapXml() {
-  const urls = getSitemapPaths().map((path) => `<url><loc>${escapeXml(absoluteUrl(path))}</loc></url>`).join('');
+  const updatedArticles = new Map(articles.filter((article) => article.updatedDate).map((article) => [`/blog/${article.slug}/`, article.updatedDate]));
+  const urls = getSitemapPaths().map((path) => {
+    const updatedDate = updatedArticles.get(path);
+    return `<url><loc>${escapeXml(absoluteUrl(path))}</loc>${updatedDate ? `<lastmod>${updatedDate}</lastmod>` : ''}</url>`;
+  }).join('');
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls}</urlset>\n`;
 }
 
