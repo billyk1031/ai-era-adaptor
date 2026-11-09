@@ -46,6 +46,131 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-changes-tasks-redefine-roles",
+  "title": "AI Has Changed the Tasks. Have You Redefined the Roles?",
+  "description": "Define roles and responsibilities as you establish an AI workflow, so people know what they own and work is neither duplicated nor missed.",
+  "category": "AI and Workplace Change",
+  "type": "Coaching",
+  "date": "2026-11-09",
+  "readTime": "5 min read",
+  "intro": "AI can change a job before anyone updates its responsibilities. Someone starts producing work they previously asked a colleague to do. That colleague spends more time checking or editing, while both are still working to expectations set for the old arrangement. Has the organisation decided what their roles should now deliver?",
+  "sections": [
+    {
+      "paragraphs": [
+        [
+          "HRCI’s report ",
+          {
+            "text": "Redesigning Work: How AI Is Changing Jobs and How HR Can Lead",
+            "href": "https://www.hrci.org/docs/default-source/pdf-documents/redesigning-work.pdf?sfvrsn=ff7452ec_1"
+          },
+          ", ",
+          {
+            "text": "announced on 6 November",
+            "href": "https://www.hrci.org/about-hrci/press/press-releases/2026/11/06/ai-is-reshaping-jobs-hr-must-lead-the-redesign"
+          },
+          ", recommends starting with the outcomes a team needs, examining its tasks and involving employees in redesigning the work. Updated job descriptions follow those decisions. Role definition belongs in the design of the AI workflow, so people understand what they will be responsible for when it begins. Teams already using AI can use the same approach to resolve responsibilities that have drifted."
+        ]
+      ]
+    },
+    {
+      "heading": "Two jobs can change at once",
+      "paragraphs": [
+        "As a hypothetical example, imagine an account manager who used to brief a writer on a client proposal. The account manager understood the client’s needs and commercial terms. The writer developed the argument and wrote the proposal.",
+        "Now the account manager uses approved AI to produce a complete draft and sends it to the writer to tidy up. Over several months, this becomes the usual way of working.",
+        [
+          "The account manager has taken on proposal development alongside managing the client. The writer’s work has narrowed from developing proposals to editing them. For ",
+          {
+            "text": "Output Creators",
+            "href": "/profiles/output-creators/"
+          },
+          ", that could mean a substantial change in what the business needs from their role."
+        ],
+        "Yet the account manager may still be assessed mainly on client relationships and sales, with little time allowed for developing proposals. The writer may still be expected to take responsibility for persuasive, accurate proposals while being asked only to polish finished drafts. Both need clarity about the job they are now doing."
+      ]
+    },
+    {
+      "heading": "What does the team need each role to deliver?",
+      "paragraphs": [
+        "When establishing an AI workflow, start with the result the work serves. In this example, the business needs proposals that address client needs and make commitments it can fulfil. Producing more drafts is only useful if it helps achieve that result.",
+        "Before putting the workflow into use, work through how those proposals will be produced with the people involved. What will AI do, and what will each person be responsible for? Which existing duties will move or end? Consider the whole job, including deciding what to offer, developing the proposal and approving what reaches the client.",
+        "Then consider the roles together. The manager might decide that account managers should own routine proposals, with training and clear authority over what they can promise. The writer could concentrate on complex proposals and maintaining editorial standards, if the volume and difficulty of that work justify a continuing role.",
+        "Another team might need writers to retain responsibility for proposal development, using AI to help them produce it. The account manager’s AI draft would then be an input to that work. The choice depends on the outcomes and expertise the business needs. Agree it as part of establishing the workflow, so both people know the scope of their roles from the start.",
+        "There may also be less demand for writing overall. If occasional editing is all that remains, management needs to acknowledge the reduced scope and discuss its implications with the affected staff. Giving the writer an impressive new description without worthwhile work behind it would leave that issue unresolved."
+      ]
+    },
+    {
+      "heading": "Make the revised responsibilities workable",
+      "paragraphs": [
+        "Once a direction is agreed, ask what each person would need to carry it out. Taking responsibility for a proposal requires enough time, relevant knowledge and authority to make or obtain the necessary decisions.",
+        "For the account manager, what existing duties could be reduced if proposal development becomes a regular responsibility? For the writer, what would they be expected to decide, and how would their contribution be assessed? Agree any training and support before treating the new arrangement as established.",
+        "The manager should work through these questions with both people and make the revised responsibilities explicit. For example, who owns the proposal’s argument, who confirms its commercial commitments, and who approves the final version? If both people expect to rewrite the argument, they may duplicate effort. If each assumes the other checks the commitments, that work may be missed.",
+        "Those decisions should be reflected in the role descriptions and performance expectations. A revised role also needs to fit a sustainable working day.",
+        [
+          "If these changes affect your own development, ",
+          {
+            "text": "AI Has Changed Your Job. Has Your Career Path Kept Up?",
+            "href": "/blog/ai-job-change-career-progression/"
+          },
+          " explores that separate conversation. First establish what the role is becoming, so development plans have a clear purpose."
+        ]
+      ]
+    },
+    {
+      "heading": "Define the roles before the workflow becomes routine",
+      "paragraphs": [
+        "Take an AI workflow your team is preparing to introduce or expand. If you lead the team, bring the affected people into the role-design discussion. If you are taking part, ask how the proposed workflow will change your responsibilities and those of your colleagues.",
+        "Agree:"
+      ],
+      "bullets": [
+        "The outcome each role will be responsible for delivering.",
+        "Which duties it will retain, gain or stop, including work moving to another role or to AI.",
+        "Who can make the key decisions and who is accountable for the completed work.",
+        "The time, training and support needed, and how the revised contribution will be assessed."
+      ]
+    },
+    {
+      "paragraphs": [
+        "Walk through a typical assignment using that division of responsibilities. Can everyone explain what they will do and what they will rely on someone else to do? Look for duplicated duties and work without an owner. Resolve those points before the workflow goes into regular use.",
+        "Where a responsibility is still uncertain, give it an interim owner for the pilot and agree what the trial needs to establish. Set a review date before the pilot begins. The team should know who will do the work while it learns what a lasting arrangement should look like.",
+        "Use the first complete work cycle to check whether the agreed roles deliver the required outcomes within the capacity available. Adjust them where the trial reveals a problem. If AI is already in use, bring the current arrangement into the same discussion and agree the responsibilities from here."
+      ]
+    },
+    {
+      "heading": "Source",
+      "bullets": [
+        [
+          "HRCI, ",
+          {
+            "text": "Redesigning Work: How AI Is Changing Jobs and How HR Can Lead",
+            "href": "https://www.hrci.org/docs/default-source/pdf-documents/redesigning-work.pdf?sfvrsn=ff7452ec_1"
+          },
+          ", particularly pages 4–6. ",
+          {
+            "text": "Report announcement, 6 November 2026",
+            "href": "https://www.hrci.org/about-hrci/press/press-releases/2026/11/06/ai-is-reshaping-jobs-hr-must-lead-the-redesign"
+          },
+          "."
+        ]
+      ]
+    }
+  ],
+  "profiles": [
+    "output-creators"
+  ],
+  "related": [
+    "ai-expands-skills-changes-specialist-value",
+    "ai-job-change-career-progression",
+    "how-ai-is-changing-everyday-work"
+  ],
+  "heroImage": {
+    "src": "/employers-ai-conversation.webp",
+    "alt": "Four colleagues discussing their work beside a whiteboard",
+    "width": 1594,
+    "height": 986
+  }
+},
+
+{
   "slug": "give-staff-room-to-experiment-with-ai",
   "title": "Give Staff Room to Try an AI Idea That Might Go Nowhere",
   "description": "Giving staff room to try their own ideas with AI can build motivation and uncover customer problems worth solving.",
