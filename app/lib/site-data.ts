@@ -46,6 +46,128 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-job-less-enjoyable-change-careers",
+  "title": "AI Has Made Your Job Less Enjoyable. Should You Change Careers?",
+  "description": "When AI changes the work you enjoyed, consider whether to adapt to the evolving role or use your SWOT to explore a different career.",
+  "category": "Jobs and Careers in the AI Era",
+  "type": "Coaching",
+  "date": "2026-11-10",
+  "readTime": "5 min read",
+  "intro": "You may be getting more done with AI while enjoying your work less. Perhaps the tasks that drew you into your profession are becoming a smaller part of the day. Learning the tools helps you keep up, but leaves a harder question: do you still want the role you are adapting to?",
+  "sections": [
+    {
+      "paragraphs": [
+        "If AI is changing the nature of that role across the profession, another employer may offer much the same work. It is worth exploring what you could value in the evolving role, alongside whether you want to develop a different career."
+      ]
+    },
+    {
+      "heading": "What has lost its appeal?",
+      "paragraphs": [
+        [
+          "Adaptavist’s ",
+          {
+            "text": "New developer realities report",
+            "href": "https://static.adaptavistassets.com/downloads/adaptavist_new_developer_realities_report.pdf"
+          },
+          ", featured in its ",
+          {
+            "text": "5 November article",
+            "href": "https://www.adaptavist.com/blog/what-ai-means-for-the-future-of-software-engineering"
+          },
+          ", captures this tension. In a March 2026 survey of 1,000 developers across the UK, US, Netherlands, Spain and Germany, 83% said AI had made them more productive. Yet 46% believed AI was making software development a less attractive career."
+        ],
+        "Those experiences invite a personal question about what makes the work worthwhile. Looking at recent work can help you recognise what has lost its appeal. You might miss making something yourself, investigating a difficult problem or seeing your expertise grow through practice. What has taken its place, and how do you feel about that work?"
+      ]
+    },
+    {
+      "heading": "Could you find value in the changing role?",
+      "paragraphs": [
+        "As a hypothetical example, imagine a software developer who enjoyed turning an idea into working code. Her team now uses AI agents for much of the implementation. She spends more time setting direction, reviewing changes and deciding whether the resulting system meets users’ needs. Her manager increasingly expects her to oversee a wider body of work and take responsibility for its quality, even when she has written less of the code herself.",
+        [
+          "She is already experiencing the shift in both tasks and expectations. For this ",
+          {
+            "text": "Digital Builder",
+            "href": "/profiles/digital-builders/"
+          },
+          ", the question is whether she wants to grow into that version of the role. Her technical understanding helps her assess design choices and recognise where generated changes could create problems elsewhere in the system. She may find satisfaction in that wider responsibility and want to develop it further."
+        ],
+        "She may also find that the work she most enjoyed has become too small a part of the role. Looking at the responsibilities now expected of her gives her a basis for deciding whether to adapt or explore another career. Moving to another employer could leave her facing the same choice.",
+        "Your own experience may reveal a similar choice. Consider where the role’s value is moving and whether that contribution interests you. A useful development goal needs both a reason for someone to value it and a reason for you to pursue it."
+      ]
+    },
+    {
+      "heading": "Use your SWOT to explore another direction",
+      "paragraphs": [
+        [
+          "If the evolving role feels unattractive, a personal ",
+          {
+            "text": "AI-Era SWOT",
+            "href": "/framework/#personal-swot"
+          },
+          " can help you examine a different career. Begin with the work you already do and the capabilities you could carry forward. Then consider a possible direction in enough detail to test it."
+        ],
+        "For the developer, the first notes might look like this:"
+      ],
+      "bullets": [
+        "Strengths: She understands how systems work and can explain technical constraints clearly to colleagues.",
+        "Weaknesses: Most of her evidence of achievement concerns implementation. She has limited experience of leading discovery work with customers.",
+        "Opportunities: A conversation with a service lead reveals a possible assignment investigating why users struggle with a digital service. That could let her test work focused more on understanding needs.",
+        "Threats: Demand for her current implementation work may fall. AI may also change the research and analysis involved in the direction she is considering."
+      ]
+    },
+    {
+      "paragraphs": [
+        "The opportunity is a lead to investigate. She still needs to establish what the day-to-day work involves, whether she enjoys it and what employers expect from someone entering it.",
+        "Your SWOT may point somewhere quite different. Its value comes from connecting your experience with credible opportunities, while making gaps and assumptions visible. The time and income you would need while developing a new career also belong in that assessment."
+      ]
+    },
+    {
+      "heading": "Choose a next step you can learn from",
+      "paragraphs": [
+        "If adapting looks promising, your current work can guide your development. The responsibilities you are taking on may show where stronger capability or support would help you find more value in the role.",
+        [
+          "If another career looks more appealing, understanding its everyday work and entry requirements will help you assess the move before committing to substantial retraining. Conversations with people doing that work, or opportunities to experience it, can give you a clearer view. The guide to ",
+          {
+            "text": "assessing a route into a new role",
+            "href": "/blog/mckinsey-ai-jobs-career-transition-2026/"
+          },
+          " takes that investigation further."
+        ],
+        "If you are still unsure, focus on the uncertainty that most affects your choice. You might need a clearer view of your role’s future responsibilities or the demands of an alternative career. Knowing what you need to find out gives the investigation a direction; deciding when to revisit it keeps the question open without leaving it indefinitely unresolved.",
+        "Managers can help by discussing how expectations are changing and what support people need to meet them. Development conversations should leave room for how staff feel about the evolving work, alongside how well they perform it. Time for development needs to fit within a sustainable workload.",
+        "The aim is to move towards work you have reason to value and a realistic prospect of doing. Your experience of the changing role, supported by your SWOT, can help you judge whether that means adapting within your profession or preparing for a different career."
+      ]
+    }
+  ],
+  "profiles": [
+    "digital-builders"
+  ],
+  "related": [
+    "ai-job-change-career-progression",
+    "mckinsey-ai-jobs-career-transition-2026",
+    "which-ai-skill-learn-next-role"
+  ],
+  "heroImage": {
+    "src": "/job-risk-reflection.webp",
+    "alt": "A professional holding a notebook and considering two paths",
+    "width": 1594,
+    "height": 987
+  },
+  "sources": [
+    {
+      "title": "Adaptavist, New developer realities: what AI means for the future of software engineering",
+      "url": "https://www.adaptavist.com/blog/what-ai-means-for-the-future-of-software-engineering",
+      "date": "5 November 2026, updated 9 November 2026"
+    },
+    {
+      "title": "Adaptavist, New developer realities — full report",
+      "url": "https://static.adaptavistassets.com/downloads/adaptavist_new_developer_realities_report.pdf",
+      "date": "2026; survey conducted by Attest in March 2026"
+    }
+  ]
+},
+
+{
   "slug": "ai-changes-tasks-redefine-roles",
   "title": "AI Has Changed the Tasks. Have You Redefined the Roles?",
   "description": "Define roles and responsibilities as you establish an AI workflow, so people know what they own and work is neither duplicated nor missed.",
