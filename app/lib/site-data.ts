@@ -46,6 +46,89 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-freelance-services-personal-swot",
+  "title": "When Clients Use AI, What Will They Still Hire You For?",
+  "description": "Use a personal SWOT to identify a service clients will pay for when AI makes basic freelance work easier to do in-house.",
+  "category": "AI Job News and Current Affairs",
+  "type": "News reflection",
+  "date": "2026-11-11",
+  "readTime": "4 min read",
+  "intro": "If clients hire you for work they may soon do with AI, look for a service you can offer while they still buy the original one. Start with a problem they already need solved and an area where you have expertise they lack. You can test whether they value that extra help on a job you’re already doing together.",
+  "profiles": [
+    "output-creators"
+  ],
+  "sections": [
+    {
+      "paragraphs": [
+        [
+          "The OpenAI and Upwork study published on 10 November offers a reason to start now. Content writing lost share on Upwork between early 2023 and late 2025. Writing was a common use in the sampled ChatGPT conversations, which suggests one way some clients may be taking on work themselves. Upwork’s AI-related briefs also combined skills in ways that had been less common. Some clients wanted someone to build a chatbot and connect it to the software their business already used. The second part of that job is what gets the chatbot into day-to-day use. ",
+          {
+            "text": "OpenAI and Upwork’s study",
+            "href": "https://cdn.openai.com/pdf/openai-upwork-full-report.pdf"
+          }
+        ]
+      ]
+    },
+    {
+      "heading": "Find the part of the job that needs your expertise",
+      "paragraphs": [
+        "Imagine a freelance packaging designer who makes label artwork and product mock-ups for a small coffee roaster. The roaster still commissions that work. It wants to try three new blends in local shops, but has limited cash to spend on bags before it knows which blends will sell. The fully printed bags it priced would commit it to more stock than it wants for the trial.",
+        "The designer has taken other small brands through short print runs. She knows how to make the three blends look like a range while helping shoppers tell them apart. She proposes one stock bag and designs a set of labels with a shared layout and a distinct colour for each blend. She checks supplier quotes, makes prototypes on filled bags and runs a small packing test with the team. The test tells them how long labelling will add to each batch, which goes into the cost of the trial. That gives the roaster a way to trial the range and a cost it can compare with a fully printed run once it knows what sells.",
+        [
+          "The roaster could use AI to sketch how the range might look on a shelf. To decide what to order, it needs someone who can turn a design into a pack the team can produce at a cost the trial can bear. That takes the designer’s experience with printers, materials and small production runs. The designer can charge for developing and proving that solution. For ",
+          {
+            "text": "Output Creators",
+            "href": "/profiles/output-creators/"
+          },
+          " like her, the expertise behind the finished work can become part of what clients buy."
+        ]
+      ]
+    },
+    {
+      "heading": "Use a personal SWOT to decide what to offer",
+      "paragraphs": [
+        [
+          "A ",
+          {
+            "text": "personal SWOT",
+            "href": "/framework/#personal-swot"
+          },
+          " helps you connect an exposed part of your work with a service you’re equipped to provide. The designer could start with four observations from work she already does."
+        ]
+      ],
+      "bullets": [
+        "Strength. She has delivered packaging for small launches and knows how to balance shelf appeal, print costs and what a packing team can handle.",
+        "Weakness. Most of her fees come from artwork and mock-ups. Clients rarely see the production decisions she could help them make.",
+        "Opportunity. The roaster needs an affordable way to test a new range. AI could speed up the first visual options, giving her more time to work out which designs it can afford to produce.",
+        "Threat. Clients could start making their own mock-ups and commission fewer of them."
+      ]
+    },
+    {
+      "paragraphs": [
+        [
+          "That points to a service she can test on the roaster’s next launch. Choose one current client who faces a problem your strengths could help solve. Offer a paid piece of work with a result you can check. For the designer, that means a packaging option the roaster can afford, apply and use for the trial. Upwork found larger posted budgets for AI-related fixed-price projects and more time logged on hired hourly contracts, with similar posted hourly rates after accounting for the type and timing of the work. The designer needs to price the time it takes to get samples and run the packing test. ",
+          {
+            "text": "OpenAI and Upwork’s budget and hours analysis",
+            "href": "https://cdn.openai.com/pdf/openai-upwork-full-report.pdf#page=9"
+          }
+        ],
+        "If the client pays for that extra help and uses the result, you have a reason to offer it again. You’ve also found a strength worth making visible while clients still know you for the basic service."
+      ]
+    }
+  ],
+  "related": [
+    "which-ai-skill-learn-next-role",
+    "ai-professional-advice-client-value"
+  ],
+  "heroImage": {
+    "src": "/human-skills-value.webp",
+    "alt": "Three people discussing a document around a table",
+    "width": 1594,
+    "height": 986
+  }
+},
+
+{
   "slug": "ai-job-less-enjoyable-change-careers",
   "title": "AI Has Made Your Job Less Enjoyable. Should You Change Careers?",
   "description": "When AI changes the work you enjoyed, consider whether to adapt to the evolving role or use your SWOT to explore a different career.",
