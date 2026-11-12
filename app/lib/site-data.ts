@@ -46,6 +46,80 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "skills-to-keep-practising-with-ai",
+  "title": "Which Skills Should Your Team Keep Practising When AI Does the Work?",
+  "description": "See how delegating routine work to AI can reduce chances to learn the job, and use a short practice case to decide which skills your team still needs.",
+  "category": "Human Value, Skills and Leadership",
+  "type": "Knowledge / Advice",
+  "date": "2026-11-12",
+  "readTime": "4 min read",
+  "intro": "When AI saves time on routine work, the gain is easy to see. What’s harder to see is what people used to learn by doing that work. A new starter who rarely has to put a plan together may get fewer chances to learn which details to check. They’ll need that judgement to check a plausible AI recommendation or handle an exception.",
+  "profiles": [
+    "team-coordinators"
+  ],
+  "sections": [
+    {
+      "paragraphs": [
+        "I worry that companies will count the hours they save and overlook how people are supposed to learn the job. If your team is still expected to check AI recommendations and step in when they fall short, give people a chance to practise the decisions that responsibility depends on."
+      ]
+    },
+    {
+      "heading": "Why good results can hide a loss of practice",
+      "paragraphs": [
+        [
+          "A November preprint by Moritz Diener and colleagues models this trade-off. Accepting a good AI answer saves effort on the task in front of you. In the model, when accepting answers repeatedly displaces independent practice, beginners can struggle to build skills and experienced workers can get rusty. The work can still come out right because the AI is supplying the answer. ",
+          {
+            "text": "Today’s Work, Tomorrow’s Workforce",
+            "href": "https://arxiv.org/html/2611.06346v2"
+          }
+        ],
+        [
+          "Judy Hanwen Shen and Alex Tamkin tested one part of that idea with 52 Python users learning an unfamiliar library. Those given access to an AI assistant during two coding tasks scored lower on a quiz they took immediately afterwards without AI. The gap was largest on debugging questions. The study measured how much people learnt about one library in a short session. It gives managers a reason to look at what people are learning as well as what they’re getting done. ",
+          {
+            "text": "How AI Impacts Skill Formation",
+            "href": "https://arxiv.org/html/2601.20245v2#S5.SS2"
+          }
+        ]
+      ]
+    },
+    {
+      "heading": "Which decision would you still need someone to make?",
+      "paragraphs": [
+        "Imagine an equipment-hire company that now uses AI to plan its delivery routes. Preparing a schedule used to give new coordinators regular practice spotting which delivery times were flexible and which depended on other work at the site. With the schedule already drawn up, they have fewer reasons to make those calls themselves.",
+        "Then a van breaks down. The scheduling tool proposes moving a morning delivery to the afternoon. The booking record shows the site is open all day, so the change looks workable.",
+        "In a practice case, the manager holds back the suggested schedule and asks a coordinator what they would do. The coordinator calls the site and learns that the customer has booked an installation crew for the morning. Then they check with a second site, which agrees to take its delivery later. With dispatch, the coordinator confirms that the remaining van can reach the first site before installation starts and still make the second delivery within its revised window.",
+        [
+          "That’s the kind of trade-off ",
+          {
+            "text": "Team Coordinators",
+            "href": "/profiles/team-coordinators/"
+          },
+          " often handle. The tool could use the installation time once it had that information. The skill worth practising here is knowing which commitments to check, getting agreement to move one of them and confirming the revised plan is deliverable."
+        ]
+      ]
+    },
+    {
+      "heading": "Use a short case to decide what to practise",
+      "paragraphs": [
+        "Pick a decision where a plausible AI recommendation could have a costly consequence and your team would still be expected to act. If you already see people handle it well on their own, use what you’ve observed. If you’re unsure, ask someone who knows the work to help turn a past case into a short exercise. Keep the usual records available and let people consult the colleagues they would normally call. Show the AI recommendation after they’ve made their own call, then compare what each plan took into account.",
+        "Ask the team to explain which facts determined their choice and how they checked that the plan would work. If they found the key facts and agreed a workable plan, move on to a decision where you have less confidence. If they missed something, find out why. In the delivery case, an installation booking buried in a private inbox calls for a better shared record. If the information was available and the team overlooked its significance, give them time during the working week to practise weighing commitments with a more experienced colleague.",
+        "Use a fresh case after the feedback. Look for whether the team can now recognise the commitment that changes the decision and explain what they would do about it. That gives you something concrete to look for when a similar case comes up at work."
+      ]
+    }
+  ],
+  "related": [
+    "ai-answer-learning-work",
+    "ai-changes-tasks-redefine-roles"
+  ],
+  "heroImage": {
+    "src": "/human-skills-value.webp",
+    "alt": "Three colleagues discussing a document around a table",
+    "width": 1594,
+    "height": 986
+  }
+},
+
+{
   "slug": "ai-freelance-services-personal-swot",
   "title": "When Clients Use AI, What Will They Still Hire You For?",
   "description": "Use a personal SWOT to identify a service clients will pay for when AI makes basic freelance work easier to do in-house.",
