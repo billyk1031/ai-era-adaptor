@@ -46,6 +46,81 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-policy-staff-can-apply",
+  "title": "Can Your Staff Apply Your AI Policy to Their Work?",
+  "description": "See how routine AI use can expose private information and how leaders and supervisors can give staff guidance they can apply to everyday work.",
+  "category": "AI Policy, Risk and Workplace Culture",
+  "type": "Opinion",
+  "date": "2026-11-13",
+  "readTime": "4 min read",
+  "intro": "An employee who uses AI to simplify a public document may reach for the same tool when the next job involves private information. The task still feels like rewriting. The organisation needs to make it clear why the rules change and what the employee can do instead.",
+  "profiles": [
+    "administrative-operators"
+  ],
+  "sections": [
+    {
+      "paragraphs": [
+        [
+          "A public-sector study posted as a preprint on 11 November 2026 gives leaders reason to check how well their guidance is reaching staff. Among 568 survey respondents in six EU countries, 65% reported having used generative AI at work. Only 19% said their organisation had adopted AI. Across the full sample of 3,362 public-sector workers in ten countries, more than half felt there was too little guidance. The survey recruited volunteers online in March 2025. ",
+          {
+            "text": "Esnaashari et al., Is generative AI really changing public sector work?",
+            "href": "https://arxiv.org/html/2611.16102v1"
+          }
+        ],
+        [
+          "I find that combination worrying. Employers may still be deciding how to introduce AI while staff are already making daily decisions about what information to put into it. The researchers recommend reaching people through their supervisors, through induction and training, and through the tools they use. I’d judge the guidance by whether staff can apply it to the next case on their desk. ",
+          {
+            "text": "Study discussion and recommendations",
+            "href": "https://arxiv.org/html/2611.16102v1#S4"
+          }
+        ]
+      ]
+    },
+    {
+      "heading": "The privacy decision happens before you paste",
+      "paragraphs": [
+        "Imagine a council housing officer who uses a public chatbot to put published repairs guidance into plain English. Later she writes an update for a resident about a repair. Before sending it, she pastes her draft into the same chatbot and asks it to make the wording clearer. The draft includes the resident’s name, address and a note explaining why they need extra time to answer the door.",
+        [
+          "The chatbot might do a perfectly good job of rewriting the email. The privacy risk arises as soon as the officer submits the draft, because those details have already gone to an external service. For ",
+          {
+            "text": "Administrative Operators",
+            "href": "/profiles/administrative-operators/"
+          },
+          " who handle correspondence and case records, the guidance needs to answer a question that comes up before they use the tool. Can this service handle the information in this particular document? The UK Government’s AI Playbook makes data input a specific concern when staff use publicly available AI services. ",
+          {
+            "text": "UK Government AI Playbook",
+            "href": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html"
+          }
+        ]
+      ]
+    },
+    {
+      "heading": "Give leaders and supervisors a clear responsibility",
+      "paragraphs": [
+        "Leaders should name who owns the guidance and make sure that person can decide which tools and accounts staff may use, what information each can handle and what checks are required before someone acts on an output. They also need to give teams a workable way to complete tasks that fall outside those permissions.",
+        "A supervisor can make that guidance concrete in the repairs team’s reply template. Suppose the council has approved AI for rewriting public information only. The template can name the approved tool for rewriting published information and show how to use it on a generic paragraph before adding case details in the council’s own system. If the policy leaves the status of a tool or a type of case unclear, the supervisor takes that question to the person who owns the guidance and brings the answer back to the team.",
+        "A policy that tries to list every possible case will be hard to keep current. Give staff clear rules for the decisions they make often and a person who can resolve the unusual ones. The examples can change as the work changes."
+      ]
+    },
+    {
+      "heading": "Test it with the people doing the work",
+      "paragraphs": [
+        "Take one routine task and one realistic exception. Ask staff to use the guidance available to them to explain which tool they’d use and what they could put into it. A useful exception is a standard reply with a paragraph copied from a case record. If two people reach different answers, find out where the guidance led them and resolve the ambiguity. Try again with a similar case. The check has worked when staff can make the decision during an ordinary shift and know who can help when the next case is less clear."
+      ]
+    }
+  ],
+  "related": [
+    "can-you-use-ai-tool-at-work",
+    "how-employers-should-talk-about-ai"
+  ],
+  "heroImage": {
+    "src": "/employers-ai-conversation.webp",
+    "alt": "Four colleagues talking beside a whiteboard",
+    "width": 1594,
+    "height": 986
+  }
+},
+{
   "slug": "skills-to-keep-practising-with-ai",
   "title": "Which Skills Should Your Team Keep Practising When AI Does the Work?",
   "description": "See how delegating routine work to AI can reduce chances to learn the job, and use a short practice case to decide which skills your team still needs.",
