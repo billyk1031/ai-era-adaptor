@@ -46,6 +46,67 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-support-for-harder-cases-at-work",
+  "title": "When AI Takes the Easy Cases, How Can It Help With the Hard Ones?",
+  "description": "When AI handles routine work, design support for the harder cases people will keep. See how to test both parts of the workflow before launch.",
+  "category": "AI and Workplace Change",
+  "type": "Knowledge / Advice",
+  "date": "2026-11-16",
+  "readTime": "3 min read",
+  "intro": "When AI starts handling routine requests, the queue on your desk may get shorter. A greater share of the work that reaches you can involve missing information, conflicting records or decisions that need someone else's judgement. When a team designs an AI workflow, it should plan for the cases that will come off people's desks and the help they'll need with the ones that stay.",
+  "profiles": [
+    "administrative-operators"
+  ],
+  "sections": [
+    {
+      "heading": "What happens to the work people keep?",
+      "paragraphs": [
+        [
+          "In a November 2026 study, researchers asked 423 quality-control operators at one multinational manufacturer to choose between hypothetical versions of their job. In one version, operators made the final call and received an alert when AI disagreed with their assessment. In another, AI cleared straightforward cases and operators assessed the harder ones without the alert. On average, they preferred the version with decision support. The scenarios combined changes in pace, case difficulty and the help available to operators. ",
+          {
+            "text": "IZA discussion paper",
+            "href": "https://docs.iza.org/dp19076.pdf"
+          }
+        ],
+        "In the second version, the alert disappeared at the same time as the work became harder. Those are two choices a team can make independently. You can automate routine cases and still use AI to help staff work through the exceptions. The help might also need to change. An alert that something looks wrong is useful when checking hundreds of items. For a messy case, it may be more useful to see which records disagree and who can settle the question."
+      ]
+    },
+    {
+      "heading": "What should arrive with an exception?",
+      "paragraphs": [
+        "Imagine an accounts payable team setting up AI to read supplier invoices and send those that match the order and delivery records through its usual payment controls. It knows the remaining queue will contain a higher share of disputes and exceptions. Before the rollout, the team takes a few recent cases and asks what information the clerk needed to resolve each one.",
+        [
+          "Take a supplier's invoice for installing equipment. The supplier bills for completion. The signed job sheet shows that the equipment was installed, but a message in the project mailbox says commissioning was postponed. The clerk needs to find out whether the work done so far qualifies for payment. Tracing the paperwork and finding who can confirm what was agreed is familiar work for ",
+          {
+            "text": "Administrative Operators",
+            "href": "/profiles/administrative-operators/"
+          },
+          "."
+        ],
+        "The team designs the handoff so AI can show the payment clause, the signed job sheet and the relevant project messages together, with links back to the originals. The clerk sees that the supplier asked to bill in stages and that the project manager agreed to consider it. She takes the exchange to the project manager, who checks with purchasing and agrees with the supplier to invoice the installation separately. The clerk can process the revised invoice once it comes through the usual approvals."
+      ]
+    },
+    {
+      "heading": "Test both parts before launch",
+      "paragraphs": [
+        "When planning an AI rollout, take a few completed cases that would still need a person. Work through them with the colleagues who handled them. Agree what the tool should gather or flag when it passes a case over, and which decisions still need someone's approval.",
+        "Include these cases in the same trial as the routine ones. Check whether staff can get to the relevant records faster and explain the decisions they reach. Try several exceptions in a row to see how much time the team will need when those cases make up more of the day."
+      ]
+    }
+  ],
+  "related": [
+    "when-ai-makes-work-more-complex",
+    "ai-changes-tasks-redefine-roles"
+  ],
+  "heroImage": {
+    "src": "/everyday-work-audit.webp",
+    "alt": "A person sketching a workflow beside a laptop",
+    "width": 1594,
+    "height": 986
+  }
+},
+
+{
   "slug": "ai-policy-staff-can-apply",
   "title": "Can Your Staff Apply Your AI Policy to Their Work?",
   "description": "See how routine AI use can expose private information and how leaders and supervisors can give staff guidance they can apply to everyday work.",
