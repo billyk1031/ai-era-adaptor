@@ -46,6 +46,86 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "finding-work-after-ai-exposed-job",
+  "title": "When AI Changes the Work You Used to Do, Where Do You Look Next?",
+  "description": "Looking for work after job loss? Find roles where you can combine an AI-exposed skill with another capability and show what you can deliver.",
+  "category": "Jobs and Careers in the AI Era",
+  "type": "Coaching",
+  "date": "2026-11-17",
+  "readTime": "3 min read",
+  "intro": "After losing a job, you might find that the skill you were hired for is still useful, but employers now expect it as part of a wider role. A company that once paid someone to write product emails might expect its marketing team to draft them with AI. What could you do with the experience you already have if you paired it with a skill employers need?",
+  "profiles": [
+    "output-creators"
+  ],
+  "heroImage": {
+    "src": "/job-risk-reflection.webp",
+    "alt": "A woman holding a notebook at a fork in a path",
+    "width": 1594,
+    "height": 987
+  },
+  "sections": [
+    {
+      "heading": "Finding another job can be the harder part",
+      "paragraphs": [
+        [
+          "In a ",
+          {
+            "text": "9 November study",
+            "href": "https://www.clevelandfed.org/publications/economic-commentary/2026/ec-202626-job-finding-and-unemployment-in-the-age-of-ai"
+          },
+          ", Cleveland Fed researchers Alexander Cline and Barış Kaymak looked at what happened to US workers aged 23 to 54 after generative AI became widely available. Among people already unemployed, the chance of finding work the following month fell more for those whose previous occupations were highly exposed to AI. Rates of leaving employment showed no consistent rise with AI exposure."
+        ],
+        "Slower re-employment was the main reason unemployment rose more in the highly exposed groups. The authors suggest that some employers may be holding back on hiring while they see how much work AI can take on. If employers need fewer people to do your old work, look at the wider responsibilities they’re hiring for. Which could you take on by combining your experience with another skill or using AI to produce a better result?"
+      ]
+    },
+    {
+      "heading": "From writing welcome emails to improving onboarding",
+      "paragraphs": [
+        "Imagine a software copywriter who loses her job after her agency loses a client. She sees a customer education vacancy that combines writing with investigating why new users get stuck. A project from her agency days gives her a reason to apply.",
+        "She was asked to rewrite the welcome emails for a stock management app. On support calls, she heard why customers were stalling. They wanted to see what the app did with duplicate items before trusting it with their real stock lists. She and the product team agreed to offer a practice import with sample data.",
+        [
+          "As an ",
+          {
+            "text": "Output Creator",
+            "href": "/profiles/output-creators/"
+          },
+          ", she used AI to draft separate guidance for managers approving the import and staff doing it, within the time set aside for one set of emails. She checked both versions with support. In the trial, a greater share of customers completed a live import without calling support than among those who received the usual emails."
+        ],
+        [
+          "Her ",
+          {
+            "text": "AI-Era SWOT",
+            "href": "/framework/#personal-swot"
+          },
+          " now has a strength she can show an employer. She can combine writing with customer research to improve how people get started with a product."
+        ]
+      ]
+    },
+    {
+      "heading": "Look for a combination employers are hiring for",
+      "paragraphs": [
+        "Read a few live adverts beyond your old title. When you see a familiar skill, look at what else the employer wants the person to do. If you find yourself drawn to customer education, for example, check whether the work involves interviewing users, designing training or measuring how people use the product. Those jobs can call for quite different experience.",
+        "Where you already have the combination, lead with a project that shows how you used it. Explain what changed for the people who used your work. If AI helped, say what it let you do better or at a scale you could manage, and how you judged the result.",
+        "If the same gap keeps showing up in roles you want, check what level of skill employers ask for. A copywriter who has watched customers struggle through setup might learn to run a short user interview. If the vacancy requires years of experience running customer training, look for an opening where your skills meet more of what the employer needs today. If an advert leaves that distinction open, ask about a recent project at the first hiring conversation.",
+        "Use what you find to choose a vacancy you can make a credible case for now, or a specific skill to build because it would let you do work you can see employers are seeking."
+      ]
+    }
+  ],
+  "related": [
+    "ai-hiring-slowdown-canada-evidence",
+    "which-ai-skill-learn-next-role",
+    "mckinsey-ai-jobs-career-transition-2026"
+  ],
+  "sources": [
+    {
+      "title": "Alexander Cline and Barış Kaymak, Job Finding and Unemployment in the Age of AI",
+      "url": "https://www.clevelandfed.org/publications/economic-commentary/2026/ec-202626-job-finding-and-unemployment-in-the-age-of-ai",
+      "date": "Federal Reserve Bank of Cleveland, 9 November 2026"
+    }
+  ]
+},
+
+{
   "slug": "ai-support-for-harder-cases-at-work",
   "title": "When AI Takes the Easy Cases, How Can It Help With the Hard Ones?",
   "description": "When AI handles routine work, design support for the harder cases people will keep. See how to test both parts of the workflow before launch.",
