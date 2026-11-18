@@ -46,6 +46,78 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-writing-pilot-helpfulness-quality",
+  "title": "When the AI Your Team Likes Less Produces Better Work",
+  "description": "An AI writing experiment found that planning questions improved briefs while taking longer. Test whether that extra step earns its time on complex work.",
+  "category": "AI Job News and Current Affairs",
+  "type": "News reflection",
+  "date": "2026-11-18",
+  "readTime": "3 min read",
+  "intro": "If an AI writing tool gives you a draft in seconds, it feels helpful. A version that asks you to think through the assignment first can feel like extra work. For a paper that has to stand up to questions in a meeting, I’d want to know what those extra minutes buy.",
+  "profiles": [
+    "analysts"
+  ],
+  "sections": [
+    {
+      "heading": "The better briefs took longer",
+      "paragraphs": [
+        [
+          "In a preprint posted on 22 October 2026, Viktor Kewenig and colleagues reported a randomised online experiment. The analysis covered 297 US participants who each wrote two simulated work briefs using the same AI model. For the first brief, one group used an interface that asked them to clarify their goal and plan the work before it generated a draft. The other group used a standard chat interface with an editable document. ",
+          {
+            "text": "Read the study",
+            "href": "https://arxiv.org/html/2610.30945v1"
+          },
+          "."
+        ],
+        "The group that answered the planning questions spent about 28 minutes on the first brief, compared with 16 minutes for the other group. They rated the AI as less helpful and reported more mental effort. Their finished briefs scored modestly higher. The researchers used an AI judge to score the briefs, and human reviewers who rated a subset found an advantage in the same direction.",
+        "That result makes me wary of choosing an AI writing workflow from a quick demo or a satisfaction survey alone. Those are useful ways to learn how the experience feels. For a complex paper, I’d also want to see whether the questions change what the writer investigates and what the reader is being asked to decide."
+      ]
+    },
+    {
+      "heading": "What would change in a board paper?",
+      "paragraphs": [
+        "Imagine an operations lead preparing a board paper on whether to close one of two distribution sites. The lead gives the AI cost forecasts, lease dates, warehouse capacity figures and customer delivery commitments. A request for a closure recommendation could turn those documents into a plausible paper based on the projected savings and average volumes.",
+        "Before drafting, the AI could ask which decision the board needs to make at this meeting and which delivery commitments must be met through the transition. It could also ask what evidence supports the assumption that one site can absorb the work.",
+        "The lead confirms that notice on the lease is due before the winter peak. After checking with the warehouse team, they establish that the remaining site can handle average volumes. Its ability to handle peak demand still needs testing. That gap changes the options worth putting to the board. Alongside keeping both sites and committing to closure now, the lead asks the AI to outline a third option. It would seek a short lease extension to test peak capacity before committing. The paper then needs to set out what the extension would cost, what the test would have to show and when the board would need to decide.",
+        [
+          "For ",
+          {
+            "text": "Analysts",
+            "href": "/profiles/analysts/"
+          },
+          " preparing recommendations, that early exchange is a chance to identify an assumption worth checking while there’s still time to do something about it."
+        ]
+      ]
+    },
+    {
+      "heading": "Check whether the questions earn their time",
+      "paragraphs": [
+        "If a brief regularly comes back with a request to rethink the recommendation, try asking the AI to raise the questions that could change it before writing. Start with one representative assignment. Use the same model and starting material for a direct draft and for a version that pauses for clarification. Count the time spent answering the questions, checking the source material and revising the paper through review. Ask the writers how helpful each approach felt.",
+        [
+          "Have a colleague read the finished versions without knowing how they were produced. Can they identify the decision, see what each option depends on and tell what still needs checking? If the questions surface something that changes a worthwhile decision or avoids substantial rework, keep them for that kind of assignment. A pilot can also show where the extra exchange adds time with little benefit. If you’re judging the wider effect on your team’s workload, see ",
+          {
+            "text": "Set Realistic Expectations for AI Productivity",
+            "href": "/blog/realistic-expectations-ai-productivity/"
+          },
+          "."
+        ]
+      ]
+    }
+  ],
+  "heroImage": {
+    "src": "/human-skills-value.webp",
+    "alt": "Three colleagues reviewing a paper together at a meeting table",
+    "width": 1594,
+    "height": 986
+  },
+  "related": [
+    "realistic-expectations-ai-productivity",
+    "use-ai-to-challenge-your-thinking-at-work",
+    "which-human-skills-become-more-valuable"
+  ]
+},
+
+{
   "slug": "finding-work-after-ai-exposed-job",
   "title": "When AI Changes the Work You Used to Do, Where Do You Look Next?",
   "description": "Looking for work after job loss? Find roles where you can combine an AI-exposed skill with another capability and show what you can deliver.",
