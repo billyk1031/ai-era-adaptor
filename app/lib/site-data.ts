@@ -46,6 +46,64 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-savings-staffing-and-team-capability",
+  "title": "AI Is Saving Time. Can Your Team Afford to Give It All Up?",
+  "description": "Before turning AI time savings into a staffing reduction, check whether your team can handle busy periods and prepare more people to take on harder work.",
+  "category": "Human Value, Skills and Leadership",
+  "type": "Opinion",
+  "date": "2026-11-19",
+  "readTime": "3 min read",
+  "intro": "When AI saves a team time, leaving a vacancy unfilled can look like a straightforward saving. I’d make that decision only after seeing how the team handles a busy period and how it will prepare more people to take on the harder work. Both are easier to address while there are still hours in the staffing plan to do something about them.",
+  "profiles": [],
+  "sections": [
+    {
+      "paragraphs": [
+        [
+          "BSI’s November report, ",
+          {
+            "text": "Human by Design: Thriving in the AI Workforce",
+            "href": "https://www.bsigroup.com/siteassets/pdf/en/insights-and-media/insights/white-papers/gl-grp-cross-thght-nss-hsw-mpd-mp-humanbydesignthrivingintheaiworkforce-0026.pdf"
+          },
+          ", asks how organisations can benefit from AI while sustaining the workforce they’ll depend on later. Drawing in part on a poll of 1,287 business leaders across nine markets, BSI recommends designing AI-enabled work so people can still learn, exercise judgement and progress. That belongs in the staffing decision as soon as the savings are on the table."
+        ]
+      ]
+    },
+    {
+      "heading": "Look at when the team needs the time",
+      "paragraphs": [
+        "A recurring saving is a good reason to revisit staffing. Start by looking at what AI frees up in a normal week. Then check what happens when deadlines bunch up or someone with specialist knowledge is away. The hours saved on routine work may be spread across the team, while the difficult decisions still land with the same few people. A monthly total tells you how much time came back. The pattern of work tells you where you can safely give it up.",
+        "Some spare time can help the team get through a busy week. It can also help the team become less dependent on the people who already know what to do. When AI takes over routine work, look at which parts gave people early practice making decisions they’ll need later.",
+        [
+          "If that route is shrinking, use some of the time saved to let newer colleagues take responsibility for a piece of harder work with an experienced colleague available. Give both people time for it during the working week. The test is whether the newer colleague can handle a similar job later with the usual level of support. A ",
+          {
+            "text": "short practice case",
+            "href": "/blog/skills-to-keep-practising-with-ai/"
+          },
+          " can help someone get ready for that first assignment."
+        ],
+        "Imagine a software company where AI speeds up routine customer onboarding. Leaving a vacancy unfilled looks feasible until several complex migrations are due at once and two specialists have to work late. The team lead uses some of the saved time to let a newer colleague run a migration with a specialist available. At the next peak, the lead checks whether that colleague can run another migration with normal support and whether the team can meet its deadlines without the same overtime."
+      ]
+    },
+    {
+      "heading": "Decide how much of the saving to keep",
+      "paragraphs": [
+        "For one proposed staffing saving, agree what service needs to hold up, what workload the team can sustain and which piece of work another colleague should be ready to lead. Use evidence from a comparable busy period if you have it. If you still need to test the staffing plan, agree a review date and keep backup available. Record when the team needs to call on it.",
+        "If service holds up at a sustainable pace and people are taking on more responsibility, there’s a case for releasing some of the saving. If the same few people keep working late or development time disappears at every peak, I’d keep enough of the gain to address that pressure. Agree what needs to improve and when you’ll look at the staffing decision again."
+      ]
+    }
+  ],
+  "related": [
+    "where-does-ai-saved-time-go",
+    "skills-to-keep-practising-with-ai"
+  ],
+  "heroImage": {
+    "src": "/employers-ai-conversation.webp",
+    "alt": "Four colleagues in discussion beside a whiteboard",
+    "width": 1594,
+    "height": 986
+  }
+},
+{
   "slug": "ai-writing-pilot-helpfulness-quality",
   "title": "When the AI Your Team Likes Less Produces Better Work",
   "description": "An AI writing experiment found that planning questions improved briefs while taking longer. Test whether that extra step earns its time on complex work.",
