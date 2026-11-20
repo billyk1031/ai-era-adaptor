@@ -46,6 +46,87 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "when-workplace-ai-starts-getting-things-wrong",
+  "title": "Would Your Team Notice If Its AI Started Getting Things Wrong?",
+  "description": "See how a team can spot recurring errors across AI-drafted replies, fix the workflow and check whether the change holds in everyday work.",
+  "category": "AI Policy, Risk and Workplace Culture",
+  "type": "Knowledge / Advice",
+  "date": "2026-11-20",
+  "readTime": "3 min read",
+  "heroImage": {
+    "src": "/everyday-work-audit.webp",
+    "alt": "A colleague reviews a workflow diagram at a desk beside a laptop",
+    "width": 1594,
+    "height": 986
+  },
+  "intro": "Imagine two colleagues checking AI-drafted replies to cancellation requests. Each catches a wrong deadline, corrects the reply and moves on. Both customers get the right answer. Unless the colleagues compare what they saw, the next person in the queue may have to catch the same mistake again.",
+  "profiles": [
+    "relationship-workers"
+  ],
+  "sections": [
+    {
+      "paragraphs": [
+        "When a team introduces human review, give someone responsibility for looking across the cases. A reviewer can put one reply right. Someone with a wider view can find out where else the error has appeared, get the AI workflow corrected and check whether the fix works."
+      ]
+    },
+    {
+      "heading": "How easily can people spot a decline?",
+      "paragraphs": [
+        [
+          "In a study published on 13 November 2026, Nadine Schlicker and colleagues asked 48 participants, including doctors and final-year medical students, to classify recorded heart sounds. The researchers made the simulated AI recommendations less reliable over successive rounds. Participants corrected some of the bad recommendations, but their final decisions became less accurate as the advice worsened. When asked afterwards about changes in the system, 18 of the 48 reported noticing that its recommendations had become less reliable. ",
+          {
+            "text": "Read the study",
+            "href": "https://www.nature.com/articles/s41746-026-03410-x?error=cookies_not_supported"
+          },
+          "."
+        ],
+        [
+          "That was a controlled task using recordings. In a workplace where several people review the output, each person may see only a few of the cases affected. If you judge oversight by whether each case gets a sign-off, you can miss whether the team is picking up changes across cases. In its November guidance, the American Psychological Association asks whether the people overseeing AI have independent information and the authority to act when they find a problem. ",
+          {
+            "text": "Read the APA guidance",
+            "href": "https://www.apa.org/pubs/reports/ai-workforce-full-report.pdf"
+          },
+          "."
+        ]
+      ]
+    },
+    {
+      "heading": "Use the corrections to improve the AI",
+      "paragraphs": [
+        [
+          "Back in the support team, the AI drafts replies using cancellation terms that still apply to earlier bookings. Both corrections involve customers who booked after the terms changed. For ",
+          {
+            "text": "Relationship Workers",
+            "href": "/profiles/relationship-workers/"
+          },
+          " handling those requests, the booking date determines which terms to check and what they can offer the customer."
+        ],
+        "The reviewers flag both cases in the same place and include the booking date and the deadline the draft used. The team lead samples other replies and finds the same mistake. The AI has access to both versions of the terms, but the drafting workflow gives it no rule for choosing between them. The lead confirms the changeover date with the policy owner and has the workflow updated so it uses the booking date to select the right version.",
+        "The team tests fresh drafts using bookings from both sides of the change. Staff keep reviewing AI-drafted replies as usual and flag any further deadline corrections. Over the next week, the lead samples new replies to see whether the mistake is still occurring and follows up on any earlier replies that gave customers the wrong deadline."
+      ]
+    },
+    {
+      "heading": "See if your team can catch the pattern",
+      "paragraphs": [
+        "Pick one AI-assisted task where a repeated mistake would matter. If you already have a run of similar corrections, trace what happened to them. Otherwise, try a few dummy cases with plausible drafts, some correct and some repeating the same mistake. Give them to different reviewers and let them use the records and reporting route they would have on a normal day.",
+        [
+          "If you need to agree how to raise a concern, start with ",
+          {
+            "text": "Staff Should Be Able to Challenge AI Decisions at Work",
+            "href": "/blog/staff-challenge-ai-decisions-work/"
+          },
+          ". See whether the corrections reach someone who can connect them and get the workflow changed. If the reports never come together, agree where reviewers should flag the issue and who will look across cases. After a fix, try fresh cases that could expose the same mistake and keep checking the drafts staff see in daily work. If the error turns up again, use that case to find what the fix missed."
+        ]
+      ]
+    }
+  ],
+  "related": [
+    "staff-challenge-ai-decisions-work",
+    "ai-policy-staff-can-apply",
+    "how-employers-should-talk-about-ai"
+  ]
+},
+{
   "slug": "ai-savings-staffing-and-team-capability",
   "title": "AI Is Saving Time. Can Your Team Afford to Give It All Up?",
   "description": "Before turning AI time savings into a staffing reduction, check whether your team can handle busy periods and prepare more people to take on harder work.",
