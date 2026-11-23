@@ -46,6 +46,94 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "where-work-goes-when-ai-speeds-up-a-task",
+  "title": "Where Does the Work Go When AI Speeds Up a Task?",
+  "description": "Measure how AI changes work from request to completion, then use the results to guide workflow, staffing and delivery targets.",
+  "category": "AI and Workplace Change",
+  "type": "Knowledge / Advice",
+  "date": "2026-11-23",
+  "readTime": "3 min read",
+  "heroImage": {
+    "src": "/everyday-work-audit.webp",
+    "alt": "A colleague reviews a workflow diagram beside a laptop",
+    "width": 1594,
+    "height": 986
+  },
+  "intro": "AI can speed up one step while the finished work still takes just as long. Some people may get time back while others have more to check or more exceptions to resolve. Before changing how the team works, who does the work or what you expect it to deliver, look at what happens from request to completion.",
+  "profiles": [
+    "administrative-operators"
+  ],
+  "sections": [
+    {
+      "heading": "AI changes some parts of the job more than others",
+      "paragraphs": [
+        "In an analysis published on 16 November 2026, Gallup reported how US employees said their time had changed across 12 work activities since they began using AI. Among people using AI at work at least a few times a week, 52% reported spending less time gathering information and 47% less time writing or drafting. Most reported spending about the same time working with customers or clients (82%) and collaborating with colleagues (78%).",
+        [
+          "Reviewing and correcting work went both ways. Some frequent users reported spending more time on it (21%), while a similar share reported spending less (23%). If your team is seeing a similar mix of changes, ask people at each stage what they’re doing differently. A writer who can draft faster and a colleague who has more to check may both be giving you an accurate account of the same workflow. ",
+          {
+            "text": "Read the Gallup analysis",
+            "href": "https://www.gallup.com/workplace/716585/ai-changing-employees-spend-time-work.aspx"
+          },
+          "."
+        ],
+        [
+          "Imagine a retailer using AI to draft catalogue entries from supplier records. Routine drafts reach review faster, but entries with conflicting dimensions still need checking. A catalogue editor doing ",
+          {
+            "text": "Administrative Operator",
+            "href": "/profiles/administrative-operators/"
+          },
+          " work asks purchasing to confirm which model is in stock. Once purchasing updates the record, the editor can verify the entry against the right specification. The drafting time has fallen, while some entries can still wait for a decision before they go live."
+        ]
+      ]
+    },
+    {
+      "heading": "Measure the work from request to completion",
+      "paragraphs": [
+        "Choose a recurring workflow. Agree where it starts, what counts as finished and what quality standard the result needs to meet. Compare periods with similar volumes and a similar mix of routine and difficult work. If the work mix has changed, compare like cases across the two periods.",
+        "Use records you already have to see how long work takes, where it waits and how much gets completed on time. For a small sample, ask the people doing the work to estimate or log their active time by stage. Include time spent preparing inputs for AI, checking its output and fixing mistakes. Record who does each step so you can see whether effort has shifted between roles. Check quality using a measure that fits the work, such as corrections after delivery, reopened cases or a sample checked against the agreed standard."
+      ]
+    },
+    {
+      "heading": "Use the results to decide what to change",
+      "bullets": [
+        "Workflow. Start with the step where delays or rework are now concentrated. Look at a few cases to see what caused them. If the AI is working from incomplete information, improve what it receives. If work is waiting for a decision, clarify who can make it and what they need. Check whether that stage improves and whether the whole job finishes sooner.",
+        [
+          "Staffing. Look at whose workload fell and whose increased, including during busy periods. If work has shifted to a role already at capacity, consider protecting time for that work or training someone else to share it. Check workload in both roles before treating freed hours as capacity the team can use elsewhere. ",
+          {
+            "text": "What to consider before giving up staffing capacity",
+            "href": "/blog/ai-savings-staffing-and-team-capability/"
+          },
+          "."
+        ],
+        [
+          "Expectations. Base targets on what the team repeatedly delivers at the agreed quality and a sustainable pace. If one step is faster and completed work is still arriving at the same rate, keep the delivery target grounded in that rate. Revisit it when the team can show a sustained improvement in finished work. ",
+          {
+            "text": "Set realistic expectations for AI productivity",
+            "href": "/blog/realistic-expectations-ai-productivity/"
+          },
+          "."
+        ]
+      ]
+    },
+    {
+      "paragraphs": [
+        "Choose one change the evidence supports. Agree with the people doing the work what you expect to improve and what you’ll check after the next few comparable cycles."
+      ]
+    }
+  ],
+  "related": [
+    "realistic-expectations-ai-productivity",
+    "ai-savings-staffing-and-team-capability"
+  ],
+  "sources": [
+    {
+      "title": "Gallup, How AI Is Changing the Way Employees Spend Time at Work",
+      "url": "https://www.gallup.com/workplace/716585/ai-changing-employees-spend-time-work.aspx",
+      "date": "16 November 2026"
+    }
+  ]
+},
+{
   "slug": "when-workplace-ai-starts-getting-things-wrong",
   "title": "Would Your Team Notice If Its AI Started Getting Things Wrong?",
   "description": "See how a team can spot recurring errors across AI-drafted replies, fix the workflow and check whether the change holds in everyday work.",
