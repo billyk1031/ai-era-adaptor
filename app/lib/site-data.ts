@@ -46,6 +46,98 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "should-you-apply-job-advert-ai-skills",
+  "title": "Should You Apply When a Job Advert Asks for ‘AI Skills’?",
+  "description": "Read what a job advert asks you to do with AI, then tailor your CV and cover letter and prepare for the interview.",
+  "category": "Jobs and Careers in the AI Era",
+  "type": "Knowledge / Advice",
+  "date": "2026-11-24",
+  "readTime": "4 min read",
+  "heroImage": {
+    "src": "/job-risk-reflection.webp",
+    "alt": "Illustration of a person with a notebook standing where a path divides",
+    "width": 1594,
+    "height": 987
+  },
+  "intro": "The job sounds like a good fit until you reach ‘AI skills desirable’. If you meet the main requirements, use the advertised duties to decide what to put on your CV. A good example of how you’ve done similar work gives the employer something concrete to assess.",
+  "profiles": [
+    "analysts"
+  ],
+  "sections": [
+    {
+      "paragraphs": [
+        [
+          "In a September 2026 analysis of US National Labor Exchange postings, Minnesota’s employment department found that 68% of the AI keyword mentions it counted in its April sample were general terms. When the wording is that broad, look elsewhere in the advert for what the person is expected to deliver. ",
+          {
+            "text": "Read the analysis",
+            "href": "https://mn.gov/deed/newscenter/publications/trends/september-2026/ai-job-postings.jsp"
+          },
+          "."
+        ]
+      ]
+    },
+    {
+      "heading": "Read the duties before you decide",
+      "paragraphs": [
+        "Imagine two adverts for customer insights roles. One asks for familiarity with AI and lists analysing customer feedback and recommending service improvements. The other makes testing and maintaining an AI workflow for classifying feedback an essential duty.",
+        "For the first, evidence that you can turn customer feedback into a sound recommendation is a good place to start. For the second, look for evidence that you can test how a system classifies new cases, investigate errors and keep it working as the feedback changes. If your experience is mainly in analysis and you’ve never been responsible for a workflow like that, the first vacancy is a better use of your application time."
+      ]
+    },
+    {
+      "heading": "Put the relevant work on your CV",
+      "paragraphs": [
+        [
+          "Suppose you’re applying for the first role. A useful example for ",
+          {
+            "text": "Analysts",
+            "href": "/profiles/analysts/"
+          },
+          " would show what AI helped with and where your judgement changed the result. Imagine you used AI to group customer comments. Its first pass put complaints about late deliveries and missing updates in the same category. You checked the comments against order records and asked the service team when customers were told their order was on its way. Some orders had arrived on time, but the first update had come so close to delivery that customers couldn’t plan around it."
+        ],
+        "You worked with the service team to trial confirming delivery windows a day earlier and tracked how often customers chased an update. Calls asking for an update were 40% lower per order during the two-week trial than in the previous two weeks.",
+        "Lead with that result on your CV, then show how you got there."
+      ],
+      "bullets": [
+        "Helped reduce delivery update calls per order by 40% in a two-week trial. Used AI to group customer feedback, checked it against order records and worked with the service team to confirm delivery windows earlier."
+      ]
+    },
+    {
+      "paragraphs": [
+        "Use a figure you can explain if asked how you measured it. If you only tracked the change you delivered, describe that. For example, you might have introduced earlier confirmations on one delivery route while the team was still collecting call data.",
+        "If you’re writing a cover letter, use the same example to explain what led you to make the change. ‘Your team is looking for someone who can turn customer feedback into service improvements. When I checked an AI-assisted analysis against order records, I found that customers were chasing updates even when deliveries were on time. I worked with the service team to send confirmations earlier and tracked how often customers still needed to call.’",
+        "If your closest example involved no AI, use it for the duty it demonstrates. You might show how you checked an apparent pattern in customer feedback before recommending a change. If you’ve only used AI on a practice project, describe it as a practice project and be specific about what you did with it."
+      ]
+    },
+    {
+      "heading": "If you get an interview, ask what the advert left open",
+      "paragraphs": [
+        "Prepare to explain the example you put on your CV. In the feedback case, be ready to say why the AI’s first grouping mattered, what you checked and how you measured the change in calls. If the interviewer asks how you’d handle an AI-assisted analysis you haven’t done before, explain what you’d check before using the output to make a recommendation.",
+        [
+          "Use your own question to find out what experience the employer expects. ‘Could you give me an example of where this role uses AI, and what you’d expect me to handle independently in my first month?’ If they describe a workflow you would be expected to run, ask who investigates errors and changes the workflow when they recur. That will help you judge how much of the role you could take on straight away. ",
+          {
+            "text": "More questions to ask about AI in a job interview",
+            "href": "/blog/how-to-ask-about-ai-job-interview/"
+          },
+          "."
+        ],
+        "Before you submit, read the most relevant line of your CV against the advert. Could someone reading it tell what improved and what you did to make that happen? If AI helped, name the part it played."
+      ]
+    }
+  ],
+  "related": [
+    "how-to-ask-about-ai-job-interview",
+    "which-ai-skill-learn-next-role"
+  ],
+  "sources": [
+    {
+      "title": "Tristan Tully and Oriane Casale, Artificial Intelligence Mentions in Job Postings",
+      "url": "https://mn.gov/deed/newscenter/publications/trends/september-2026/ai-job-postings.jsp",
+      "date": "Minnesota Department of Employment and Economic Development, September 2026"
+    }
+  ]
+},
+
+{
   "slug": "where-work-goes-when-ai-speeds-up-a-task",
   "title": "Where Does the Work Go When AI Speeds Up a Task?",
   "description": "Measure how AI changes work from request to completion, then use the results to guide workflow, staffing and delivery targets.",
