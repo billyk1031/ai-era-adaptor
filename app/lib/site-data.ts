@@ -46,6 +46,72 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-coding-assistants-junior-tech-hiring",
+  "title": "Which Junior Tech Jobs Did AI Coding Assistants Change?",
+  "description": "A study of early GitHub Copilot adoption found that hiring slowed most in junior technical roles where writing and testing code made up more of the job.",
+  "category": "AI Job News and Current Affairs",
+  "type": "News reflection",
+  "date": "2026-11-25",
+  "readTime": "3 min read",
+  "profiles": [
+    "digital-builders"
+  ],
+  "heroImage": {
+    "src": "/job-risk-reflection.webp",
+    "alt": "A person holding a notebook where two paths diverge",
+    "width": 1594,
+    "height": 987
+  },
+  "intro": "A company can hire fewer junior developers and still have roughly the same number of people in its technical teams a year later. For someone trying to get their first job, those two figures tell very different stories.",
+  "sections": [
+    {
+      "paragraphs": [
+        [
+          "In a working paper posted on 23 November 2026, Lindsey Raymond and Eleanor Dillon examined early adoption of GitHub Copilot across 5,414 multinational firms. Hiring slowed most in junior roles where writing, testing and debugging code made up more of the job. Across the technical workforce, the researchers found no clear change in headcount or in the number of people leaving over the first year. ",
+          {
+            "text": "Read the working paper",
+            "href": "https://arxiv.org/html/2611.31083v1"
+          },
+          "."
+        ]
+      ]
+    },
+    {
+      "heading": "Where the slowdown showed up",
+      "paragraphs": [
+        "The researchers compared eight kinds of technical work. They used descriptions of jobs that began before Copilot’s enterprise launch to estimate how much each role involved tasks the tool could assist with, such as writing, testing and debugging code.",
+        "Software engineering and application development were among the most coding-intensive roles in the sample. Systems and infrastructure engineering ranked lower. Coding could still be part of those jobs, alongside responsibilities such as designing systems or keeping them running. The researchers found a stronger slowdown in junior hiring as roles became more coding-intensive. There was no clear decline in less coding-intensive junior roles and no comparable pattern by coding intensity among experienced hires.",
+        [
+          "The authors suggest that how teams assign work could help explain the pattern. A junior engineer might be asked to implement a change that someone else has already specified and can check on its own. An experienced engineer might write code as part of deciding how several services should fit together, then coordinate the change with the teams that run them. For ",
+          {
+            "text": "Digital Builders",
+            "href": "/profiles/digital-builders/"
+          },
+          ", the first task is easier to hand to a coding assistant because the team has already made many of the decisions it depends on."
+        ]
+      ]
+    },
+    {
+      "heading": "How the researchers accounted for a wider downturn",
+      "paragraphs": [
+        "Technical hiring in the sample had already begun falling before Copilot’s enterprise launch in January 2023. The researchers used a feature of enterprise purchasing to estimate the tool’s effect. Firms had agreed the dates of their regular GitHub contract reviews before the launch, and those reviews made it easier to buy the new tool. The authors compared firms whose scheduled reviews came earlier with firms still waiting for theirs. They found no comparable slowdown after contract reviews held before the launch.",
+        "When a company says it is still hiring engineers, I’d ask where those hires are going. Even a total for new software engineers can hide a shift if it counts experienced recruits and beginners together. The figures that tell you most about the way in are junior hires broken down by the work they were hired to do."
+      ]
+    }
+  ],
+  "related": [
+    "anthropic-junior-hiring-ai-entry-level-work",
+    "show-your-value-ai-assisted-developer"
+  ],
+  "sources": [
+    {
+      "title": "Lindsey Raymond and Eleanor Dillon, AI-Assisted Programming and Labor Demand",
+      "url": "https://arxiv.org/abs/2611.31083",
+      "date": "working paper dated 6 November 2026 and posted to arXiv on 23 November 2026"
+    }
+  ]
+},
+{
   "slug": "should-you-apply-job-advert-ai-skills",
   "title": "Should You Apply When a Job Advert Asks for ‘AI Skills’?",
   "description": "Read what a job advert asks you to do with AI, then tailor your CV and cover letter and prepare for the interview.",
