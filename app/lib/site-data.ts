@@ -46,6 +46,81 @@ export const categories = [
 
 export const articles: Article[] = [
 {
+  "slug": "ai-assisted-work-promotion",
+  "title": "Your Employer Encourages AI. Will AI-Assisted Work Count Towards Promotion?",
+  "description": "Preparing for promotion? Show what AI helped with, which decisions you made and how your work demonstrates readiness for more responsibility.",
+  "category": "Human Value, Skills and Leadership",
+  "type": "Coaching",
+  "date": "2026-11-26",
+  "readTime": "3 min read",
+  "profiles": [
+    "team-coordinators"
+  ],
+  "heroImage": {
+    "src": "/employers-ai-conversation.webp",
+    "alt": "Four colleagues talking beside a whiteboard",
+    "width": 1594,
+    "height": 986
+  },
+  "intro": "You’ve just finished a project you’d like to bring up in your promotion review. AI helped with some of the work, and you’re wondering how much the result says about what you can do. Start with one decision you were responsible for. What changed because of how you handled it?",
+  "sections": [
+    {
+      "paragraphs": [
+        [
+          "In a November 2026 BSI poll of 1,287 business leaders across nine markets, 81% said they used AI to work more efficiently. In the same poll, 42% said receiving AI-generated material would make them less likely to promote the sender. The survey result leaves open how much AI involvement those leaders had in mind. When you bring an example to your review, describe what you asked the tool to do and what you did with its answer. ",
+          {
+            "text": "Read the BSI report",
+            "href": "https://www.bsigroup.com/siteassets/pdf/en/insights-and-media/insights/white-papers/gl-grp-cross-thght-nss-hsw-mpd-mp-humanbydesignthrivingintheaiworkforce-0026.pdf#page=15"
+          },
+          "."
+        ]
+      ]
+    },
+    {
+      "heading": "Show the decision behind the finished work",
+      "paragraphs": [
+        "Imagine you coordinate deliveries and want to move into a team lead role. A supplier offers to send an entire shipment on Thursday at a lower cost. You use AI to compare the cost and warehouse capacity for the proposed schedules. The Thursday delivery is cheaper and fits the warehouse schedule. When you check with the account manager, you find that two customers have been promised stock by Wednesday morning. That commitment was missing from the information the tool had.",
+        "You agree with the account manager which orders need to keep their original dates. You ask the supplier to send enough stock for those orders on Tuesday and put the rest on Thursday’s shipment. Once the supplier agrees, you check the new plan against the order quantities and the warehouse’s available slots. The two customers keep their Wednesday delivery and most of the stock travels on the lower-cost shipment.",
+        [
+          "The schedule shows where the stock went. In the promotion conversation, explain why you split the shipment, who had to agree and how you checked that the plan would work. Working through conflicting priorities like these is part of the job for ",
+          {
+            "text": "Team Coordinators",
+            "href": "/profiles/team-coordinators/"
+          },
+          "."
+        ]
+      ]
+    },
+    {
+      "heading": "Find out what the example counts towards",
+      "paragraphs": [
+        [
+          "Pick a criterion for the role you want and see how closely your example fits. The split shipment could show you’re ready to make decisions that affect several teams. If the role also calls for building schedules independently, you may already have a different example that demonstrates that skill. ",
+          {
+            "text": "Read more about discussing progression when AI changes your work",
+            "href": "/blog/ai-job-change-career-progression/"
+          },
+          "."
+        ],
+        "If you can discuss your case before the formal review, bring one example to the person who’ll assess it. Ask them to apply the criterion to the work you’ve shown them.",
+        "“Which part of this shows I’m ready for more responsibility, and what would you still need to see?”"
+      ]
+    }
+  ],
+  "related": [
+    "ai-job-change-career-progression",
+    "which-human-skills-become-more-valuable"
+  ],
+  "sources": [
+    {
+      "title": "BSI, Human by Design: Thriving in the AI Workforce",
+      "url": "https://www.bsigroup.com/siteassets/pdf/en/insights-and-media/insights/white-papers/gl-grp-cross-thght-nss-hsw-mpd-mp-humanbydesignthrivingintheaiworkforce-0026.pdf",
+      "date": "November 2026, section 5"
+    }
+  ]
+},
+
+{
   "slug": "ai-coding-assistants-junior-tech-hiring",
   "title": "Which Junior Tech Jobs Did AI Coding Assistants Change?",
   "description": "A study of early GitHub Copilot adoption found that hiring slowed most in junior technical roles where writing and testing code made up more of the job.",
